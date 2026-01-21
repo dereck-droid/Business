@@ -47,14 +47,19 @@ This repository serves as the comprehensive business context database for Advanc
 
 ---
 
-### 🌱 **Future Plans (When Stable)**
-- [Green Zone Backlog](./green-zone-backlog.md) - Ideas to pursue when you reach 8+ weeks runway
-  - Learning & skills (Claude Code mastery, workflow improvements)
+### 📋 **Dynamic Task Backlog**
+- [Backlog](./backlog.md) - All tasks with urgency, importance, zone viability, and changing conditions
+  - Learning & skills (Claude Code mastery when conditions warrant)
   - Product completions (Prayer Board, Ad Checker, Elimination Diet)
-  - Strategic initiatives (referral network, hiring support)
+  - Strategic initiatives (referral network, partnerships, hiring)
   - Infrastructure (Focus Agent, integrations)
+  - Personal development (financial skills, work-life balance)
 
-**⚠️ DO NOT touch these until GREEN ZONE** - They're captured so Wonder is satisfied without derailing current focus.
+**How it works:**
+- Each task has urgency (1-10), importance (1-10), zone viability (Red/Yellow/Green)
+- **Conditions change priorities** - church calls about Prayer Board? Urgency jumps from 4/10 to 10/10
+- Adapts to your reality - not rigid rules, but dynamic decision-making
+- Wonder is satisfied (ideas captured), Tenacity isn't overwhelmed (clear focus)
 
 ---
 
@@ -64,6 +69,7 @@ This repository serves as the comprehensive business context database for Advanc
 /Business/
 ├── README.md (👈 YOU ARE HERE)
 ├── FOCUS.md (⭐ START HERE DAILY)
+├── backlog.md (📋 Dynamic task system with conditions)
 │
 ├── /metrics/ (Financial & Performance Data)
 │   ├── revenue-tracking.md

@@ -171,23 +171,37 @@
 
 ---
 
-## 💡 Great Ideas for Later
+## 💡 Dynamic Task Backlog
 
-**Have an idea that's not urgent?** Don't lose it, but don't act on it yet.
+**Have an idea or see changing conditions?** Check the dynamic backlog.
 
-👉 **Add it to [Green Zone Backlog](./green-zone-backlog.md)**
+👉 **[View Full Backlog](./backlog.md)** - All tasks with urgency, importance, and conditions
 
-This file captures:
-- Learning goals (Claude Code mastery, workflow improvements)
-- Product completions (Prayer Board, Ad Checker, Elimination Diet)
-- Strategic initiatives (referral network, hiring support)
-- Infrastructure upgrades (Focus Agent, bank integrations)
+### Tasks Viable in Your Current Zone (🔴 RED)
+
+**Currently Urgent & Red-Zone-OK:**
+1. Lead Supercharger research (Urgency: 10/10) - TONIGHT
+2. Close deals: Ben, Kin, L2T, 365 (Urgency: 9/10) - THIS WEEK
+3. Complete Ken's project (Urgency: 8/10) - ONGOING
+
+**Waiting for Better Zone:**
+- Prayer Board completion → Yellow Zone (UNLESS church contacts ready to pay)
+- Ad Checker completion → Yellow Zone (UNLESS customer ready to pay)
+- Claude Code mastery → Green Zone (UNLESS major contract requires it)
+- Hire VA support → Green Zone + $8K MRR
 
 **Why this matters:**
-Your Wonder (genius) will generate infinite ideas. That's a STRENGTH, not a weakness. But acting on every idea during RED/YELLOW ZONE = scatter and failure.
+Your Wonder (genius) generates infinite ideas - that's a STRENGTH! The backlog captures them with **dynamic conditions** that determine when they become urgent.
 
-**The backlog satisfies Wonder (idea captured) without derailing Tenacity (execution focus).**
+**The backlog adapts:**
+- Church calls about Prayer Board? → Urgency jumps from 4/10 to 10/10 (work on it NOW)
+- Land big contract needing skills? → Learning jumps from 3/10 to 9/10 (prioritize NOW)
+- Reach Yellow Zone? → Multiple tasks become viable
+- Conditions change? → Priorities adjust automatically
 
-🔴 **While in RED ZONE:** Don't touch the backlog. Stay focused on FOCUS.md priorities.
+**Check it when:**
+- ✅ You have a new idea (add it with conditions)
+- ✅ Something changes (church interest, contract landed, zone shift)
+- ✅ Weekly review (update urgency based on current reality)
 
-🟢 **When you reach GREEN ZONE:** Pick ONE item from backlog to pursue.
+**Stay focused NOW, but know when to pivot if conditions warrant it.**
