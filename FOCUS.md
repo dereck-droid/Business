@@ -1,6 +1,6 @@
 # 🎯 DAILY FOCUS DASHBOARD
 
-**Last Updated:** January 20, 2026
+**Last Updated:** January 21, 2026
 
 ---
 
@@ -35,31 +35,32 @@
 
 | Rank | Opportunity | Close Prob | Revenue | Urgency | Next Action | Priority Score |
 |------|-------------|------------|---------|---------|-------------|----------------|
-| 1 | **Ben/EquityPro** | 7/10 | $5-20K+ | HIGH | Wait for meeting schedule response, follow up Wed if needed | **7.80** |
-| 2 | **Lead Supercharger Partnership** | 9/10 | $4-8K/mo recurring (20% of $20-40K) | MEDIUM | Research tech complexity, send proposal by Fri | **7.65** |
-| 3 | **Kin 12-Month Prepay** | 6/10 | $3,564 | HIGH | Follow up tomorrow (not today - don't be pushy) | **7.05** |
-| 4 | **L2T Media** | 6/10 | $5-15K | HIGH | Meeting scheduled - when? | **6.95** |
-| 5 | **365 Digital** | 6/10 | $5-15K | HIGH | Meeting scheduled - when? | **6.70** |
-| 6 | **DC** | 5/10 | Unknown | MEDIUM | Follow up on recent conversation | **5.90** |
+| 1 | **Lead Supercharger Partnership** | 9/10 | $4-8K/mo recurring (25% of $16-32K) | HIGH | Send proposal by Fri (Jan 24) | **8.10** |
+| 2 | **Ben/EquityPro** | 7/10 | $5-20K+ | HIGH | Follow up Thu (Jan 22) if no response | **7.80** |
+| 3 | **L2T Media** | 6/10 | $5-15K | HIGH | Confirm meeting date | **6.95** |
+| 4 | **365 Digital** | 6/10 | $5-15K | HIGH | Confirm meeting date | **6.70** |
+| 5 | **DC** | 5/10 | Unknown | MEDIUM | Follow up on recent conversation | **5.90** |
+| ~~6~~ | ~~**Kin 12-Month Prepay**~~ | ~~CLOSED~~ | ~~Lost~~ | - | Declined offer (Jan 21) | - |
 
 **Total Potential Revenue (Next 30 Days):** $3K-5K realistic, up to $10K+ possible
 
 ---
 
-## ✅ TODAY'S ACTIONS (January 20)
+## ✅ TODAY'S ACTIONS (January 21)
 
-1. ✅ **COMPLETED:** Retarget IQ meeting - PARTNERSHIP OFFERED! (Lead Supercharger)
-2. 🔄 **IN PROGRESS:** Start technical research on Lead Supercharger complexity
-3. ⏳ **PENDING:** Check if Ben responded, follow up if needed by Wednesday
-4. ⏳ **PENDING:** Confirm L2T Media and 365 Digital meeting dates
+1. ✅ **COMPLETED:** Lead Supercharger technical research (GHL V1 strategy finalized)
+2. ✅ **COMPLETED:** Followed up with Kin - DECLINED 12-month prepay offer
+3. ⏳ **PENDING:** Follow up with Ben (scheduled for tomorrow)
+4. ⏳ **PENDING:** Draft Lead Supercharger proposal to Alex & Nate
 
 ---
 
-## 📅 TOMORROW'S ACTIONS (January 21)
+## 📅 TOMORROW'S ACTIONS (January 22)
 
-1. Follow up with Kin on 12-month AI assistant decision ($3,564 opportunity)
-2. Continue Lead Supercharger technical research (2-3 hours)
-3. Draft proposal outline for Retarget IQ partnership terms
+1. Follow up with Ben/EquityPro if no response yet
+2. Draft Lead Supercharger proposal (V1 architecture, timeline, partnership terms)
+3. Send proposal to Alex & Nate by end of day
+4. Confirm L2T Media and 365 Digital meeting dates
 
 ---
 
@@ -104,9 +105,10 @@
 ## 📈 PROGRESS TRACKING
 
 **This Week:**
-- Prospects moved forward: Retarget IQ (partnership offer!)
+- Prospects moved forward: Lead Supercharger (research complete, ready for proposal)
+- Prospects lost: Kin 12-month prepay (declined Jan 21)
 - Revenue closed: $0 (yet)
-- Revenue in pipeline: $3-5K realistic
+- Revenue in pipeline: $5-20K realistic (Ben, L2T, 365)
 
 **Last Week:**
 - MRR: $2,094
@@ -152,16 +154,22 @@
 
 ## 📝 NOTES & INSIGHTS
 
-**Key Learnings:**
+**Key Learnings (This Week):**
+- Lead Supercharger research complete: V1 = GHL only (2-3 weeks), expand based on demand
+- "Build to sell" strategy = minimize operational complexity, not engineering complexity
+- HubSpot not as turnkey as assumed (requires Operations Hub, manual workflow setup)
+- Native integrations > Zapier/webhook-only approaches for exit value
+- Kin declined 12-month prepay - focus on other opportunities
+
+**Previous Insights:**
 - Retarget IQ has 10-15 appointments/day (massive lead flow)
-- If they refer even 2-3 clients/month at $3-5K = $6-15K/month pipeline
 - Partnership potential could be bigger than just Lead Supercharger
 - Ben's senior team meeting next week = significant opportunity
-- Your best close rate is with warm leads (Retarget IQ, Ben, Kin vs. cold pool builders)
+- Your best close rate is with warm leads (Retarget IQ, Ben vs. cold pool builders)
 
 **Risk Mitigation:**
-- Don't chase shiny objects (Wonder activation)
-- Trust your Discernment on deal quality
+- Don't chase shiny objects (Wonder activation) - V1 GHL only, resist urge to build all platforms
+- Trust your Discernment on deal quality - 25% equity feels fair
 - Use systems to overcome Tenacity struggles
 - Close quick wins before building long-term projects
 
