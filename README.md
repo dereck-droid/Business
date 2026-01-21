@@ -47,6 +47,17 @@ This repository serves as the comprehensive business context database for Advanc
 
 ---
 
+### 🌱 **Future Plans (When Stable)**
+- [Green Zone Backlog](./green-zone-backlog.md) - Ideas to pursue when you reach 8+ weeks runway
+  - Learning & skills (Claude Code mastery, workflow improvements)
+  - Product completions (Prayer Board, Ad Checker, Elimination Diet)
+  - Strategic initiatives (referral network, hiring support)
+  - Infrastructure (Focus Agent, integrations)
+
+**⚠️ DO NOT touch these until GREEN ZONE** - They're captured so Wonder is satisfied without derailing current focus.
+
+---
+
 ## Repository Structure
 
 ```

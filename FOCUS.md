@@ -168,3 +168,26 @@
 ---
 
 **Remember:** You thrive in structure and systems. This FOCUS dashboard IS the structure. Check it daily. Update it. Let it guide you away from scatter and toward stability.
+
+---
+
+## 💡 Great Ideas for Later
+
+**Have an idea that's not urgent?** Don't lose it, but don't act on it yet.
+
+👉 **Add it to [Green Zone Backlog](./green-zone-backlog.md)**
+
+This file captures:
+- Learning goals (Claude Code mastery, workflow improvements)
+- Product completions (Prayer Board, Ad Checker, Elimination Diet)
+- Strategic initiatives (referral network, hiring support)
+- Infrastructure upgrades (Focus Agent, bank integrations)
+
+**Why this matters:**
+Your Wonder (genius) will generate infinite ideas. That's a STRENGTH, not a weakness. But acting on every idea during RED/YELLOW ZONE = scatter and failure.
+
+**The backlog satisfies Wonder (idea captured) without derailing Tenacity (execution focus).**
+
+🔴 **While in RED ZONE:** Don't touch the backlog. Stay focused on FOCUS.md priorities.
+
+🟢 **When you reach GREEN ZONE:** Pick ONE item from backlog to pursue.
