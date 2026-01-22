@@ -491,27 +491,20 @@ Log success/failure to database
 
 ---
 
-## Why This Justifies 25% Equity
+## Industry Context: What We're Actually Building
 
-Let me be blunt: **This is a 2-3 week full-time build for an experienced developer.**
+**This is a 2-3 week full-time build for an experienced developer.**
 
-**What you're building:**
-- Multi-tenant SaaS platform (not a simple automation)
-- Custom marketplace app with OAuth (not a webhook)
-- Production database with encryption and RLS (not a spreadsheet)
-- Queue-based routing system (not a single workflow)
-- Billing integration and monitoring (not fire-and-forget)
-
-**Comparable projects:**
+**Comparable projects and their timelines:**
 - Zapier-like integration platform: 3-6 months, team of 3-5 developers
 - HubSpot marketplace app: 4-8 weeks, 2 developers
 - Stripe-integrated SaaS: 6-12 weeks, 2-3 developers
 
 **We're building this in 2-3 weeks because:**
-1. I've built similar systems before (GHL experience, n8n expertise)
-2. I'm using proven tools (Supabase, n8n, Stripe)
-3. We're starting with V1 (GHL only), not multi-platform
-4. I'm leveraging AI tools (Claude Code) for efficiency
+1. Prior experience with similar systems (GHL, n8n, multi-tenant architecture)
+2. Using proven tools (Supabase, n8n, Stripe) instead of building from scratch
+3. V1 scope discipline (GHL only, not multi-platform)
+4. Leveraging AI tools (Claude Code) for development efficiency
 
 **But the complexity doesn't change.** This is still a sophisticated system requiring:
 - Architecture design
@@ -520,13 +513,6 @@ Let me be blunt: **This is a 2-3 week full-time build for an experienced develop
 - Error handling
 - Monitoring
 - Ongoing maintenance
-
-**25% equity is fair because:**
-- I'm building the entire technical foundation
-- I'm maintaining and scaling the platform
-- I'm handling technical support and bug fixes
-- The system needs to work 24/7 for hundreds of customers
-- One mistake (security breach, data loss) could destroy the business
 
 ---
 
@@ -637,34 +623,36 @@ Serves 100+ customers simultaneously
 - Monitoring (alerts, dashboards)
 - Self-healing (retries, error handling)
 
-**Price: 25% equity stake in recurring revenue stream**
-
 ---
 
-## Bottom Line for Nate & Alex
+## What This Means for the Partnership
 
-**What you're getting:**
+**What we're building together:**
 - A complete SaaS platform, not a simple automation
-- One-click installation (no customer configuration)
-- Secure, scalable architecture (handles 100s of customers)
-- Automated billing and monitoring
-- Low ongoing maintenance
-- Foundation to scale to $20-40K MRR
+- One-click installation (no customer configuration needed)
+- Secure, scalable architecture (handles 100s of customers simultaneously)
+- Automated billing and usage tracking
+- 24/7 monitoring with self-healing capabilities
+- Foundation to scale to $20-40K MRR and beyond
 
-**What I need from you:**
-- Clear enrichment API documentation (endpoints, auth, rate limits)
-- Field list (all 40+ fields we're populating)
-- Pricing model clarity (per-seat, per-enrichment, flat fee?)
-- Marketing, sales, and customer support (I handle tech)
-- Trust that I'm building this right (I've done this before)
+**Critical requirements for success:**
+- **Enrichment API documentation** - Endpoints, authentication, rate limits, request/response formats
+- **Field list** - All 40+ fields we're populating with enrichment data
+- **Pricing model clarity** - Per-seat, per-enrichment, or flat monthly fee?
+- **Fast decision-making** - Technical questions need quick answers to maintain momentum
+- **Scope discipline** - V1 = GHL only (resist "Can we also add..." until after launch)
 
-**Timeline: 2-3 weeks** is realistic IF:
-- We stay focused on V1 (GHL only)
-- We make decisions quickly (no week-long debates)
-- You provide API docs and requirements promptly
-- We don't add scope creep ("Can we also add HubSpot?")
+**Realistic timeline: 2-3 weeks** for V1 if:
+- We stay focused on GHL only (no platform expansion mid-build)
+- Technical questions get answered within 24 hours
+- No major requirement changes during development
+- API documentation is available upfront
 
-**This is a partnership.** I'm bringing significant technical expertise and time. You're bringing the customer relationships, sales, and marketing. The equity split reflects that we're both essential to success.
+**Why speed matters:**
+- Faster to market = faster revenue validation
+- Simpler V1 = fewer bugs and easier support
+- Early customer feedback guides V2 priorities
+- Momentum keeps team engaged and motivated
 
 ---
 
