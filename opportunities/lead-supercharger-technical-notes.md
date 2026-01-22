@@ -9,6 +9,7 @@
 ## Related Documents
 - **[Research Summary](./lead-supercharger-research.md)** - Primary research on CRM platforms, V1 strategy, partnership terms
 - **[Call Brief](./lead-supercharger-call-brief.md)** - Talking points for Nate/Alex call (trigger logic, API details)
+- **[Complexity Analysis](./lead-supercharger-complexity-analysis.md)** - Build scope breakdown for partner communication
 
 **This document:** Living technical brain dump - add considerations here as they arise during planning and development
 

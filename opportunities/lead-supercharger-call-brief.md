@@ -8,6 +8,7 @@
 ## Related Documents
 - **[Research Summary](./lead-supercharger-research.md)** - Primary research on CRM platforms, V1 strategy, partnership terms
 - **[Technical Notes](./lead-supercharger-technical-notes.md)** - Implementation details, architecture decisions, infrastructure planning
+- **[Complexity Analysis](./lead-supercharger-complexity-analysis.md)** - Build scope breakdown for partner communication
 
 **This document:** Talking points and validation questions for client calls
 
