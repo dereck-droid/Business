@@ -6,6 +6,21 @@
 
 ---
 
+## Related Documents
+
+This is the **primary research document** covering CRM integration strategy and platform viability analysis.
+
+**Companion documents:**
+- **[Call Brief](./lead-supercharger-call-brief.md)** - Talking points and questions for Nate/Alex call (trigger logic, API details, validation)
+- **[Technical Notes](./lead-supercharger-technical-notes.md)** - Ongoing build considerations (database design, architecture decisions, infrastructure planning)
+
+**Purpose of each:**
+- **This file (Research):** Strategic decisions on CRM platforms, V1 scope, partnership terms
+- **Call Brief:** Prepare for client calls, align on approach, validate assumptions
+- **Technical Notes:** Living document for implementation details, architectural decisions, and technical considerations
+
+---
+
 ## Executive Summary
 
 Completed comprehensive technical research for Lead Supercharger partnership. **Recommendation: Launch V1 with GoHighLevel only**, then expand based on validated customer demand.
