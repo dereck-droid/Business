@@ -12,6 +12,23 @@ This repository serves as the comprehensive business context database for Advanc
 
 ---
 
+## 🔧 For AI Agents: Knowledge Management Protocol
+
+**📖 READ THIS:** [KNOWLEDGE-MANAGEMENT.md](./KNOWLEDGE-MANAGEMENT.md)
+
+**When creating new files in this repository, you MUST follow the integration protocol:**
+1. Add required metadata (date, status, purpose)
+2. Include "Related Documents" section with cross-references
+3. Update related documents to link back
+4. Update index files if warranted (README, FOCUS, prospect tracker)
+5. Verify discoverability
+
+**Do not wait to be prompted.** Integration is automatic, not optional.
+
+See the full protocol document for templates, folder structure, and detailed guidelines.
+
+---
+
 ## Quick Start - Read These First
 
 ### 🎯 **START HERE:** [FOCUS.md](./FOCUS.md)
@@ -69,6 +86,7 @@ This repository serves as the comprehensive business context database for Advanc
 /Business/
 ├── README.md (👈 YOU ARE HERE)
 ├── FOCUS.md (⭐ START HERE DAILY)
+├── KNOWLEDGE-MANAGEMENT.md (🔧 Protocol for adding/managing docs)
 ├── backlog.md (📋 Dynamic task system with conditions)
 │
 ├── /metrics/ (Financial & Performance Data)
