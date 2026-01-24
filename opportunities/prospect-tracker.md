@@ -1,116 +1,189 @@
 # 🎯 Prospect Tracker
 
-**Last Updated:** January 20, 2026
+**Last Updated:** January 24, 2026
 
 ---
 
 ## Active Prospects (Ranked by Priority Score)
 
-| Rank | Prospect | Type | Industry | Service Interest | Stage | Close Prob | Revenue | Urgency | Exec Demand | Strategic | **Priority Score** | Next Action |
-|------|----------|------|----------|------------------|-------|------------|---------|---------|-------------|-----------|-------------------|-------------|
-| 1 | **Ben/EquityPro** | Warm Lead | Real Estate Tech | AI tools advisory + potential builds | Early Discussion | 7 | $5-20K+ | 9 | 8 | 6 | **7.80** | Wait for meeting response, follow up Wed if needed |
-| 2 | **Retarget IQ - Lead Supercharger** | Partnership | Data/Marketing | Equity partnership (20%) on SaaS product | Partnership Offered | 9 | $4-8K/mo recurring | 6 | 7 | 10 | **7.65** | Research tech complexity, send proposal by Fri |
-| 3 | **Kin 12-Month Prepay** | Existing Customer | Music School | AI assistant annual prepay | Decision Pending | 6 | $3,564 | 9 | 9 | 5 | **7.05** | Follow up tomorrow (not today) |
-| 4 | **L2T Media** | Warm Lead | Marketing Agency | Automotive dealership automation partnership | Meeting Scheduled | 6 | $5-15K | 8 | 7 | 7 | **6.95** | Confirm meeting date/time |
-| 5 | **365 Digital** | Warm Lead | Digital Agency | Enterprise automation | Meeting Scheduled | 6 | $5-15K | 8 | 7 | 6 | **6.70** | Confirm meeting date/time |
-| 6 | **DC** | Warm Lead | [Industry TBD] | [Service TBD] | Pipeline - Early | 5 | Unknown | 7 | 6 | 5 | **5.90** | Follow up on recent conversation |
-| 7 | **Pool Builders** | Cold Outreach | Pool Construction | Database reactivation | Active Outreach | 3 | $2.5-5K per deal | 5 | 5 | 8 | **5.35** | Continue campaign, evaluate after Week 1 |
-| 8 | **GFCU Recovery** | Existing Contact | Financial Services | Compliance automation | Passive - Waiting | 3 | $10-30K | 4 | 4 | 7 | **4.45** | Wait for friend's update from internal meetings |
+**Pipeline Split (RED ZONE):**
+- 🔥 **SURVIVAL PIPELINE** (0-14 days to cash) - Can help with immediate bills
+- 📈 **STRATEGIC PIPELINE** (30+ days) - Important but won't solve immediate crisis
+
+| Rank | Prospect | Type | Service Interest | Stage | Close Prob | Revenue | **Days to Cash** | **Priority Score** | Next Action |
+|------|----------|------|------------------|-------|------------|---------|------------------|-------------------|-------------|
+| 🥇 | **Retarget IQ - Package Build** 🔥 | Existing Client | Proposal automation + Support system | Quote Accepted | 9.5 | $5,000 | **1-7 days** | **9.80** | Send SOW + invoice for $2,500 upfront NOW |
+| 🥈 | **Ben/EquityPro** 🔥 | Warm Lead | AI tools advisory + builds | Early Discussion | 7 | $5-20K+ | **21-30 days** | **7.20** | Followed up Fri Jan 23, wait for response |
+| 🥉 | **DC (Australia)** 📈 | Warm Lead | GHL setup + meeting automation | Quote Sent | 6 | $3.5-8K | **45-60 days** | **6.00** | Quote sent Jan 20, wait 2 weeks then nudge |
+| 4 | **Lead Supercharger Partnership** 📈 | Partnership | Equity partnership on SaaS | Partnership Discussion | 9 | $4-8K/mo recurring | **60-90 days** | **6.80** | Strategic - send proposal when ready |
+| 5 | **L2T Media** 📈 | Warm Lead | Automotive automation partnership | No Response | 4 | $5-15K | **30-45 days** | **5.50** | Followed up, not responsive |
+| 6 | **365 Digital** 📈 | Warm Lead | Enterprise automation | No Response | 4 | $5-15K | **30-45 days** | **5.30** | Followed up, not responsive |
+| ~~7~~ | ~~**Kin 12-Month Prepay**~~ | ~~Existing Customer~~ | ~~AI assistant prepay~~ | ~~CLOSED~~ | - | ~~Lost~~ | - | - | Declined offer Jan 21 |
+| 8 | **Pool Builders** 📈 | Cold Outreach | Database reactivation | Active Outreach | 2 | $2.5-5K per deal | **45-60 days** | **4.50** | Continue campaign background |
+| 9 | **GFCU Recovery** 📈 | Existing Contact | Compliance automation | Passive - Waiting | 3 | $10-30K | **60+ days** | **4.45** | Wait for friend's update |
 
 ---
 
 ## Prospect Details Summary
 
-### 1. Ben/EquityPro ⭐
-**Company:** EquityPro Real Estate Investment
-**Contact:** Ben Yonge (President)
-**How Connected:** Previous work relationship
-**Latest Development:** Ben reached out after months of no contact
-- Senior team meeting next week about AI tools
-- Wants to discuss AI/automation services
-- Asked about current offerings
+### 1. Retarget IQ - $5K Package Build 🔥 URGENT
+**Company:** Retarget IQ (Alex Ciereszko & Nate Calhoun)
+**Contact:** Alex & Nate (WhatsApp group)
+**Relationship:** Existing client, admin on their GoHighLevel
 
-**Your Response:** Positioned as expert advisor, offered to review their tools, highlighted custom solutions
-**Status:** Waiting for him to schedule early next week meeting
-**Opportunity:** Could be advisory role, partnership, or significant build project
-**See Full Details:** `/detailed-context/prospects/ben-equitypro.md`
+**Latest Development:** QUOTE ACCEPTED (January 23, 2026)
+- **Project 1:** Automated proposal system ($1,700 quoted, accepted)
+- **Project 2:** Support ticket system + AI knowledge base (quoted as package)
+- **Total Package:** $5,000 (includes weekend rush fee)
+- **Nate's Response:** "perfect thanks" + wants both bundled together
+- **Timeline:** End of next week (Jan 31)
+- **Payment Terms:** 50% upfront ($2,500), 50% on delivery
+
+**Their Situation:**
+- Business is EXPLODING - onboarded 20 clients last week
+- Overwhelmed with support requests
+- Hiring 2 support girls immediately
+- Have "something really exciting" in process (mystery big news)
+- Said "we're all going to be rich" - potential funding or acquisition?
+- Speed is critical, have money to invest
+
+**Project 1: Automated Proposal System**
+- Post-call pricing email automation
+- Pull pricing from call recordings (handles custom pricing, not templated)
+- Conditional whitelabel section (only if mentioned on call)
+- Multi-tier pricing (monthly/quarterly/annual)
+
+**Project 2: Support System**
+- Intake form + auto-logging
+- Slack AI knowledge bot trained on their sales calls
+- You'll build entire knowledge base from their calls
+- Status tracking (Open/Resolved)
+- Weekly summary reports
+
+**Days to Cash:** 1-7 days (can invoice TODAY, payment Net 0-7)
+**This solves Feb 4 bills:** YES ✅ ($2,500 upfront covers rent)
+
+**Next Action:** Send SOW + invoice for $2,500 upfront IMMEDIATELY
+
+**Additional Context:** Also discussing Lead Supercharger partnership (separate, strategic)
 
 ---
 
-### 2. Retarget IQ - Lead Supercharger Partnership 🚀
+### 2. Ben/EquityPro ⭐
+**Company:** EquityPro Real Estate Investment
+**Contact:** Ben Yonge (President) - Orlando, FL
+**How Connected:** Previous work relationship, reconnected after months
+
+**Latest Development:** Followed up Friday Jan 23
+- Senior team meeting NEXT WEEK about AI tools
+- Wants to meet after their team discussion
+- Asked about your current offerings
+- Strong buying signal - assembling buying committee
+
+**Your Response:**
+- Positioned as expert advisor
+- Offered to review their AI tools
+- Gave concrete examples (credit union compliance, roofing lead conversion, CRM integration)
+- Offered to meet early next week
+
+**Follow-up Timeline:**
+- Jan 23 (Fri): Sent follow-up about meeting
+- Waiting for his response
+- If no response by Wed Jan 29: Send gentle nudge
+
+**Opportunity:** $5-20K+ (could be higher for comprehensive AI integration)
+**Close Probability:** 70% (engaged, team meeting, asked for specifics)
+**Days to Cash:** 21-30 days (team meeting + decision + project + payment)
+**This solves Feb 4 bills:** NO ❌ (too slow)
+
+**Next Action:** Wait for response, follow up Wed if needed
+
+---
+
+### 3. DC (Australia) 🌏
+**Contact:** DC (David) - Marketing agency owner in Australia
+**Relationship:** Warm lead, friend, N8N community connection
+**Meeting:** Jan 19, 2026 (49-minute Zoom - transcript on file)
+
+**Latest Development:** Quote sent Jan 20
+- He's at capacity, big contracts ending April
+- Needs better systems to scale
+- Said "give me a few weeks" to review quote and align team
+
+**What He Wants:**
+1. **GoHighLevel Setup (DFY):** $1,500 - Sales pipeline, CRM, landing pages
+2. **Fathom Meeting Automation:** $1,200 - Auto-summarize, CRM integration, post-call workflows
+3. **Bundle Option:** $2,500 (saves $200)
+4. **Early Decision Bonus:** $5,000 flat (includes annual GHL subscription)
+
+**His Situation:**
+- Does lead gen for clients (3-5 year relationships)
+- Currently at capacity
+- Needs lead gen campaign for himself (contracts ending April)
+- Wants done-for-you, not done-with-you
+- Offered you free coaching group through Feb (goal setting, accountability)
+
+**Days to Cash:** 45-60 days (needs weeks to think + project + payment)
+**This solves Feb 4 bills:** NO ❌ (way too slow)
+
+**Next Action:** Wait 2 weeks (until ~Feb 3), then send friendly nudge
+
+**Coaching Opportunity:** He offered free coaching - accept and build relationship
+
+---
+
+### 4. Lead Supercharger Partnership 🚀 STRATEGIC
 **Company:** Retarget IQ (Alex Ciereszko & Nate Calhoun)
-**Contact:** Alex & Nate
-**Relationship:** Existing client, admin on their GoHighLevel
-**Latest Development:** PARTNERSHIP OFFERED (January 20)
-- Want to build "Lead Supercharger" SaaS together
-- Low-ticket ($99-149/month) lead enrichment tool
+**Type:** Equity partnership (separate from $5K build above)
+
+**Partnership Structure:**
+- Low-ticket ($99-149/month) lead enrichment SaaS
 - They handle: Customer acquisition, advertising, all capital
 - You handle: Tech development, maintenance
-- They provide: Data API at $0 cost (no enrichment fees)
-- Proposed equity: 20% (negotiable based on complexity)
+- Data API at $0 cost
+- Proposed equity: 25% to you, 75% to them
 
 **Revenue Potential:**
-- Start: $5K/month easily
+- Start: $5K/month
 - Scale: $30-40K/month realistic
-- Your 20%: $4,000-$8,000/month recurring
+- Your 25%: $4,000-$8,000/month recurring
 
-**Their Traction:** Already at $30K/month with data business, 10-15 appts/day
+**V1 Scope:** GoHighLevel marketplace app (2-3 weeks build)
+**Days to Cash:** 60-90 days (build 2-3 weeks + scale + equity payments)
+**This solves Feb 4 bills:** NO ❌ (strategic, not survival)
 
-**Next Steps:**
-1. Research technical complexity (webhook vs. GHL app vs. multi-platform)
-2. Send proposal by Friday with equity counteroffer based on complexity
-3. Finalize partnership agreement
-
-**See Full Details:** `/detailed-context/prospects/retarget-iq-lead-supercharger.md`
+**Next Action:** Send proposal when ready (not urgent, focus on $5K build first)
 
 ---
 
-### 3. Kin 12-Month AI Assistant Prepay
-**Company:** Kin's Music School
-**Contact:** Kin
-**Relationship:** Existing client (also Guitar Teacher Command Center customer)
-**Offer:** 12 months of AI assistant ($297/month) with $500 discount if paid upfront
-**Total Value:** $3,564 ($297 × 12 - $500)
-**Decision Status:** Contemplating offer
-**Strategic Value:** Would generate immediate cash for advertising/marketing
-**Last Contact:** Last night (you followed up)
-**Next Action:** Follow up tomorrow (don't be pushy)
-**See Full Details:** `/detailed-context/prospects/kin-upgrade.md`
-
----
-
-### 4. L2T Media Partnership
+### 5. L2T Media
 **Company:** L2T Media
 **Contact:** [NAME]
-**Service Interest:** Partnership for automotive dealership automation
-**Opportunity Type:** Potential ongoing partnership revenue
-**Their Strength:** Dealership relationships
-**Your Strength:** Automation expertise
-**Status:** Meeting scheduled
-**Priority:** High
-**Next Action:** Confirm meeting date/time
-**See Full Details:** `/detailed-context/prospects/l2t-media.md`
+**Service Interest:** Automotive dealership automation partnership
+**Status:** NO RESPONSE after follow-up
+**Days to Cash:** 30-45 days IF they respond
+**This solves Feb 4 bills:** NO ❌
+
+**Next Action:** Wait, follow up in 1-2 weeks if no response
 
 ---
 
-### 5. 365 Digital
+### 6. 365 Digital
 **Company:** 365 Digital
 **Contact:** [NAME]
 **Service Interest:** Enterprise automation
-**Status:** Meeting scheduled
-**Opportunity:** Enterprise-level project
-**Next Action:** Confirm meeting date/time
-**See Full Details:** `/detailed-context/prospects/365-digital.md`
+**Status:** NO RESPONSE after follow-up
+**Days to Cash:** 30-45 days IF they respond
+**This solves Feb 4 bills:** NO ❌
+
+**Next Action:** Wait, follow up in 1-2 weeks if no response
 
 ---
 
-### 6. DC
-**Contact:** DC (friend)
-**Relationship:** Warm lead, personal connection
-**Status:** Recently discussed, in pipeline
-**Details:** [FROM YESTERDAY'S CONVERSATION - TO BE ADDED]
-**Next Action:** Follow up
-**See Full Details:** `/detailed-context/prospects/dc-pipeline.md`
+### 7. Kin 12-Month Prepay ❌ CLOSED/LOST
+**Status:** Declined offer January 21, 2026
+**Outcome:** Lost
+**Reason:** Decided not to do 12-month prepay
 
 ---
 
@@ -171,40 +244,54 @@
 
 ## Priority Actions (Next 7 Days)
 
-1. ✅ **TODAY:** Start Lead Supercharger technical research
-2. ⏳ **TOMORROW:** Follow up with Kin on 12-month decision
-3. ⏳ **WEDNESDAY:** Follow up with Ben if no response
-4. ⏳ **THIS WEEK:** Confirm L2T and 365 Digital meeting dates
-5. ⏳ **BY FRIDAY:** Send Lead Supercharger proposal to Retarget IQ
-6. ⏳ **ONGOING:** Monitor pool builder campaign responses
+**🔥 SURVIVAL PIPELINE (Immediate Cash):**
+1. 🚨 **NOW:** Send Retarget IQ SOW + invoice for $2,500 upfront (can pay this weekend)
+2. 🚨 **THIS WEEKEND:** Build Retarget IQ package ($5K total, need $2,500 by Feb 4)
+3. ⏳ **WED JAN 29:** Follow up with Ben if no response
+
+**📈 STRATEGIC PIPELINE (Keep Warm):**
+4. ⏳ **FEB 3:** Follow up with DC (friendly nudge after 2 weeks)
+5. ⏳ **LATE JAN:** Follow up with L2T/365 if no response
+6. ⏳ **WHEN READY:** Send Lead Supercharger partnership proposal
+7. ⏳ **ONGOING:** Monitor pool builder campaign (background)
 
 ---
 
 ## Pipeline Value Summary
 
-**Total Potential Revenue (30 Days):** $30,788 weighted average
-**Realistic Close Target:** $3,000-$5,000 (need at least ONE deal)
+**🔥 SURVIVAL PIPELINE (0-14 Days to Cash):**
+- Retarget IQ $5K Package: $5,000 (95% close prob) = $4,750 weighted
+- **Can solve Feb 4 bills:** YES ($2,500 upfront)
 
-**Strategic Opportunities (60-90 Days):**
-- Lead Supercharger: $4-8K/month recurring (transformational)
-- GFCU Recovery: $10-30K (passive, low probability)
-- Pool Builder Deals: $2.5-5K per deal (active outreach)
+**📈 STRATEGIC PIPELINE (30+ Days):**
+- Ben/EquityPro: $5-20K (70% prob) = ~$8,750 weighted
+- DC: $3.5-8K (60% prob) = ~$3,450 weighted
+- Lead Supercharger: $4-8K/month recurring (90% prob, 60-90 days)
+- L2T Media: $5-15K (40% prob, non-responsive) = ~$4,000 weighted
+- 365 Digital: $5-15K (40% prob, non-responsive) = ~$4,000 weighted
+
+**Total Weighted Pipeline (30-90 Days):** ~$25K
+**Immediate Cash Available:** $5K (Retarget IQ)
 
 ---
 
-## Conversion Metrics
+## Conversion Metrics (Updated Jan 24)
 
 **Warm Leads (Referrals, Network, Existing Clients):**
-- Leads: 6 (Retarget IQ, Ben, Kin, L2T, 365, DC)
-- Meetings Booked/Offered: 6
-- **Conversion Rate: 100%**
+- Total Leads: 7 (Retarget IQ, Ben, Kin, L2T, 365, DC, GFCU)
+- Meetings Booked/Engaged: 7
+- Quotes Accepted: 1 (Retarget IQ)
+- Closed: 0 (in progress)
+- Lost: 1 (Kin declined)
+- **Meeting Conversion Rate: 100%**
+- **Quote Acceptance Rate: 50%** (1 accepted, 1 declined)
 
 **Cold Outreach:**
-- Emails Sent: 2,115
+- Emails Sent: ~3,000+ (ongoing campaign)
 - Responses: 0
-- **Conversion Rate: 0%** (too early to judge)
+- **Conversion Rate: 0%** (campaign Day 7+, still early)
 
-**Key Learning:** Prioritize warm lead follow-up over cold outreach optimization
+**Key Learning:** Warm leads convert meetings at 100%, quotes at 50%. Cold outreach requires patience.
 
 ---
 
