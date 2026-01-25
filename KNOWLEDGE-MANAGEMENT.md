@@ -4,7 +4,7 @@
 
 **Audience:** Claude Code sessions, future team members, and any AI agents working in this repository
 
-**Last Updated:** January 22, 2026
+**Last Updated:** January 24, 2026
 
 ---
 
@@ -42,15 +42,23 @@ Follow the repository structure:
 /Business/
 ├── ROOT LEVEL FILES
 │   ├── README.md (Repository guide - update for major structural changes)
-│   ├── FOCUS.md (Daily priorities - updated daily/every other day)
-│   ├── backlog.md (Dynamic task list)
-│   └── KNOWLEDGE-MANAGEMENT.md (This file - protocol for adding/managing docs)
+│   ├── FOCUS.md (Daily priorities - updated DAILY)
+│   ├── SYSTEM-REQUIREMENTS.md (Dependencies & maintenance protocols - READ THIS)
+│   ├── KNOWLEDGE-MANAGEMENT.md (This file - protocol for adding/managing docs)
+│   └── backlog.md (Dynamic task list)
 │
 ├── /metrics/ (Financial & Performance Data)
 │   └── Use for: Cash flow, revenue tracking, KPIs, financial snapshots
 │
 ├── /opportunities/ (Active Pipeline & Deals)
 │   └── Use for: Prospect tracking, deal research, technical planning for opportunities
+│
+├── /communications/ (Communication Log - CRITICAL FOR CONTEXT)
+│   ├── /quotes/ (All quotes sent to prospects)
+│   ├── /emails/ (Important email threads)
+│   ├── /transcripts/ (Meeting recordings/notes)
+│   └── /follow-ups/ (Follow-up messages)
+│   └── Use for: ALL client/prospect communications (prevents lost context)
 │
 ├── /company/ (Business Identity)
 │   └── Use for: Mission, values, personality, background, team info
@@ -74,6 +82,11 @@ Follow the repository structure:
 - Use lowercase with hyphens: `lead-supercharger-research.md`
 - Be descriptive: `financial-snapshot.md` not `finances.md`
 - Include context when needed: `lead-supercharger-technical-notes.md` not `technical-notes.md`
+
+**Special naming for /communications/:**
+- Format: `YYYY-MM-DD-[prospect-name]-[type].md`
+- Examples: `2026-01-23-retarget-iq-quote.md`, `2026-01-19-dc-meeting-transcript.md`
+- Why: Chronological sorting, easy searchability, date-aware context
 
 ---
 
@@ -183,6 +196,90 @@ If you can't answer these clearly, add more context.
 ---
 
 ## Common Document Types & Templates
+
+### Communication Logs (CRITICAL - Added Jan 24, 2026)
+
+**Use for:** ALL quotes, meeting transcripts, email threads, and follow-ups
+
+**Why This Matters:**
+- Prevents "What did I quote them?" confusion
+- Keeps AI agents informed of current status
+- Eliminates stale data causing bad recommendations
+- Creates paper trail for all prospect interactions
+
+**Template for Quotes:**
+```markdown
+# [Prospect Name] - [Project] Quote
+
+**Date:** YYYY-MM-DD
+**Prospect:** [Name/Company]
+**Type:** [Quote/Proposal]
+**Status:** [Pending/Accepted/Declined]
+**Amount:** $X,XXX
+**Payment Terms:** [Terms]
+
+---
+
+## Related Documents
+- [Prospect Details](../../opportunities/prospect-tracker.md)
+- [Meeting Transcript](../transcripts/YYYY-MM-DD-[name]-meeting.md) (if applicable)
+
+---
+
+## Quote Details
+[Full quote or summary]
+
+## Their Response
+[What they said, or "Waiting for response"]
+
+## Next Steps
+[What happens next]
+
+## Days to Cash
+[Estimate]
+```
+
+**Template for Meeting Transcripts:**
+```markdown
+# [Prospect Name] Meeting Transcript
+
+**Date:** YYYY-MM-DD
+**Duration:** X minutes
+**Attendees:** [Names]
+**Recording:** [Link if available]
+
+---
+
+## Related Documents
+- [Quote Sent](../quotes/YYYY-MM-DD-[name]-quote.md) (if applicable)
+- [Prospect Details](../../opportunities/prospect-tracker.md)
+
+---
+
+## Meeting Summary
+[Key outcomes, next steps]
+
+## Full Transcript/Notes
+[Detailed notes or full transcript]
+
+## Key Insights
+[What you learned]
+
+## Action Items
+- [ ] Item 1
+- [ ] Item 2
+```
+
+**When to Create Communication Files:**
+- ✅ ALWAYS: When you send a quote
+- ✅ ALWAYS: When you have a sales call/meeting
+- ✅ ALWAYS: When you get an important response (acceptance, rejection, questions)
+- ✅ USUALLY: For follow-up messages on major opportunities
+- ⏸️ OPTIONAL: For casual check-ins or scheduling coordination
+
+**See:** [SYSTEM-REQUIREMENTS.md](./SYSTEM-REQUIREMENTS.md) for full logging protocols
+
+---
 
 ### Opportunity/Deal Research
 
@@ -333,12 +430,17 @@ New File Integration Checklist:
 
 ## For AI Agents: Automatic Protocol Execution
 
+**🚨 CRITICAL: Read [SYSTEM-REQUIREMENTS.md](./SYSTEM-REQUIREMENTS.md) for full AI agent responsibilities**
+
+### File Creation Protocol
+
 **When you create a new file in this repository, you MUST:**
 
 1. ✅ **Before creating:**
    - Check if existing file can be updated instead
    - Verify correct folder location
    - Confirm filename follows conventions
+   - For /communications/ files: Use `YYYY-MM-DD-[name]-[type].md` format
 
 2. ✅ **While creating:**
    - Include required metadata header
@@ -347,7 +449,7 @@ New File Integration Checklist:
 
 3. ✅ **After creating:**
    - Update related documents with cross-references
-   - Update index files if warranted
+   - Update index files if warranted (FOCUS.md, prospect-tracker.md)
    - Verify discoverability
    - Commit with descriptive message
 
@@ -356,6 +458,49 @@ New File Integration Checklist:
 **If uncertain about integration:**
 - Ask user: "I've created [filename]. Should I also update [README/FOCUS/other file]?"
 - Better to over-communicate than under-integrate
+
+---
+
+### Session Start Protocol (CRITICAL)
+
+**Before making ANY recommendations, you MUST:**
+
+1. ✅ **Check file modification dates**
+   ```bash
+   ls -lah FOCUS.md prospect-tracker.md
+   ```
+   - If older than 48 hours: ASK for updates
+   - NEVER trust stale data
+
+2. ✅ **Read FOCUS.md Quick Daily Log**
+   - What's the latest entry date?
+   - Any prospect updates logged?
+   - What's current financial zone?
+
+3. ✅ **Cross-check /communications/ directory**
+   - Any recent quotes sent?
+   - Any recent responses logged?
+   - Does prospect status match communications log?
+
+4. ✅ **Verify priorities make sense**
+   - Are Days to Cash estimates realistic?
+   - Does priority formula match current zone?
+   - Are recommendations aligned with urgency?
+
+**See [SYSTEM-REQUIREMENTS.md](./SYSTEM-REQUIREMENTS.md) for complete session protocols and failure mode prevention.**
+
+---
+
+### Real-Time Context Logging
+
+**During the session, proactively ask:**
+
+- User mentions sending quote → "Should I create a file in /communications/quotes/?"
+- User mentions meeting → "Should I log that transcript in /communications/transcripts/?"
+- User shares prospect update → "Should I update prospect-tracker.md?"
+- User mentions financial change → "Should I update financial-snapshot.md and recalculate zone?"
+
+**Don't wait for permission.** Offer to create/update files immediately.
 
 ---
 
