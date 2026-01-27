@@ -1,6 +1,6 @@
 # 🎯 DAILY FOCUS DASHBOARD
 
-**Last Updated:** January 24, 2026
+**Last Updated:** January 27, 2026 (Monday 1:00 AM)
 
 ---
 
@@ -8,20 +8,26 @@
 
 **Purpose:** 60-second update to keep context current. Fill this out each morning or end of day.
 
-### Saturday, January 25, 2026 🎉 MAJOR WINS!
-**Cash Today:** $7,500 ($3,000 + $4,500 from Retarget IQ!)
-**Runway:** 4-5 weeks ✅ (OUT OF CRISIS!)
+### 🚀 THIS WEEK: 4 CRITICAL MEETINGS! (Most in months!)
 
-**Prospect Updates:**
-- 🎉 **Retarget IQ: CLOSED/WON - $4,500 PAID IN FULL!** (not $5K package, but close!)
-- 🎉 **Ben: MEETING SCHEDULED - Thursday Jan 30, 9:30 AM!** ($5-20K+ opportunity)
-- DC: Quote sent Jan 20, waiting (he said "give me a few weeks")
-- L2T: Followed up, no response
-- 365: Followed up, no response
-- Kin: CLOSED/LOST - declined 12-month prepay Jan 21
+**Monday, January 27, 2026**
+**Cash Today:** $7,500
+**Runway:** 4-5 weeks ✅ (GREEN ZONE!)
 
-**Revenue In/Bills Paid:** +$4,500 revenue (Retarget IQ)
-**Top Priority This Week:** Prepare for Ben meeting Jan 30, deliver Retarget IQ project
+**THIS WEEK'S MEETINGS:**
+- 🎯 **Monday 10am:** Joe - RAMP Manufacturing discovery (potential $3-5K+ paid discovery)
+- 💰 **Wednesday:** Fraser Roofing - Scott (Director of Sales) - CLOSE THIS ($5-8K immediate cash!)
+- 🔥 **Thursday 9:30am:** Ben/EquityPro - HIGHEST PRIORITY ($5-20K+ opportunity)
+- 📈 **Friday:** Bill & Elaine/365 Digital - Strategic ERP opportunity ($20-40K discovery phase)
+
+**Prospect Status:**
+- Fraser Roofing: Meeting scheduled (warm lead, engaged buyer, clear scope)
+- Ben/EquityPro: Meeting confirmed Thu 9:30 AM - READY TO CLOSE
+- 365 Digital: Follow-up meeting after December intro
+- RAMP Manufacturing: Discovery call with Joe (referral partner)
+- Retarget IQ: Delivering project (already paid $4,500)
+
+**Top Priority This Week:** CLOSE DEALS (Fraser + Ben) = $10-28K potential!
 
 ---
 
@@ -61,26 +67,101 @@
 
 ## 📊 TOP OPPORTUNITIES (Priority Ranked)
 
-**New Priority Formula (GREEN ZONE - 8+ weeks runway):**
-- Strategic Value: 50% (recurring revenue, partnerships, scalability)
-- Deal Amount: 20%
-- Close Probability: 15%
-- Days to Cash: 10% (less urgent now)
+**THIS WEEK = HIGHEST MEETING ACTIVITY IN MONTHS!**
+- 4 meetings scheduled (Joe/RAMP, Fraser, Ben, 365)
+- Potential to close $10-28K this week (Fraser + Ben)
+- Strategic opportunities for Q1-Q2 (RAMP, 365)
+
+**Priority Formula (GREEN ZONE - 4-5 weeks runway):**
+- Strategic Value: 40%
+- Deal Amount: 25%
+- Close Probability: 20%
+- Days to Cash: 10%
 - Execution Demand: 5%
 
-**Focus Shift:** STRATEGIC > SURVIVAL (you have breathing room now!)
+| Rank | Opportunity | Close Prob | Revenue | Days to Cash | Strategic Value | **Priority Score** | Next Action |
+|------|-------------|------------|---------|--------------|-----------------|-------------------|-------------|
+| 🥇 | **Ben/EquityPro** 🔥 | 8/10 | $5-20K+ | 14-21 days | 8/10 (ongoing potential) | **8.60** | **Thu 9:30 AM** - PREPARE & CLOSE |
+| 🥈 | **Fraser Roofing** 💰 | 7/10 | $5-8K | 7-14 days | 6/10 (reference case) | **7.85** | **Wed Meeting** - CLOSE THE DEAL |
+| 🥉 | **Lead Supercharger Partnership** 🚀 | 9/10 | $4-8K/mo recurring | 60-90 days | 10/10 (recurring MRR) | **8.90** | Send proposal THIS WEEK |
+| 4 | **365 Digital** 📈 | 6/10 | $20-40K | 30-45 days | 8/10 (enterprise, strategic) | **7.90** | **Fri Meeting** - Assess fit & scope |
+| 5 | **RAMP Manufacturing** 🔍 | 5/10 | $3-5K+ discovery | 21-30 days | 7/10 (new vertical) | **6.75** | **Mon 10am Joe call** - Gather intel |
+| ✅ | **Retarget IQ Project** ✅ | 10/10 | $4,500 PAID | Immediate | 5/10 (relationship builder) | **6.75** | Deliver by Friday |
+| 7 | **DC (Australia)** 📈 | 6/10 | $3.5-8K | 45-60 days | 6/10 (ongoing potential) | **6.20** | Follow up Feb 3 |
+| 8 | **L2T Media** 📈 | 3/10 | $5-15K | 30-45 days | 7/10 (partnership potential) | **5.50** | Low priority - not responsive |
 
-| Rank | Opportunity | Close Prob | Revenue | Strategic Value | **Priority Score** | Next Action |
-|------|-------------|------------|---------|-----------------|-------------------|-------------|
-| 🥇 | **Ben/EquityPro** 🚀 | 8/10 | $5-20K+ | 8/10 (potential ongoing) | **8.45** | **Meeting Thu Jan 30, 9:30 AM** - PREPARE! |
-| 🥈 | **Lead Supercharger Partnership** 🚀 | 9/10 | $4-8K/mo recurring | 10/10 (recurring MRR) | **8.90** | Send proposal THIS WEEK |
-| 🥉 | **Retarget IQ Project** ✅ | 10/10 | $4,500 | 5/10 (one-time, done) | **6.75** | **PAID IN FULL** - deliver project |
-| 4 | **DC (Australia)** 📈 | 6/10 | $3.5-8K | 6/10 (potential ongoing) | **6.20** | Quote sent, wait 2 weeks then nudge |
-| 5 | **L2T Media** 📈 | 4/10 | $5-15K | 7/10 (partnership potential) | **5.80** | Followed up, not responsive |
-| 6 | **365 Digital** 📈 | 4/10 | $5-15K | 6/10 (enterprise) | **5.50** | Followed up, not responsive |
+**THIS WEEK'S POTENTIAL:** $30-60K+ (Fraser $5-8K + Ben $5-20K + 365 $20-40K)
+**Recurring Opportunity:** Lead Supercharger ($4-8K/mo = MRR MULTIPLIER)
 
-**Active Pipeline Total:** ~$35K+ weighted value
-**Recurring Opportunity:** Lead Supercharger ($4-8K/mo = GAME CHANGER)
+---
+
+## 📅 THIS WEEK'S MEETING PREP TRACKER
+
+**4 Meetings = Your Best Week in Months. Nail the prep.**
+
+### ✅ Monday 10am - Joe (RAMP Manufacturing)
+- **Prep Doc:** `/opportunities/joe-ramp-manufacturing-prep.md`
+- **Status:** ✅ PREP COMPLETE
+- **Goal:** Extract intel, determine if worth pursuing
+- **Prep Checklist:**
+  - [x] Review RAMP opportunity analysis
+  - [x] Prepare discovery questions
+  - [ ] Morning workout + cold shower
+  - [ ] Review questions 30 min before call
+
+### ⏳ Wednesday - Fraser Roofing
+- **Prep Doc:** `/opportunities/fraser-roofing-meeting-prep.md`
+- **Status:** ⏳ RESEARCH NEEDED (Tuesday)
+- **Goal:** **CLOSE THE DEAL** ($5-8K immediate cash)
+- **Prep Checklist:**
+  - [ ] Research Acculynx API capabilities (2-3 hours)
+  - [ ] Price out iMessage/RCS solution (1 hour)
+  - [ ] Build ROI calculator for their database
+  - [ ] Prepare 3-tier proposal (Option 1, 2, 3)
+  - [ ] Review Fraser website and values
+  - [ ] Morning workout + cold shower day-of
+  - [ ] Stand during call
+
+### 🔥 Thursday 9:30am - Ben (EquityPro) **HIGHEST PRIORITY**
+- **Prep Doc:** `/opportunities/ben-equitypro-meeting-prep.md`
+- **Status:** ⏳ RESEARCH NEEDED (Tue-Wed)
+- **Goal:** **CLOSE OR ADVANCE TO PROPOSAL** ($5-20K)
+- **Prep Checklist:**
+  - [ ] Research EquityPro (website, LinkedIn, team) (2 hours)
+  - [ ] Research real estate AI use cases (1 hour)
+  - [ ] Prepare case study summaries (GFCU, Fraser, Ken)
+  - [ ] Build 3-tier proposal framework
+  - [ ] Create ROI calculator template
+  - [ ] 8 hours sleep Wed night (NON-NEGOTIABLE)
+  - [ ] Morning workout + cold shower
+  - [ ] Review prep doc 30 min before
+  - [ ] Stand during call
+
+### 📈 Friday - 365 Digital
+- **Prep Doc:** `/opportunities/365-digital-meeting-prep.md`
+- **Status:** ⏳ RESEARCH NEEDED (Tue-Thu)
+- **Goal:** Understand scope, assess fit ($20-40K discovery phase)
+- **Prep Checklist:**
+  - [ ] Research ERP/Dynamics 365 basics (2 hours)
+  - [ ] Research applied ML/forecasting (1 hour)
+  - [ ] Re-read December meeting transcript
+  - [ ] Review 365 Digital website
+  - [ ] Prepare discovery questions
+  - [ ] Morning workout + cold shower (4th day!)
+  - [ ] Review prep doc before call
+
+### 💪 PHYSICAL CONFIDENCE PROTOCOL (Every Meeting)
+**Morning routine before EACH meeting:**
+1. [ ] 8 hours sleep night before
+2. [ ] Morning workout (20+ min)
+3. [ ] Cold shower (30+ sec)
+4. [ ] Healthy breakfast with protein
+5. [ ] Review prep doc
+6. [ ] Stand during call
+
+**You said:** "I want to begin working out and sleeping better... to increase my testosterone and bring a bit more of an alpha male vibe so that I don't doubt myself so much."
+
+**This week is your chance. 4 meetings = 4 days of discipline = momentum.**
 
 ---
 
@@ -97,19 +178,50 @@
 
 ---
 
-## 🚀 THIS WEEK'S ACTIONS (Jan 25-31)
+## 🚀 THIS WEEK'S ACTIONS (Jan 27-31) - 4 CRITICAL MEETINGS!
 
-**Winter storm Sunday-Wednesday, but you're in GREEN ZONE now - no panic!**
+**This is your best week in months. Prepare accordingly.**
 
-### Delivery & Prep (High Priority)
-1. 🔥 **By Jan 31:** Deliver Retarget IQ project ($4,500 already paid)
-2. 🔥 **By Wed Jan 29:** Prepare for Ben meeting - discovery questions, examples, proposal framework
-3. 🔥 **By Wed Jan 29:** Draft Lead Supercharger partnership proposal
+### Monday Jan 27 (TODAY)
+1. 🎯 **10:00 AM:** Joe call - RAMP Manufacturing discovery
+   - Extract intel on Sajid Patel and opportunity
+   - Determine if worth pursuing
+   - Prep doc: `/opportunities/joe-ramp-manufacturing-prep.md`
 
-### Strategic Follow-Ups
-4. ⏳ **Thu Jan 30:** Ben meeting 9:30 AM - SHOW UP STRONG
-5. ⏳ **This Week:** Send Lead Supercharger proposal to Alex & Nate
-6. ⏳ **Feb 3:** Follow up with DC (friendly nudge after 2 weeks)
+### Tuesday Jan 28 (PREP DAY)
+2. 🔥 **Research Acculynx API** for Fraser Roofing (2-3 hours)
+3. 🔥 **Research iMessage/RCS pricing** (1 hour)
+4. 🔥 **Research EquityPro** (website, LinkedIn, real estate AI landscape) (2 hours)
+5. 🔥 **Prepare Ben meeting materials** (case studies, proposal framework) (1 hour)
+6. 🔥 **Get 8 hours sleep** - Critical for Wed/Thu performance
+
+### Wednesday Jan 29
+7. 💰 **Fraser Roofing Meeting** - Director of Sales
+   - Present Acculynx findings
+   - Present iMessage capability and pricing
+   - Show ROI calculator
+   - **GOAL: CLOSE THE DEAL** ($5-8K immediate cash)
+   - Prep doc: `/opportunities/fraser-roofing-meeting-prep.md`
+
+### Thursday Jan 30
+8. 🔥 **9:30 AM: Ben/EquityPro Meeting** - HIGHEST CASH PRIORITY
+   - Deep discovery on their needs
+   - Present relevant case studies
+   - **GOAL: CLOSE OR ADVANCE TO PROPOSAL** ($5-20K)
+   - Prep doc: `/opportunities/ben-equitypro-meeting-prep.md`
+
+### Friday Jan 31
+9. 📈 **365 Digital Meeting** - Bill & Elaine
+   - Understand ERP plugin project scope
+   - Assess fit and timeline
+   - Strategic opportunity ($20-40K discovery phase)
+   - Prep doc: `/opportunities/365-digital-meeting-prep.md`
+
+10. 🔥 **By Friday:** Deliver Retarget IQ project ($4,500 already paid)
+
+### Additional Priorities
+11. ⏳ **This Week:** Draft Lead Supercharger partnership proposal
+12. ⏳ **Feb 3:** Follow up with DC (friendly nudge after 2 weeks)
 
 ---
 
