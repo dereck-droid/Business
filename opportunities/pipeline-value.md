@@ -1,6 +1,6 @@
 # 💎 Pipeline Value Analysis
 
-**Last Updated:** January 25, 2026 🎉
+**Last Updated:** January 27, 2026
 
 ---
 
@@ -14,26 +14,46 @@
 
 ---
 
+## 🔥 THIS WEEK: 4 CRITICAL MEETINGS (Most in Months!)
+
+**Week of January 27-31, 2026**
+
+| Day | Meeting | Opportunity | Priority | Status |
+|-----|---------|-------------|----------|--------|
+| **Wed Jan 29** | Fraser Roofing | $5-8K immediate cash | 🥈 HIGH | Meeting scheduled |
+| **Thu Jan 30** | Ben/EquityPro | $5-20K | 🥇 HIGHEST | Meeting 9:30 AM |
+| **Fri Jan 31** | 365 Digital | $20-40K discovery | 🥉 STRATEGIC | Meeting scheduled |
+| **Fri Jan 31** | Joe → Sajid (RAMP) | Intelligence gathering | 📊 EXPLORATORY | Joe's in-person meeting |
+
+**Week's Potential:** $30-68K if all convert
+**Next Week:** Three-way call with Joe + Sajid Patel (RAMP Manufacturing)
+
+---
+
 ## Total Pipeline Value
 
 ### Next 30 Days (Weighted)
-**Total Expected Value:** $21,444
+**Total Expected Value:** $35,694
 
 | Opportunity | Amount | Probability | Weighted Value | Status |
 |-------------|--------|-------------|----------------|--------|
+| **Fraser Roofing** | $5,000-$8,000 | 70% | $4,550 | 🚀 **Meeting Wed Jan 29** |
 | **Ben/EquityPro** | $5,000-$20,000 | 80% | $10,000 | 🚀 **Meeting Thu Jan 30** |
-| **DC (Australia)** | $3,500-$8,000 | 60% | $3,450 | Quote sent |
-| L2T Media | $5,000-$15,000 | 40% | $4,000 | No response |
-| 365 Digital | $5,000-$15,000 | 40% | $4,000 | No response |
-| Pool Builders | $2,500-$5,000 | 20% | $750 | Campaign ongoing |
+| **365 Digital** | $20,000-$40,000 | 60% | $18,000 | 🚀 **Meeting Fri Jan 31** |
+| **RAMP Manufacturing** | $3,000-$5,000 | 50% | $2,000 | 📊 **Joe meeting Fri, 3-way next week** |
+| **DC (Australia)** | $3,500-$8,000 | 60% | $3,450 | Quote sent Jan 20 |
+| L2T Media | $5,000-$15,000 | 30% | $3,000 | Followed up, not responsive |
+| Pool Builders | $2,500-$5,000 | 10% | $375 | Cold campaign (0% response) |
 | Ken MRR | $1,500 | 100% | $1,500 | Active |
 | Chatbots MRR | $594 | 100% | $594 | Active |
-| ~~Retarget IQ~~ | ~~$4,500~~ | ~~CLOSED~~ | - | ✅ **CLOSED $4,500** |
-| ~~Kin 12-Month~~ | ~~$3,564~~ | ~~LOST~~ | - | ❌ **LOST** |
+| ~~Retarget IQ~~ | ~~$4,500~~ | ~~CLOSED~~ | - | ✅ **CLOSED $4,500 Jan 25** |
+| ~~Kin 12-Month~~ | ~~$3,564~~ | ~~LOST~~ | - | ❌ **LOST Jan 21** |
 
-**TOTAL WEIGHTED VALUE (30 Days):** $24,294 (active pipeline)
+**TOTAL WEIGHTED VALUE (30 Days):** $43,469 (active pipeline)
 
-**Already Closed This Week:** $4,500 ✅ (Target exceeded!)
+**Already Closed This Week:** $4,500 ✅
+
+**This Week's Meetings:** Fraser ($5-8K) + Ben ($5-20K) + 365 Digital ($20-40K) = **$30-68K potential**
 
 ---
 
@@ -65,8 +85,11 @@
 - **Total Revenue:** $4,500 🎉
 
 ### Meeting Scheduled 🚀
-- **Ben/EquityPro:** $5-20K (80% prob) - **Meeting Thu Jan 30, 9:30 AM**
-- **Total Value:** $5,000-$20,000
+- **Fraser Roofing:** $5-8K (70% prob) - **Meeting Wed Jan 29** - Clear scope, engaged buyer
+- **Ben/EquityPro:** $5-20K (80% prob) - **Meeting Thu Jan 30, 9:30 AM** - HIGHEST PRIORITY
+- **365 Digital:** $20-40K (60% prob) - **Meeting Fri Jan 31** - ERP plugin, manufacturing AI, BMW factory
+- **RAMP Manufacturing:** $3-5K discovery (50% prob) - **Joe meeting Fri Jan 31** → Three-way next week
+- **Total Value:** $33,000-$73,000
 
 ### Partnership Offered
 - **Lead Supercharger (Retarget IQ):** $4-8K/month recurring (90% prob)
@@ -78,9 +101,8 @@
 - **Total Value:** $3,500-$8,000
 
 ### Early Pipeline
-- **L2T Media:** $5-15K (40% prob) - Followed up, not responsive
-- **365 Digital:** $5-15K (40% prob) - Followed up, not responsive
-- **Total Value:** $10-30K
+- **L2T Media:** $5-15K (30% prob) - Followed up, not responsive
+- **Total Value:** $5-15K
 
 ### Active Outreach (Cold)
 - **Pool Builders:** $2.5-5K per deal (20% prob) - Campaign ongoing
@@ -88,6 +110,15 @@
 
 ### Passive (Waiting on External)
 - **GFCU Recovery:** $10-30K (30% prob) - Friend update pending
+
+### Exploratory (Intelligence Gathering)
+- **RAMP Manufacturing (via Joe):** $3-5K paid discovery (50% prob)
+  - **Contact:** Sajid Patel (Managing Director at Deloitte, former CEO Optimal Design)
+  - **Status:** Joe meeting Friday Jan 31 at 10:30 AM (in-person), then three-way call next week
+  - **Opportunity:** AI in manufacturing workflows for connected device engineering
+  - **Stage:** Baby step #1 - RAMP is brand new venture (possibly separate from Deloitte)
+  - **Strategic Value:** Elite contact, manufacturing vertical entry, Joe as quarterback
+  - **Timeline:** Paid discovery phase, then potential larger implementation
 
 ### Lost/Declined ❌
 - **Kin 12-Month Prepay:** $3,564 - Declined Jan 21
@@ -260,18 +291,21 @@
 | Opportunity | Strategic Value | Reasoning |
 |-------------|----------------|-----------|
 | **Lead Supercharger** | 10/10 | Recurring revenue, scalable, proven operators, impossible to copy, 20% equity |
-| **Ben/EquityPro** | 6/10 | One-off revenue, potential for ongoing relationship |
-| **Kin 12-Month** | 5/10 | Prepaid recurring, quick close, existing relationship |
+| **Fraser Roofing** | 7/10 | Immediate cash ($5-8K), proven model, clear scope, engaged buyer (Scott called directly) |
+| **Ben/EquityPro** | 8/10 | Large potential ($5-20K), real estate vertical entry, senior team already aligned |
+| **365 Digital** | 9/10 | Enterprise relationship, manufacturing credibility builder, $20-40K discovery, Microsoft partnership, BMW factory |
+| **RAMP Manufacturing** | 8/10 | Elite contact (Deloitte MD), manufacturing vertical, Joe as quarterback, perfect timing (baby step #1), long-term potential |
+| **DC (Australia)** | 5/10 | One-off revenue, international client, quote sent |
 | **L2T Partnership** | 7/10 | Potential ongoing partnership, referral channel |
-| **365 Digital** | 6/10 | One-off enterprise, could lead to more |
 | **Prayer Board** | 9/10 | SaaS asset, scalable, personally meaningful, proven market validation |
 | **Ad Checker** | 8/10 | SaaS asset, unique market, already built (FB portion) |
 | **Elimination Diet** | 10/10 | Massive market ($11B), voice AI differentiator, $5M potential |
 
-**Current Focus (RED ZONE):**
-- Lead Supercharger research (strategic exception)
-- Close warm one-off deals (Ben, Kin, L2T, 365)
-- **Delay asset building until GREEN ZONE**
+**Current Focus (GREEN ZONE - Strategic Growth):**
+- Close this week's 4 meetings (Fraser, Ben, 365 Digital)
+- Lead Supercharger proposal (this week)
+- RAMP discovery (wait for Joe's intel, position for paid discovery)
+- **Build momentum while maintaining runway**
 
 ---
 
