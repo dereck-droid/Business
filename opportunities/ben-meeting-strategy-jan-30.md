@@ -329,9 +329,39 @@
 
 ---
 
+## 🎯 CRITICAL: Communication Tactics for Tomorrow
+
+**⚠️ MUST READ BEFORE CALL:** [Sales Communication Tactics Guide](../sales-communication-tactics.md)
+
+### The Problem You Identified:
+After watching October transcript, you realized you were **talking over him** trying to prove expertise.
+
+### The Solution: Listen 70%, Talk 30%
+
+**Before Call (9:00 AM):**
+1. Read [sales-communication-tactics.md](../sales-communication-tactics.md)
+2. Write at top of notes: **"LISTEN MORE THAN YOU TALK - 70% THEM, 30% ME"**
+3. Remember: He already trusts you (62-minute Oct call proves it)
+
+**During Call:**
+- Take actual notes (forces listening)
+- Count to 3 before responding to anything
+- Let silences breathe (count to 10 if needed)
+- Ask follow-ups about HIS points, not yours
+- Answer only what he asks
+
+**After Questions:**
+- **SILENCE**
+- Don't fill it
+- Let HIM speak next
+
+**Key principle:** In sales, the person who speaks after silence loses.
+
+---
+
 **Remember:** He already bought this in his mind in October. Cash flow stopped him. Cash flow is no longer an issue. Your job tomorrow is to NOT unsell him.
 
-Be confident. Be simple. Close the deal.
+Be confident. Be simple. **Listen more than you talk.** Close the deal.
 
 ---
 
