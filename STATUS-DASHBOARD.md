@@ -8,17 +8,31 @@
 
 ## 💰 Financial Status
 
-**Current Cash Position:** $[USER TO CONFIRM - reported as $9K+]
-**Last Updated:** January 28, 2026 (NEEDS USER VERIFICATION)
+**Current Cash Position:** $4,298.20
+- Today: $900
+- Tomorrow (Stripe payout): +$3,398.20
+**Last Updated:** January 28, 2026 4:55 PM
 **Source:** [Financial Snapshot](./metrics/financial-snapshot.md)
 
-**Monthly Burn:** $4,900/month
+**Bills Due Feb 4:**
+- House Rent: ✅ **PAID** (covered through end of Feb)
+- Office Rent: $300 (still due)
+- **Total Due: $300**
+
+**Cash After Bills:** $3,998.20
+
+**Monthly Burn:** $4,900/month (but Feb is $2,900 since rent paid)
 **MRR:** $2,094/month
-**Net Burn:** $2,806/month
-**Runway:** ~5-6 weeks (estimate based on $9K cash)
+**Net Burn (Feb):** $806/month
+**Net Burn (March+):** $2,806/month
+**Runway:** ~8-9 weeks (covers Feb + March)
 **Zone:** 🟢 GREEN ZONE
 
-**⚠️ ACTION NEEDED:** User to confirm exact current cash position
+**Recent Changes:**
+- Jan 28: Paid self $4K, Stripe payout tomorrow $3,398.20
+- Jan 28: Rent paid through end of Feb
+- Jan 25: +$4,500 (Retarget IQ payment) → $7,500
+- Jan 20: Baseline → $3,000
 
 ---
 
