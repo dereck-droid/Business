@@ -1,14 +1,103 @@
 # Vegan Spots - App Concept Documentation
 
 **Date:** 2026-01-28
-**Status:** Concept - RECOMMENDED TO BUILD FIRST
+**Last Updated:** 2026-01-28 (Major strategy update with GoHighLevel implementation details)
+**Status:** Concept - RECOMMENDED TO BUILD FIRST (after Prayer Board completion)
 **Purpose:** Comprehensive geo-located directory of restaurants with verified vegan options, populated by AI voice agent
 
 ---
 
 ## Related Documents
 - [Backlog Entry](../../backlog.md#vegan-spots-app)
-- Related Apps: [Good Bananas App](./good-bananas-app.md)
+- Related Apps: [Good Bananas App](./good-bananas-app.md), [Elimination Diet App](./elimination-diet-app.md)
+
+---
+
+## 🎯 EXECUTIVE SUMMARY - KEY STRATEGIC DECISIONS
+
+### What Changed (2026-01-28 Update)
+
+This document was significantly enhanced with detailed implementation strategy including:
+
+1. **GoHighLevel as Primary Platform** (vs. Bland.ai/Vapi)
+   - More cost-effective: $0.018/min vs $0.12-0.15/min
+   - Native integration with existing tech stack
+   - Constraint: 100 calls/day per location (impacts timeline)
+   - **Total cost for 3 cities (3,000 restaurants): $292**
+
+2. **Two-Tier Data Collection Strategy**
+   - **Tier 1 (1-5 vegan items):** Quick phone-only data collection, free basic listing
+   - **Tier 2 (6+ vegan items):** Phone call + sales pitch + form submission, paid claimed listing
+   - AI agent acts as both data collector AND salesperson
+
+3. **The "Group Dining Insight" as Core Sales Pitch**
+   - Revolutionary framing: "When one person is vegan, the ENTIRE group of 6-8 people chooses based on them"
+   - Transforms from "vegan niche app" to "we send you group bookings"
+   - Makes B2B subscription an obvious yes for restaurants
+
+4. **Progressive Launch Strategy (CRITICAL)**
+   - Launch Portland Week 3-4 (don't wait for all 3 cities)
+   - Validate with real users before building Austin/SF
+   - Revenue starts Week 4 instead of Week 6
+   - Same cost, faster validation, lower risk
+
+5. **Cross-Contamination Safety as Feature**
+   - Not just compliance - it's competitive advantage
+   - Enables "Group Dining" feature (accommodates allergies)
+   - Builds trust with users
+   - Positions app as comprehensive, not just vegan
+
+6. **Complete Data Structure Defined**
+   - Essential fields (phone collection)
+   - Enhanced fields (form submission)
+   - Safety disclaimers
+   - Internal tracking
+   - Restaurant tier system (Free/Claimed/Featured)
+
+### Timeline & Economics
+
+| Milestone | Timeline | Cost | Expected Outcome |
+|-----------|----------|------|------------------|
+| Build infrastructure | Week 1 | $0 | AI calling system ready |
+| Portland database built | Weeks 2-3 | $81 | 550+ restaurants with vegan data |
+| Soft launch Portland | Week 3-4 | $0 | 50-100 early users, 5-10 paying restaurants |
+| Austin database built | Weeks 4-5 | $81 | Second city validated |
+| Third city + full launch | Week 6+ | $81 | 3 cities, 500-1,000 users, $1.5-2.5K MRR |
+| **TOTAL** | **6 weeks** | **$292** | **Validated SaaS product with revenue** |
+
+### Why This Is Still #1 Priority (After Prayer Board)
+
+1. ✅ **You ARE the customer** - personal pain point you experience daily
+2. ✅ **AI agent moat** - genuinely hard to replicate, plays to your strengths
+3. ✅ **B2B revenue from Week 4** - don't need massive user scale first
+4. ✅ **Fast to validate** - 6 weeks vs 4-6 months (Elimination Diet)
+5. ✅ **Group Dining feature** - markets itself, unique competitive advantage
+6. ✅ **Proven market** - HappyCow exists but is beatable
+7. ✅ **$292 total cost** - incredibly capital efficient validation
+8. ✅ **Progressive launch** - revenue while building, not after
+
+### Critical Success Factor: The Sales Script
+
+The AI agent script is designed to:
+- Lead with helpfulness ("help us represent YOU accurately")
+- Collect comprehensive safety data (shared fryers, cross-contamination)
+- Identify high-value prospects (6+ vegan items)
+- Deliver "group dining insight" (transforms entire value prop)
+- Soft-sell form submission (no pressure, plant seed)
+- Maintain good relationship even if they decline
+
+**This script is the business.** It determines:
+- Data quality (completeness of menu items, safety info)
+- Conversion rate (basic listing → claimed listing)
+- Restaurant relationships (hostile vs partnership)
+
+### Next Steps After This Documentation
+
+1. ✅ **Complete Prayer Board** (2-3 weeks) - Prove you can ship SaaS
+2. ✅ **Week 1: Build AI infrastructure** - GoHighLevel + n8n + Supabase
+3. ✅ **Weeks 2-3: Let AI call Portland** while you build consumer app
+4. ✅ **Week 4: Soft launch Portland** - First revenue, first validation
+5. ✅ **Weeks 5-6: Expand to Austin + third city** - Prove scalability
 
 ---
 
@@ -169,74 +258,606 @@ This is what makes Vegan Spots genuinely different and hard to copy:
 
 ## THE AI CALLING AGENT - TECHNICAL DETAILS
 
-### Technology Stack
+### Technology Stack (UPDATED: GoHighLevel Implementation)
 
-- **Voice AI platform:** Bland.ai, Vapi.ai, or Retell.ai (specialized in restaurant/business calls)
-- **Alternative:** Build custom with OpenAI Realtime API + Twilio
-- **Orchestration:** n8n workflow orchestration
+- **Primary Platform:** GoHighLevel Voice AI (native integration, cost-effective)
+- **Voice Provider:** Twilio (via GoHighLevel LC Phone)
+- **Orchestration:** GoHighLevel workflows + n8n for complex logic
 - **Database:** PostgreSQL (Supabase) for logging all calls and responses
 - **Tracking:** CRM-style tracking system for call status
+- **Alternative (if speed needed):** Bland.ai or Vapi.ai (no daily limits, faster but 2X cost)
 
-### The Script Structure
+### GoHighLevel Constraints & Economics
 
-#### Opening (Getting Past Gatekeeper)
+**Daily Call Limits:**
+- **100 calls per day maximum** per location/sub-account
+- **1 call per minute** rate limit
+- Only calls between 10 AM - 6 PM (contact's timezone)
+- Each phone number can only be called **1x per day**, max **4x over 2 weeks**
+- Must operate from inside a workflow
+- Requires registration/approval before use
 
-"Hi, my name is [Agent Name] calling from Vegan Spots. We're building a comprehensive directory of restaurants with vegan options in [City Name]. We'd love to include [Restaurant Name]. May I speak with a manager about your vegan menu offerings? This will only take 2-3 minutes."
+**Cost Breakdown:**
+- Outbound call: $0.014/minute
+- AI infrastructure (SIP): $0.004/minute
+- **Total per minute: $0.018** (without transcription)
+- With transcription: $0.042/min (adds $0.024) - **NOT RECOMMENDED**
+- Phone number: $49/month per location
+- GoHighLevel account: $97+ (Starter plan for single location)
 
-#### Manager Interview Questions
+**Economics for 3 Major Cities (3,000 Restaurants):**
+- Average 4.5 minutes per restaurant (including retries)
+- Total call time: ~13,500 minutes
+- **Total calling cost: $243** (without transcription)
+- Phone number: $49/month
+- **Total investment: ~$292 for complete database**
 
-1. "Great! First, do you currently offer any vegan options on your menu?"
-   - If NO: "Would you be interested in being listed anyway in case you add vegan options in the future?" (still capture basic info)
-   - If YES: Continue
+**Timeline with Constraints:**
+- Single location: 100 calls/day = 10 days per 1,000 restaurants
+- 3 cities = 30 days of calling
+- **Alternative:** 3 sub-accounts (3x parallel) = 10 days total (but $687 cost)
 
-2. "Wonderful. Can you tell me what vegan entrees you offer?"
-   - [Record each item]
+**Recommendation:** Single location, progressive city launches (launch with Portland after 10 days, don't wait 30 days for all 3)
 
-3. "Are these items clearly marked as vegan on your menu?"
+### Two-Tier Data Collection Strategy
 
-4. "Do you have any vegan appetizers or sides?"
-   - [Record]
+The AI agent uses different approaches based on restaurant vegan offerings:
 
-5. "What about vegan desserts?"
-   - [Record]
+#### **Tier 1: Phone-Only Quick Data Collection**
 
-6. "Can customers request modifications to make non-vegan items vegan?"
-   - "For example, can they substitute dairy cheese for vegan cheese?"
+**For:** Restaurants with 1-5 vegan options, not vegan-focused
 
-7. "Do you use separate cooking surfaces or utensils to avoid cross-contamination for vegan dishes?"
+**What AI Collects Over Phone (3-5 minute call):**
+- Restaurant name, address, phone, hours
+- Number of vegan options by category (appetizers, entrees, sides, desserts)
+- Brief description of each dish
+- Price range ($, $$, $$$, $$$$)
+- **Critical Safety Disclaimers:**
+  - Shared fryer with animal products? (Y/N)
+  - Shared grill/cooking surfaces? (Y/N)
+  - Can accommodate modifications? (Y/N)
+  - Dedicated vegan prep area? (Y/N)
+  - Cross-contamination risk level: Low/Medium/High
+- Allergen accommodations (gluten-free, nut-free, soy-free)
 
-8. "Do you offer any vegan milk alternatives for coffee or tea?"
+**Database Status:** "Basic Listing" (free tier)
+**Follow-up:** None initially, quarterly re-verification
 
-9. "Is there anything else about your vegan offerings you'd like vegans to know?"
+#### **Tier 2: Phone + Form Submission**
 
-#### Closing
+**For:** All-vegan restaurants OR 6+ vegan options
 
-"Thank you so much! We'll include [Restaurant Name] in our directory with this information. Our app will help vegan diners in [City] discover your restaurant. If your menu changes, you can always update your listing on our platform at [website]. Have a great day!"
+**AI Agent Process:**
+1. Collects basic info over phone (name, address, contact, hours)
+2. Begins asking about vegan options
+3. **Identifies high-value prospect:** "Wow, it sounds like you have quite a few vegan options!"
+4. **Transitions to sales pitch** (see script below)
+5. **Sends form link via SMS immediately** after call ends
+6. Schedules follow-up if form not submitted within 48 hours
 
-### Data Logging
+**Form Submission Includes:**
+- Full menu upload (PDF/photo)
+- Detailed dish descriptions with ingredients
+- Professional food photos (encouraged)
+- Allergen information matrix
+- Special dietary accommodations
+- Preparation methods
+- Online ordering/reservation links
+- Social media handles
 
-- Restaurant name, address, phone (from initial database)
-- Contact person name and title
-- Date/time of call
-- Call status: Completed, Refused, No Answer, Needs Follow-up, Wrong Number
-- If completed:
-  - All vegan items listed (categorized: entrees, appetizers, desserts, sides)
-  - Menu modification policy
-  - Cross-contamination prevention (yes/no)
-  - Additional notes
-- Next action: Schedule for quarterly re-verification call
+**Database Status:** "Premium Prospect" → "Claimed Listing" (paid tier)
 
-### Workflow Automation (n8n)
+### The Complete Sales Conversation Flow
 
-1. Load restaurant list for city from database
-2. For each restaurant:
-   - Trigger AI agent call
-   - Log call outcome
-   - Parse and structure response
-   - Update restaurant record in database
-3. Flag incomplete/failed calls for human review
-4. Send daily summary report: X successful, Y need follow-up, Z refused
-5. Schedule quarterly re-verification for all restaurants
+This script collects data AND plants seeds for paid subscriptions:
+
+#### **Opening (Non-Salesy, Helpful Framing)**
+
+```
+"Hi! This is Alex calling from Vegan Spots. We're building a comprehensive
+directory to help people following a vegan diet find restaurants with
+great options in [CITY]. We're calling restaurants across the city to
+document what vegan options you currently offer.
+
+Do you have a couple minutes to help us make sure your restaurant is
+accurately represented?"
+```
+
+**Why This Works:**
+- Positions as helpful, not pushy
+- "Help us represent YOU accurately" = doing THEM a favor
+- Establishes authority ("comprehensive directory")
+- Low commitment ask (2 minutes)
+- No mention of selling anything
+
+#### **Data Collection Phase (All Restaurants)**
+
+```
+[If they say yes]
+
+"Perfect! Let me ask you a few quick questions:
+
+1. What vegan entrees do you currently offer?"
+   [AI records each item]
+
+2. "And what about vegan appetizers or sides?"
+   [AI records]
+
+3. "Do you have any vegan desserts?"
+   [AI records]
+
+4. "Can customers request modifications to make dishes vegan?
+   For example, substitute vegan cheese?"
+   [AI records: Yes/No/Limited]
+
+5. "This is important for our users with allergies - do you use a
+   shared fryer for vegan items and meat or seafood?"
+   [AI records: Yes/No]
+
+6. "Do you have a dedicated vegan prep area or use separate cooking surfaces?"
+   [AI records: Yes/No/Sometimes]
+```
+
+#### **The Transition (When 6+ Options Identified)**
+
+**AI Decision Point:** If restaurant mentions 6+ vegan items, trigger sales flow:
+
+```
+"Wow, it sounds like you have quite a few vegan options! That's fantastic.
+
+You know, a lot of restaurants in [CITY] don't realize how much business
+they're missing from group dining situations.
+
+When a group of friends or family goes out to eat and even ONE person is
+vegan, that ENTIRE group chooses the restaurant based on that person's needs.
+
+If you're not showing up when they search 'vegan options near me,' they're
+taking that whole group of 6-8 people somewhere else. You lose the entire
+table, not just one customer.
+
+Our app is launching in [CITY] next month, and we're giving restaurants
+the opportunity to claim and enhance their listing with photos, full
+menu details, and priority placement in search results.
+
+Would you like me to text you a link where you can upload your menu and
+see what a claimed listing looks like? There's no obligation - you can
+explore it and decide if it makes sense for your restaurant."
+```
+
+**Why This Works:**
+- Compliment first ("quite a few options!")
+- **Group Dining Insight** = perspective they haven't considered
+- Loss framing ("they're taking that whole group somewhere else")
+- Quantifies loss ("6-8 people, entire table")
+- Soft ask ("would you like me to TEXT you") - not "buy now"
+- "No obligation" = low pressure
+- "See what it looks like" = curiosity, not commitment
+
+#### **If They Say Yes to Form Link**
+
+```
+"Perfect! I'm texting you the link right now to [PHONE NUMBER].
+
+The form takes about 5 minutes to complete - you can upload your menu,
+add some photos of your dishes, and see exactly how your listing will
+appear to users searching for vegan options.
+
+Just to be transparent: there's no charge to be listed in our basic
+directory. You'll show up in searches regardless. But claimed listings
+with enhanced details - photos, full menus, ability to update anytime -
+those get priority placement when users are browsing.
+
+The subscription for a claimed listing is $99 per month for vegan-friendly
+restaurants, but you can explore everything first and decide if the
+additional visibility makes sense for your business.
+
+Is this the best number to reach you at if we have any follow-up questions?"
+
+[Confirm contact info]
+
+"Great! You should receive that text within the next minute. Thanks so
+much for your time, and we're excited to help vegan diners discover
+your restaurant!"
+```
+
+**Key Elements:**
+- Immediate SMS (strike while iron is hot)
+- Time expectation (5 minutes = doable)
+- Transparency about costs builds trust
+- "You'll show up regardless" = good faith
+- "Decide if it makes sense" = low pressure
+- Confirms contact for follow-up
+- Ends enthusiastically
+
+#### **If They Say "Not Interested Right Now"**
+
+```
+"No problem at all! We'll make sure your vegan options are listed
+accurately in our directory regardless. You'll show up when people
+search for vegan-friendly restaurants in [CITY], and we'll include
+the menu items you mentioned.
+
+If you ever want to enhance your listing with photos or priority
+placement down the road, you can visit VeganSpots.com and claim
+your restaurant listing anytime. It takes about 5 minutes.
+
+Thanks so much for your time today - we really appreciate you helping
+us build an accurate resource for the vegan community!"
+```
+
+**Why This Works:**
+- Reassures they're still included (builds trust)
+- Reinforces they'll get free value
+- Plants seed for future ("claim anytime")
+- Leaves door wide open
+- Ends on genuinely positive note
+- They'll remember you when they see traffic from the app
+
+#### **If No Answer / Voicemail**
+
+```
+"Hi, this is Alex calling from Vegan Spots. We're building a directory
+of restaurants with vegan options in [CITY], and we'd love to include
+[RESTAURANT NAME]. I'll try you again another time. Thanks!"
+```
+
+**AI Workflow Action:**
+- Mark: "No answer - Attempt 1"
+- Schedule retry: Next day, different time (2-4 PM vs 10-11 AM)
+- Max 3 attempts over 1 week
+- After 3 failed attempts: Mark "Unable to reach" and move on
+
+### Complete Data Structure
+
+#### **Essential Fields (Collected via Phone or Form)**
+
+**Basic Restaurant Info:**
+- Restaurant name
+- Full address (street, city, state, zip)
+- Phone number
+- Website URL
+- Hours of operation (by day)
+- Cuisine type (Italian, Mexican, Asian, American, etc.)
+- Price range ($, $$, $$$, $$$$)
+
+**Vegan Menu Data:**
+- Vegan appetizers (array of items with descriptions)
+- Vegan entrees (array of items with descriptions)
+- Vegan sides (array of items with descriptions)
+- Vegan desserts (array of items with descriptions)
+- Vegan beverages/coffee options
+- Modification options (can substitute vegan cheese, milk, etc.)
+
+**Critical Safety/Allergen Information:**
+- Shared fryer with animal products: Yes/No
+- Shared grill/cooking surfaces: Yes/No
+- Dedicated vegan prep area: Yes/No
+- Cross-contamination risk level: Low/Medium/High
+- Gluten-free options available: Yes/No
+- Nut-free options available: Yes/No
+- Soy-free options available: Yes/No
+
+**Metadata:**
+- Data source: AI Phone Call / Form Submission / Restaurant Dashboard
+- Last verified date
+- Last updated date
+- Verification method
+- Contact person name/title (if provided)
+
+#### **Enhanced Fields (Form Submission / Claimed Listings Only)**
+
+- Full menu PDF/image upload
+- Individual dish photos (up to 10)
+- Detailed dish descriptions with ingredients
+- Chef's notes on preparation methods
+- Online ordering link (DoorDash, Uber Eats, etc.)
+- Reservation link (OpenTable, Resy, etc.)
+- Social media handles (Instagram, Facebook)
+- Special notes for vegans
+- Parking information
+- Accessibility information
+
+#### **Internal Tracking Fields**
+
+- Call status: Completed / No Answer / Needs Follow-up / Refused / Wrong Number / Disconnected
+- Attempts made (1-3)
+- Last call attempt date
+- Next scheduled call date (quarterly re-verification)
+- Sales status: Basic / Premium Prospect / Claimed / Featured / Churned / Not Interested
+- Form sent: Yes/No
+- Form submitted: Yes/No
+- Follow-up needed: Yes/No
+- Internal notes from calls
+- Payment status (for claimed listings)
+- Subscription tier
+- Monthly recurring revenue (MRR) value
+
+## RESTAURANT TIER SYSTEM & MONETIZATION
+
+### Three-Tier Restaurant Listing Model
+
+#### **Tier 1: Basic Listing (FREE)**
+
+**What's Included:**
+- Restaurant appears in all searches and map view
+- Basic information from AI phone call:
+  - Name, address, phone, hours
+  - Vegan menu items documented by AI
+  - Price range
+  - Cross-contamination warnings
+  - Allergen information
+- User-generated content appears on listing:
+  - User reviews and ratings
+  - User-uploaded photos
+  - Community comments
+- "Last verified" date badge
+- Standard search result placement
+
+**Restaurant Requirements:** None - automatically included after AI call
+
+**Value to Restaurant:** Free exposure to vegan diners, builds awareness
+
+#### **Tier 2: Claimed Listing ($49/month - Vegan-Friendly | $99/month - All-Vegan)**
+
+**Everything in Basic, PLUS:**
+- ✅ Restaurant can claim and manage their own listing
+- ✅ Update menu items anytime (no waiting for AI re-verification)
+- ✅ Upload professional food photos (up to 10 images)
+- ✅ Respond to customer reviews
+- ✅ Post daily specials and seasonal menu changes
+- ✅ Add detailed dish descriptions with ingredients
+- ✅ "Verified by Restaurant" trust badge
+- ✅ Analytics dashboard:
+  - Monthly listing views
+  - Click-through rate to website/phone
+  - Number of reviews received
+  - Search appearances
+  - Traffic trends over time
+- ✅ Priority placement in search results (top 30%)
+- ✅ Customer insights report
+
+**Restaurant Requirements:**
+- Submit form with menu details
+- Upload at least 3 professional photos
+- Maintain current information
+
+**Value to Restaurant:** Control narrative, professional presentation, analytics, more visibility
+
+#### **Tier 3: Featured Listing ($149/month)**
+
+**Everything in Claimed, PLUS:**
+- 🌟 Featured placement at top of search results in their area
+- 🌟 Highlighted throughout app with special badge
+- 🌟 Promotional banner capability on listing page
+- 🌟 Push notification capability to nearby users (limited to 1/month)
+- 🌟 Inclusion in "Editor's Picks" and curated collections
+- 🌟 Social media promotion from Vegan Spots official accounts
+- 🌟 Monthly newsletter feature
+- 🌟 Advanced analytics:
+  - Competitor benchmarking
+  - Customer demographics (if users opt-in)
+  - Peak traffic times
+  - Most popular menu items (based on user saves/shares)
+- 🌟 Priority customer support
+
+**Restaurant Requirements:**
+- Must be claimed listing first
+- Maintain high review ratings (4+ stars)
+- Active engagement (respond to reviews within 7 days)
+- Regular menu updates
+
+**Value to Restaurant:** Maximum visibility, promotional reach, competitive advantage
+
+### The "Group Dining Feature" - KILLER USER FEATURE
+
+**The Problem:**
+When groups go out to eat, ONE person's dietary restriction determines where EVERYONE goes.
+
+**The Solution:**
+```
+"Planning Group Dinner?" feature in app:
+
+User Input:
+- Number of people: 6
+- Dietary needs:
+  - 2 vegans
+  - 1 gluten-free
+  - 1 nut allergy
+  - 3 no restrictions
+
+App Output:
+- Shows ONLY restaurants that can accommodate ALL needs
+- Highlights specific menu items for each person
+- Ranks by "group satisfaction score"
+- Shows: "This restaurant has 12 vegan options, 8 gluten-free options,
+  and confirmed nut-free preparation available"
+```
+
+**Why This Is Brilliant:**
+- ✅ **Solves real pain point** - no more "where can we all eat?" debates
+- ✅ **Markets itself** - groups will share this feature organically
+- ✅ **Drives restaurant value** - proves they're getting group bookings, not just solo vegans
+- ✅ **Justifies B2B pricing** - "You're not paying for vegan app - you're paying for group tables"
+- ✅ **Unique to Vegan Spots** - no competitor has this
+- ✅ **Leverages safety data** - cross-contamination info becomes competitive advantage
+
+**Implementation:**
+- v1: Simple multi-filter (vegan + GF + nut-free)
+- v2: Smart scoring algorithm (ranks by best fit)
+- v3: Group sharing (send restaurant suggestions to whole group for voting)
+
+This feature transforms the pitch to restaurants:
+> "You're not just getting one vegan customer - you're getting the table of 8 people
+> that comes WITH that vegan. Our Group Dining feature sends you entire parties,
+> not individuals."
+
+## LEGAL DISCLAIMERS & RISK MITIGATION
+
+### User-Facing Disclaimers
+
+**App-Wide Disclaimer (Settings/About):**
+```
+All restaurant information is verified through direct contact with restaurants
+and user contributions. While we strive for accuracy, menu items and preparation
+methods can change without notice.
+
+For severe food allergies or medical dietary restrictions, ALWAYS confirm
+ingredients and preparation methods directly with restaurant staff before ordering.
+
+Vegan Spots is not liable for adverse reactions, cross-contamination, or menu
+inaccuracies. Use this app as a guide, not medical advice.
+```
+
+**On Restaurant Listings with Cross-Contamination Warnings:**
+```
+⚠️ SHARED EQUIPMENT NOTICE
+This restaurant uses shared fryers/grills for vegan and animal products.
+Cross-contamination is possible. If you have severe allergies, please
+speak with management before ordering.
+```
+
+**On All Menu Item Listings:**
+```
+Menu items and ingredients subject to change. Last verified: [DATE]
+Always confirm with restaurant for current offerings and preparation methods.
+```
+
+**Group Dining Feature Disclaimer:**
+```
+Group Dining recommendations are based on documented menu options and
+allergen information. For severe allergies, always verify with restaurant
+directly. Vegan Spots does not guarantee complete safety for severe
+allergen concerns.
+```
+
+### Restaurant Agreement (Terms for Claimed Listings)
+
+**Key Terms:**
+- Restaurant certifies information accuracy to best of knowledge
+- Restaurant agrees to update listings within 7 days of menu changes
+- Vegan Spots not liable for user dietary reactions
+- Restaurant maintains right to refuse service as per standard business practice
+- Cancellation: 30-day notice, no refunds for partial months
+- Data usage: Vegan Spots may use aggregated data (non-identifiable) for trends/analytics
+
+### Risk Mitigation Strategies
+
+1. **Always show "Last Verified" dates** - user can see freshness
+2. **Quarterly AI re-verification calls** - keep data current
+3. **User reporting system** - "Is this info still accurate?" button
+4. **Conservative cross-contamination warnings** - err on side of caution
+5. **Never claim "allergen-free"** - only document "options available"
+6. **Encourage user confirmation** - always remind to double-check with restaurant
+7. **Restaurant liability** - terms make clear restaurants are responsible for accuracy
+
+## WORKFLOW AUTOMATION (GoHighLevel + n8n)
+
+### GoHighLevel Calling Workflow
+
+**Daily Automated Process:**
+
+1. **Morning (9 AM):** n8n triggers GoHighLevel workflow
+   - Loads next 100 uncalled restaurants from database
+   - Filters out any called in last 24 hours (prevent duplicates)
+   - Queues 100 calls for the day
+
+2. **Calling Window (10 AM - 6 PM):**
+   - GoHighLevel AI agent makes 100 calls (1 per minute)
+   - For each call:
+     - Attempts connection
+     - Executes appropriate script (data collection or data + sales)
+     - Logs outcome in GoHighLevel
+     - If 6+ vegan items mentioned → Sends SMS with form link
+     - Updates call status
+
+3. **Real-Time n8n Processing:**
+   - Monitors GoHighLevel for completed calls
+   - Parses AI transcription/structured data
+   - Updates Supabase database with:
+     - Restaurant vegan menu items
+     - Safety/allergen info
+     - Call outcome status
+     - Sales tier (Basic vs Premium Prospect)
+   - If form sent → Creates follow-up task for 48 hours later
+
+4. **Evening (8 PM):** Daily summary report
+   - Email to owner with stats:
+     - Calls completed: X
+     - Restaurants with vegan options: Y
+     - Premium prospects identified: Z
+     - Forms sent: A
+     - Forms submitted: B
+     - Need follow-up: C
+     - Failed attempts: D
+
+5. **Weekly (Sundays):**
+   - Retry all "No Answer" restaurants (different time/day)
+   - Follow up on premium prospects who haven't submitted forms
+   - Generate weekly analytics report
+
+6. **Quarterly (Automated):**
+   - Re-verification calls to all restaurants
+   - Update menu changes
+   - Check if still in business
+   - Refresh data freshness dates
+
+### n8n Workflow Automation Tasks
+
+**Beyond GoHighLevel Integration:**
+
+1. **Form Submission Processing:**
+   - Restaurant submits form → n8n receives webhook
+   - Uploads menu PDF to Cloudinary
+   - Processes and optimizes photos
+   - Updates database with enhanced data
+   - Changes status: Premium Prospect → Claimed Listing Candidate
+   - Sends email to owner: "New restaurant form submitted - review needed"
+
+2. **Follow-Up Sequences:**
+   - Day 2 after form sent, not submitted: SMS reminder
+   - Day 7: AI agent calls back with gentle follow-up
+   - Day 30: Email with social proof ("Restaurants seeing X% more traffic")
+
+3. **User Report Handling:**
+   - User reports "outdated info" → Creates task for human review
+   - If 3+ users report same issue → Triggers immediate AI re-verification call
+
+4. **Restaurant Dashboard Activity:**
+   - Claimed restaurant updates menu → Logs change, updates "Last Updated" date
+   - Claimed restaurant responds to review → Notifies user who left review
+   - Claimed restaurant views analytics → Logs engagement for health score
+
+5. **Payment Processing:**
+   - Stripe webhook on successful payment → Updates subscription status
+   - Stripe webhook on failed payment → Triggers dunning sequence
+   - Subscription cancelled → Downgrades to Basic after 30 days
+
+6. **Data Quality Monitoring:**
+   - Flags restaurants with no menu items (data collection error)
+   - Flags duplicate restaurant entries (merge needed)
+   - Flags restaurants not verified in 6+ months (priority re-call)
+
+### Human Quality Control Checkpoints
+
+**Not Everything Can Be Automated:**
+
+1. **Manual Review Required:**
+   - Premium prospect form submissions (review before activating claimed listing)
+   - Restaurants claiming they're "all-vegan" (verify legitimacy)
+   - User reports of serious safety issues (immediate attention)
+   - Negative review disputes from restaurants
+
+2. **Weekly Manual Tasks:**
+   - Review 10 random call transcripts for AI quality
+   - Personally call 3-5 "premium prospects" who didn't convert (get feedback)
+   - Check user reviews for spam/abuse
+   - Respond to restaurant questions about claiming
+
+3. **Monthly Manual Tasks:**
+   - Analyze conversion rates (calls → premium prospects → claimed listings)
+   - Refine AI script based on successful vs unsuccessful calls
+   - Update sales pitch based on restaurant feedback
+   - Review and improve group dining feature based on usage data
 
 ### Human Quality Control
 
@@ -255,51 +876,221 @@ This is what makes Vegan Spots genuinely different and hard to copy:
 
 ---
 
-## TECHNICAL BUILD PLAN
+## UPDATED TECHNICAL BUILD PLAN (Based on GoHighLevel Constraints)
 
-### Week 1: MVP Core App
+### **Week 1: Build Calling Infrastructure + Start App Development**
 
-- Map interface with restaurant pins
-- Restaurant detail pages showing:
-  - Basic info (name, address, hours, phone)
-  - Vegan menu items (from AI agent data)
-  - Tags (all-vegan, extensive options, etc.)
-- Basic search functionality
-- Filter by distance, cuisine type
+**AI Calling System (Priority):**
+- Set up GoHighLevel account and Voice AI
+- Register for outbound calling (compliance approval)
+- Acquire phone number ($49/month)
+- Build AI agent with two-tier script:
+  - Basic data collection flow (1-5 vegan items)
+  - Data collection + sales pitch flow (6+ items)
+- Create form submission page for premium prospects
+- Set up n8n workflows:
+  - Daily calling queue (100 restaurants/day)
+  - Call outcome logging to Supabase
+  - SMS form link sender
+  - Follow-up scheduler
+- Test with 10-20 test calls (local businesses or personal contacts)
+- Refine scripts based on test results
 
-### Week 2: AI Voice Agent
+**App Development (Parallel):**
+- Set up React Native / Flutter project
+- Design database schema in Supabase
+- Create basic map interface (Google Maps / Mapbox)
+- Design restaurant detail page UI
 
-- Build or integrate AI calling agent
-- Create structured interview script
-- Set up n8n workflows for:
-  - Call orchestration
-  - Data logging
-  - Follow-up scheduling
-- Test with 10-20 local restaurants
-- Refine script based on results
+**Data Prep:**
+- Scrape Portland restaurant list from Google Maps/Yelp (~1,000 restaurants)
+- Clean and structure data (name, address, phone, cuisine type)
+- Load into database with status: "Not Called"
 
-### Week 3: Data Collection Sprint
+**End of Week 1:**
+- ✅ AI calling system ready to run
+- ✅ App foundation built
+- ✅ Portland restaurant database loaded
+- ✅ Ready to start automated calling on Day 8
 
-- Load Greenville/Spartanburg restaurant database (scrape from Google Maps/Yelp)
-- Run AI agent on 200+ area restaurants
-- Human verification of results
-- Clean and structure data
-- Add to database
+### **Weeks 2-3: Calling Sprint (Portland) + Continue App Build**
 
-### Week 4: User Features & Launch
+**Automated Calling (Runs Daily):**
+- Day 8-17: AI makes 100 calls/day to Portland restaurants
+- Total: 1,000 calls over 10 days
+- Expected outcomes:
+  - ~550 successful data collections (55% answer rate)
+  - ~100-150 premium prospects identified (6+ vegan options)
+  - ~50-75 form links sent
+  - ~450 no answers (will retry Week 3-4)
 
-- Add photo upload capability
-- User accounts and authentication
-- Review/rating system
-- Share features
-- Polish UI/UX
-- Beta launch to local vegan community
+**App Development (Parallel):**
+- Build restaurant detail pages with all data fields
+- Implement search and filter functionality
+- Add map clustering and individual pins
+- Build user authentication system
+- Create photo upload capability
+- Design and build review/rating system
+- Implement cross-contamination warning displays
+- Build "Last Verified" date badges
+- Mobile responsiveness testing
 
-### Week 5-6: Iteration & Expansion
+**Daily Monitoring:**
+- Review daily call summary reports
+- Spot-check 5-10 call transcripts for quality
+- Manually follow up with any flagged issues
 
-- Fix bugs based on user feedback
-- Add requested features
-- Prepare for next city expansion
+**End of Week 3:**
+- ✅ 550+ Portland restaurants with basic vegan data
+- ✅ 100-150 premium prospects identified
+- ✅ App 80% complete (core features working)
+- ✅ Ready for soft launch
+
+### **Week 4: Soft Launch Portland + Start Austin Calls**
+
+**Launch Preparation:**
+- Polish UI/UX based on internal testing
+- Add legal disclaimers to app
+- Create simple landing page explaining the app
+- Write launch announcement for Portland vegan groups
+
+**Soft Launch (Day 22-25):**
+- Beta launch to Portland vegan Facebook groups
+- Post in Portland vegan subreddit
+- Share with 10-20 local vegan friends for feedback
+- Target: 50-100 early adopter downloads
+
+**Begin B2B Outreach:**
+- Manually call top 20 premium prospects (all-vegan restaurants first)
+- Pitch claimed listing subscriptions
+- Offer "founding restaurant" discount (first 10 at $79/month instead of $99)
+- Goal: 5-10 claimed listings by end of week
+
+**Austin Calling Begins:**
+- Load Austin restaurant database (~1,000 restaurants)
+- Day 22-31: AI calls 100/day in Austin
+- Same process as Portland
+
+**User Feedback Loop:**
+- Monitor user behavior in app
+- Collect feedback from early users
+- Fix critical bugs
+- Make UI improvements
+
+**End of Week 4:**
+- ✅ Portland soft launched with 50-100 users
+- ✅ 5-10 Portland restaurants signed up (claimed listings)
+- ✅ Austin calling in progress (50% complete)
+- ✅ App improved based on real user feedback
+
+### **Week 5: Complete Austin + Build v2 Features**
+
+**Austin Database Completion:**
+- Days 1-3: Complete remaining Austin calls
+- By Day 3: Austin database 80-90% complete
+- Add Austin to live app on Day 4
+
+**App v2 Features:**
+- Build restaurant dashboard (for claimed listings):
+  - Menu update interface
+  - Photo upload
+  - Review response capability
+  - Basic analytics display
+- Implement priority search placement for claimed listings
+- Add "Verified by Restaurant" badges
+- Build form submission processing workflow
+
+**Portland Growth:**
+- Continue organic growth in Portland
+- Monitor restaurant subscription renewals
+- Collect testimonials from early claimed restaurants
+- Target: 100-200 total Portland users
+
+**B2B Austin Outreach:**
+- Begin outreach to Austin premium prospects
+- Use Portland success stories as social proof
+
+**End of Week 5:**
+- ✅ Two cities live: Portland + Austin
+- ✅ 150-250 total users
+- ✅ 10-15 claimed restaurant subscriptions
+- ✅ Restaurant dashboard functional
+- ✅ Proven model working in two markets
+
+### **Week 6: Third City (SF/Denver/NYC) + Full Launch**
+
+**Third City Selection:**
+Based on vegan population density, choose one:
+- San Francisco (huge vegan scene, high concentration)
+- Denver (growing vegan market, less competition)
+- NYC (massive market, high complexity)
+
+**Third City Calling:**
+- Load third city database (1,000 restaurants)
+- Begin calling (100/day)
+- Will complete in Week 7-8
+
+**Full Launch Marketing:**
+- Press release: "New app maps vegan dining with AI-verified data"
+- Reach out to vegan influencers in Portland/Austin
+- Post in national vegan Facebook groups
+- Submit to Product Hunt
+- Post on Reddit r/vegan with success story
+- Create TikTok/Instagram content highlighting app features
+
+**Scale B2B:**
+- Hire VA to help with restaurant outreach ($500/month)
+- Create restaurant outreach email sequences
+- Build case study from Portland success
+- Target: 20-30 total claimed listings across all cities
+
+**End of Week 6:**
+- ✅ Three cities launched (one partially complete)
+- ✅ 500-1,000 total users
+- ✅ 20-30 claimed restaurant subscriptions ($1,500-2,500/month MRR)
+- ✅ Proven scalable model
+- ✅ Decision point: Continue expansion or refine?
+
+### Progressive Launch Strategy (RECOMMENDED)
+
+Instead of waiting 30 days to launch all 3 cities, launch incrementally:
+
+**Advantages:**
+- ✅ **Revenue starts Week 3-4** instead of Week 5-6
+- ✅ **Validate with real users faster** - don't build for 6 weeks before learning
+- ✅ **Refine pitch based on Portland** before tackling Austin/SF
+- ✅ **Cash flow from Portland** funds Austin expansion
+- ✅ **Lower risk** - if Portland flops, pivot before wasting 6 weeks
+- ✅ **Psychological wins** - early traction builds momentum
+
+**Timeline Comparison:**
+
+| Strategy | First Launch | First Revenue | 3 Cities Live | Total Cost |
+|----------|--------------|---------------|---------------|------------|
+| Wait for All 3 | Week 6 | Week 6-7 | Week 6 | $292 |
+| Progressive | Week 3 | Week 4 | Week 6 | $292 |
+
+Progressive is objectively better - same cost, faster validation, earlier revenue.
+
+### Alternative: Fast Track with Multiple Sub-Accounts
+
+If you need to launch FASTER and have budget:
+
+**Setup:**
+- 3 GoHighLevel sub-accounts (3 parallel calling locations)
+- 3 phone numbers ($147/month total)
+- GoHighLevel Unlimited plan ($297/month)
+
+**Timeline:**
+- Week 1: Build infrastructure
+- Week 2: Call all 3 cities simultaneously (100/day each = 300/day total)
+- Days 8-17: Complete all 3 cities (3,000 restaurants in 10 days)
+- Week 3: Polish app
+- Week 4: Launch all 3 cities simultaneously
+
+**Cost:** ~$687 vs $292 (2.3X more expensive)
+**Time saved:** 2-3 weeks
+**Recommendation:** Only if you're in a race or have urgent deadline
 
 ### Tech Stack
 
