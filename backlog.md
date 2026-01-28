@@ -79,15 +79,24 @@ Your daily dashboard ([FOCUS.md](./FOCUS.md)) filters these tasks based on:
 ### Complete Prayer Board App
 
 **Current Assessment:**
-- **Urgency:** 4/10 (60-90 days to revenue without catalyst)
+- **Urgency:** 6/10 (85-90% complete, fastest to revenue)
 - **Importance:** 9/10 (recurring SaaS revenue potential)
-- **Zone Viability:** 🟡 Yellow minimum (needs 2-3 weeks focused development)
+- **Zone Viability:** 🟢 Green minimum (needs 2-3 weeks focused development)
 - **Time Investment:** 2-3 weeks development + 2-3 weeks marketing setup
-- **Revenue Impact:** Short-term ($60K-120K Year 1 potential)
-- **Status:** DEFERRED (85-90% complete)
-- **Dependencies:** Yellow Zone stability (4-8 weeks runway)
+- **Revenue Impact:** Short-term ($60K-120K Year 1, $240-600K at scale)
+- **Status:** DEFERRED (85-90% complete - CLOSEST TO REVENUE)
+- **Dependencies:** Green Zone + 2-3 weeks focused time
 
-**Remaining Work:**
+**Documentation:** [Prayer Board App - Full Documentation](./detailed-context/projects/prayer-board-app.md)
+
+**What Makes This Strategic:**
+- **85-90% complete** - most work already done, quick to revenue
+- **Validated demand** - pastoral feedback: "Sensational," "Fantastic idea"
+- **Recurring SaaS revenue** - $99/month per church, high retention
+- **40-50K target market** - churches with 150-500 members
+- **Sunk cost recovered** - finish the last 10-15% to launch
+
+**Remaining Work (2-3 weeks):**
 - Final testing (audio/video uploads)
 - RLS policy finalization
 - Admin dashboard polish
@@ -96,20 +105,25 @@ Your daily dashboard ([FOCUS.md](./FOCUS.md)) filters these tasks based on:
 - Demo video and landing page
 - Pricing page and signup flow
 
-**Market Validation:**
-- Strong pastoral feedback ("Sensational," "Fantastic idea")
-- Clear pain point (manual spreadsheet tracking)
-- Target: 150-500 person churches at $99/month
-- 40,000-50,000 churches in target market
+**Revenue Potential:**
+- Conservative Year 1: 50-100 churches × $99/month = **$60-120K ARR**
+- Moderate (2-3 years): 200-250 churches = **$240-300K ARR**
+- Optimistic (scale): 500-1,000 churches = **$594K-1.2M ARR**
+
+**Why This Could Be First:**
+- Fastest path to MRR (2-3 weeks to beta launch)
+- Validates your ability to ship and monetize SaaS
+- Builds recurring revenue base
+- Low additional investment (mostly polish)
 
 **Conditions That Change Priority:**
-- ✅ **Church contacts you ready to pay** → Urgency becomes 10/10 (work in Red Zone)
-- ✅ **Strategic partner wants to distribute** → Urgency becomes 8/10 (prioritize in Red)
-- ✅ **Reach Yellow Zone with no other deals closing** → Urgency becomes 7/10
-- ✅ **Competing product launches** → Urgency becomes 8/10
-- ✅ **Viral interest from church communities** → Urgency becomes 9/10
+- ✅ **Church contacts you ready to pay** → Urgency becomes 10/10 (launch immediately)
+- ✅ **Strategic partner wants to distribute** → Urgency becomes 9/10
+- ✅ **Green Zone + want quick MRR win** → Urgency becomes 8/10
+- ✅ **Competing product launches** → Urgency becomes 9/10
+- ✅ **Viral interest from church communities** → Urgency becomes 10/10
 
-**Current Decision:** DEFER until Yellow Zone OR church contacts ready to pay
+**Current Decision:** VIABLE IN GREEN ZONE - fastest path to new recurring revenue
 
 ---
 
@@ -152,35 +166,84 @@ Your daily dashboard ([FOCUS.md](./FOCUS.md)) filters these tasks based on:
 ### Build Elimination Diet App
 
 **Current Assessment:**
-- **Urgency:** 2/10 (idea stage, long timeline)
-- **Importance:** 10/10 (massive market opportunity)
+- **Urgency:** 7/10 (YOU are actively doing elimination diet NOW for EoE/gluten)
+- **Importance:** 10/10 (solving YOUR personal medical need + massive market)
 - **Zone Viability:** 🟢 Green minimum (requires 4-6 months focused development)
 - **Time Investment:** 4-6 months from start to launch
-- **Revenue Impact:** Long-term ($90K Y1 → $3M Y3 potential)
-- **Status:** DEFERRED (extensive market research done, not started)
-- **Dependencies:** Green Zone + 4-6 months runway
+- **Revenue Impact:** Long-term ($90K Y1 → $600K Y2 → $3.6M Y3 potential)
+- **Status:** DEFERRED (comprehensive concept documentation complete, not started)
+- **Dependencies:** Green Zone + 4-6 months runway OR strategic funding
 
-**What Makes This Special:**
-- Voice AI logging (solves #1 pain point all competitors miss)
-- $11.35B market (diet/nutrition apps)
-- No competitors offering voice logging at scale
-- Conservative projections: $90K Y1, $600K Y2, $3M Y3
+**Documentation:** [Elimination Diet App - Comprehensive Documentation](./detailed-context/projects/elimination-diet-app.md)
 
-**Development Needed:**
-- Voice AI logging system (killer feature)
-- Food/symptom correlation engine
-- Elimination diet protocol tracking
-- Calendar heatmap visualizations
-- Beta testing with IBS/food allergy communities
+**Why This Could Be THE ONE:**
+- **YOU ARE THE CUSTOMER** - solving your active EoE/gluten allergy elimination diet needs
+- **Voice AI logging** - killer feature NO competitors have (first mover)
+- **Largest addressable market** of all your app ideas: **32-80 million Americans**
+  - 32M food allergies (10% of population)
+  - 3.3M celiac disease (1%, growing rapidly)
+  - 330K-660K EoE (YOUR condition, rising incidence)
+  - 50M+ IBS
+  - 15-50M autoimmune diseases using AIP elimination diets
+- **Medical necessity** = higher willingness to pay + better retention than Vegan Spots or Good Bananas
+
+**The Killer Differentiator (Voice AI):**
+- Notification prompts: "How are you feeling?"
+- You speak: "Had sourdough toast with almond butter at 8am, bloating started around 10"
+- AI parses: food items, timing, symptoms, severity automatically
+- Solves #1 complaint across ALL existing apps: "too tedious to manually enter everything"
+- **Voice AI proven in nutrition apps (PlateAI, SpeakMeal) but ZERO elimination diet apps have it**
+
+**Competitive Landscape Research:**
+- **Foody:** NO auto-correlation, 7-day limit, tedious re-entry, broken export, developer MIA
+- **mySymptoms:** 900K users but duplicate food entries "mess up analysis," confusing UX, NO voice
+- **Cara Care:** DANGEROUSLY inaccurate (shows trigger foods as "best"), NO CSV export, NO voice
+- **NO COMPETITOR** has voice AI logging despite users begging for it
+
+**Market Size (Comprehensive Research):**
+- Food Allergy Market: $39B (2025) → $66B (2034) growing 5.4% CAGR
+- Celiac Treatment Market: $682M (2024) → $1.6B (2032) growing 11.88% CAGR
+- Elimination Diet Method Market: $1.4B by 2035
+- Diet/Nutrition App Market: $11.35B → $40B+ (2032)
+- **Elimination diet is PRIMARY treatment** for food allergies, celiac, EoE, autoimmune conditions
+
+**Revenue Potential:**
+- Conservative (Year 1): 5,000 users, 15% conversion = $90K ARR
+- Moderate (Year 2): 25,000 users, 20% conversion = $600K ARR
+- Optimistic (Year 3): 100,000 users, 25% conversion = $3.6M ARR
+- Healthcare provider tier: Additional $450K ARR
+- **Total Year 3 potential: $4M ARR**
+- **Exit value: $20-40M** (5-10x ARR for health tech SaaS)
+
+**Technical Build (4-6 months):**
+- Month 1-2: Core MVP + Voice AI integration (use it yourself daily)
+- Month 3-4: Correlation engine + elimination diet protocols
+- Month 5: Polish & testing
+- Month 6: Beta launch to EoE/celiac communities
+
+**Your Unfair Advantages:**
+- Personal medical need (EoE) = authentic founder story + daily user
+- AI/automation expertise for voice parsing
+- Speed with Claude Code
+- Understanding of elimination diet pain points (you're living it)
+- Can build for yourself first, validate with own use
+
+**Why Higher Potential Than Other Apps:**
+- **Larger market:** 32-80M (elimination diet) vs. 20M (vegans) vs. 75% (banana buyers)
+- **Medical necessity:** Food allergies/autoimmune = must track vs. nice-to-have
+- **Higher engagement:** 3-4x daily logging vs. occasional dining vs. weekly shopping
+- **Better retention:** Chronic conditions = long-term need (years) vs. lifestyle preference
+- **Voice AI moat:** Genuinely hard to replicate vs. easier competitive threats
 
 **Conditions That Change Priority:**
-- ✅ **Strategic investor offers funding** → Urgency becomes 9/10 (pursue immediately)
-- ✅ **Partnership with health platform** → Urgency becomes 8/10
+- ✅ **YOU'RE ACTIVELY DOING ELIMINATION DIET** → Urgency ALREADY 7/10 (build for yourself)
+- ✅ **Strategic investor offers funding** → Urgency becomes 10/10 (pursue immediately)
+- ✅ **Partnership with health platform** → Urgency becomes 9/10
 - ✅ **Competitor launches voice logging** → Urgency becomes 10/10 (first-mover lost)
-- ✅ **Green Zone + passion project time** → Urgency becomes 6/10
+- ✅ **Green Zone + 4-6 months available** → Urgency becomes 8/10 (highest strategic value)
 - ✅ **Major health platform acquisition interest** → Urgency becomes 10/10
 
-**Current Decision:** DEFER until Green Zone OR major opportunity emerges
+**Current Decision:** STRONG CANDIDATE FOR #1 PRIORITY - You're the user, largest market, highest revenue ceiling, voice AI moat, medical necessity retention
 
 ---
 
