@@ -2,7 +2,7 @@
 
 **Advanced Lead Solutions - Strategic Business Database**
 
-**Last Updated:** January 20, 2026
+**Last Updated:** January 28, 2026
 
 ---
 
@@ -80,14 +80,30 @@ See the full protocol document for templates, folder structure, and detailed gui
 
 ---
 
+### 🎨 **UI Design System (For Software Development)**
+- [UI Design Protocol](./UI-DESIGN-PROTOCOL.md) - Complete 3-phase design framework
+  - Phase 1: Foundation (design tokens - do once)
+  - Phase 2: MVP Build (ship fast, validate)
+  - Phase 3: Polish (animations, icons, personality)
+- [Claude Code Quick Reference](./CLAUDE-CODE-QUICK-REFERENCE.md) - Copy-paste prompts for starting projects
+
+**Integrated with KNOWLEDGE-MANAGEMENT.md:**
+- Claude Code automatically guides you through design decisions
+- No need to remember the protocol - AI enforces it
+- Solves "apps all look the same" problem systematically
+
+---
+
 ## Repository Structure
 
 ```
 /Business/
 ├── README.md (👈 YOU ARE HERE)
 ├── FOCUS.md (⭐ START HERE DAILY)
-├── KNOWLEDGE-MANAGEMENT.md (🔧 Protocol for adding/managing docs)
+├── KNOWLEDGE-MANAGEMENT.md (🔧 Protocol for adding/managing docs + UI guidance)
 ├── backlog.md (📋 Dynamic task system with conditions)
+├── UI-DESIGN-PROTOCOL.md (🎨 Complete design framework for apps)
+├── CLAUDE-CODE-QUICK-REFERENCE.md (🎨 Copy-paste prompts for projects)
 │
 ├── /metrics/ (Financial & Performance Data)
 │   ├── revenue-tracking.md
