@@ -4,7 +4,7 @@
 
 **Audience:** Claude Code sessions, future team members, and any AI agents working in this repository
 
-**Last Updated:** January 24, 2026
+**Last Updated:** January 28, 2026
 
 ---
 
@@ -515,6 +515,247 @@ New File Integration Checklist:
 1. Update "Last Updated" date
 2. Document what changed in commit message
 3. Notify regular users if major changes
+
+---
+
+## UI Design Guidance Protocol (Added Jan 28, 2026)
+
+**For full details:** See [UI-DESIGN-PROTOCOL.md](./UI-DESIGN-PROTOCOL.md) and [CLAUDE-CODE-QUICK-REFERENCE.md](./CLAUDE-CODE-QUICK-REFERENCE.md)
+
+### When User Starts a New Project
+
+**If user says things like:**
+- "Let's build [app name]"
+- "I want to create [feature]"
+- "Help me design [interface]"
+
+**YOU MUST systematically guide them through design decisions. Don't assume they know the protocol.**
+
+#### STEP 1: Project Discovery (Ask First)
+
+Before writing any code, ask:
+
+1. **"What's the app name and purpose?"** (one sentence)
+2. **"Who are the target users?"**
+3. **"What's the primary user action/goal?"**
+4. **"Are we building MVP (fast validation) or polished product (ready for launch)?"**
+5. **"Any reference apps you like for design inspiration?"**
+
+#### STEP 2: Design Foundation Check
+
+Ask: **"Do you have design tokens already?"**
+
+- **If YES:** Ask them to paste tokens or point to file
+- **If NO:** Guide them through 15-minute creation:
+  1. "Go to Coolors.co and generate palettes until you find colors you like"
+  2. "Pick your primary color, I'll help generate the shade scale"
+  3. "We'll use system fonts and 8px spacing grid"
+
+**Don't skip this step.** Design tokens are the foundation that prevents apps from looking generic.
+
+#### STEP 3: Set Phase Expectations
+
+Based on their answer to "MVP vs Polished," tell them:
+
+**IF MVP PHASE:**
+```
+We're in MVP phase. Here's what that means:
+- Focus: Get core features working and validate concept
+- Design: Clean, simple, using shadcn/ui components
+- Timeline: [Estimate hours/days]
+- We WILL: Use your design tokens, mobile-responsive, functional layout
+- We WON'T yet: Custom animations, fancy icons, custom illustrations
+- Goal: Ship quickly to get user feedback
+
+After you have users, we can add polish.
+```
+
+**IF POLISH PHASE:**
+```
+We're building a polished product. Here's the approach:
+1. Build MVP foundation first (functionality + clean design)
+2. Then add polish layer (animations, icons, illustrations)
+3. We'll apply the "10x better" techniques from the video
+
+This will take longer but result in a professional, unique feel.
+```
+
+#### STEP 4: Propose Structure (Wait for Approval)
+
+Suggest:
+- 3-5 core screens/pages
+- Which shadcn/ui components you'll use
+- Basic information architecture
+
+**Say:** "Does this structure make sense? Any changes before I start building?"
+
+**DON'T start coding until they approve.**
+
+#### STEP 5: Build with Phase Guidelines
+
+**MVP Phase Building Rules:**
+- Use shadcn/ui components (minimal customization)
+- Apply design tokens consistently
+- Focus on functionality over aesthetics
+- Keep layouts simple and clean
+- NO custom animations yet
+- NO custom icons (use shadcn defaults)
+- NO empty state illustrations yet
+
+**If user asks for polish features in MVP phase:**
+- Gently redirect: "That's a polish feature. Should we add it after the MVP works, or is it critical for validation?"
+
+**Polish Phase Building Rules:**
+- Build MVP foundation first
+- Then apply polish systematically:
+  1. Animation pass (most-used interactions)
+  2. Icon consistency audit
+  3. Empty state design
+  4. Micro-interactions
+  5. Visual hierarchy refinement
+
+### Animation Technique (Critical for Polish Phase)
+
+**When user asks for animations, NEVER try to oneshot it.**
+
+**Bad approach:**
+❌ "I'll make this look better with animations" → builds complex animation that's hard to modify
+
+**Good approach:**
+✅ Ask them to describe the sequence in steps:
+1. "What should happen first?"
+2. "What happens next?"
+3. "What's the final state?"
+
+Then build incrementally:
+- Show step 1 for approval
+- Add step 2 after approval
+- Combine and refine
+
+**Example:**
+```
+User: "Make the submit button feel better"
+
+You: "Let's break this into steps. When they click submit, what should happen?"
+User: "It should feel like it's being pressed, then show loading"
+
+You: "Great. Let's build this in parts:
+1. Button scales down slightly (pressed feel)
+2. Button shows loading spinner
+3. On success, button shows checkmark
+
+Let me build step 1 first. [builds and shows]
+Looks good? I'll add the loading spinner next."
+```
+
+### Smart Questions During Building
+
+**Proactively ask when you encounter decisions:**
+
+- "I see this could be designed multiple ways - any preference?"
+- "Should this be a separate page or a modal?"
+- "Do you want this in the MVP or defer it?"
+- "This pattern repeats - should I make it consistent everywhere?"
+- "This empty state needs content - text only or illustration?"
+- "I notice this animation might be overkill for MVP - add it now or later?"
+
+### Red Flags (Stop and Ask)
+
+**If you find yourself doing these things, STOP and ask user:**
+
+- Spending >10 minutes on visual design in MVP phase
+- Building complex animations in MVP phase
+- Needing custom assets (images, illustrations) they haven't provided
+- Scope expanding beyond initial 3-5 screens
+- Customizing shadcn/ui heavily (defeats the purpose)
+
+**Say:** "I notice [thing]. This feels like it's moving beyond MVP scope. Should we defer this or is it critical?"
+
+### Design Tokens Format
+
+**When user provides design tokens, expect this structure:**
+
+```javascript
+colors: {
+  primary: { 500: '#COLOR', /* ...shades 50-900 */ },
+  grey: { 50: '#...', /* ...shades */ },
+  success: '#10B981',
+  error: '#EF4444',
+  warning: '#F59E0B',
+}
+
+spacing: {
+  1: '8px', 2: '16px', 3: '24px',
+  4: '32px', 6: '48px', 8: '64px'
+}
+
+typography: {
+  font: 'Inter, system-ui, sans-serif',
+  sizes: { xs: '12px', sm: '14px', base: '16px', ... }
+}
+```
+
+**Apply these consistently:**
+- Use ONLY these colors (no random colors)
+- Use ONLY these spacing values (8px increments)
+- Use ONLY these font sizes
+
+**If user doesn't have tokens:** Guide them to create them before building (see Step 2).
+
+### Integration with Existing Protocols
+
+**Before starting ANY new project:**
+1. Check FOCUS.md - What's their current priority?
+2. Check backlog.md - Is this an active task or new idea?
+3. If new idea: "Should we add this to the backlog and stay focused on [current priority]?"
+
+**For service delivery projects (client work):**
+- Still apply design tokens if available
+- MVP phase is usually appropriate (client review cycles)
+- Polish phase only if explicitly in scope
+
+**For personal SaaS projects:**
+- Always start with MVP to validate
+- Add polish only after user feedback
+- Reference backlog.md to check if this project should be prioritized now
+
+### Common Patterns by Project Type
+
+**Marketing Website:**
+- Usually MVP level is sufficient
+- Focus on conversion optimization
+- Professional but not over-designed
+- Ship fast, iterate based on performance
+
+**SaaS App:**
+- MVP first to validate concept
+- Polish before public launch
+- Prioritize polish on user-facing features
+- Internal features can stay MVP
+
+**Mobile App:**
+- Include haptic feedback in polish phase
+- Test on real device (Expo Go)
+- Platform conventions matter (iOS vs Android)
+
+**Client Delivery:**
+- Match sophistication to budget
+- MVP for most projects
+- Polish only if explicitly scoped
+
+### Why This Protocol Matters
+
+**Without it:**
+- User has to remember the design framework
+- Apps look generic (no design tokens)
+- Scope creeps (MVP turns into over-engineered product)
+- Time wasted on premature polish
+
+**With it:**
+- You guide them systematically
+- Design tokens create consistency
+- MVP ships fast, polish is intentional
+- User focuses on building, you handle process
 
 ---
 
