@@ -58,20 +58,22 @@ Your team lead sees this data in real-time, can coach on the call while it's fre
 ---
 
 ### Option 3: Ongoing Lead Management System
-**Investment:** $8,000 setup + $1,000/month ongoing
+**Investment:** $8,000-$10,000 setup (database reactivation) + $1,000/month ongoing
 
 **What This Includes:**
-- Everything in Option 1 (one-time database reactivation)
+- Complete database reactivation (same as Option 1)
 - Plus: Continuous AI qualification of all new inbound leads
 - Automatic re-engagement of non-responsive leads over 30-60 day nurture
-- 24/7 lead response and qualification
+- 24/7 lead response and qualification (under 5 minutes)
 - Monthly lead quality scoring and reporting
 - Ongoing optimization based on performance data
 
 **How It Works:**
-New leads come in from marketing → AI engages within 5 minutes → Qualifies interest and timeline → Books appointments with qualified sellers → Continues nurturing non-responsive leads → Only passes sales-ready appointments to your team
+We start by reactivating your 8,000-10,000 inactive leads (same as Option 1). Then, for all future leads that come in from marketing, the system automatically engages within 5 minutes → Qualifies interest and timeline → Books appointments with qualified sellers → Continues nurturing non-responsive leads → Only passes sales-ready appointments to your team.
 
-**Impact:** Never miss a lead, reduce response time to under 5 minutes, continuous pipeline development, team only talks to qualified sellers
+**Impact:** Never miss a lead, reduce response time to under 5 minutes, continuous pipeline development from both old database AND new leads, team only talks to qualified sellers
+
+**Note:** The setup cost ($8,000-$10,000) covers the initial database reactivation based on your lead count. The monthly fee ($1,000) covers ongoing management of all NEW leads coming from your marketing.
 
 ---
 
@@ -199,8 +201,8 @@ New leads come in from marketing → AI engages within 5 minutes → Qualifies i
 - Split payment available if needed
 
 **Option 3 - Ongoing Lead Management:**
-- Setup: $8,000 upon contract signing
-- Monthly: $1,000/month (first month due at launch)
+- Setup: $8,000-$10,000 upon contract signing (based on final lead count for database reactivation)
+- Monthly: $1,000/month (first month due at launch, covers all new inbound leads)
 
 ---
 
