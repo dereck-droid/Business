@@ -1,6 +1,6 @@
 # 📋 Dynamic Task Backlog
 
-**Last Updated:** January 20, 2026
+**Last Updated:** January 28, 2026
 
 ---
 
@@ -216,6 +216,164 @@ Your daily dashboard ([FOCUS.md](./FOCUS.md)) filters these tasks based on:
 - ✅ **Green Zone reached** → Urgency becomes 5/10
 
 **Current Decision:** DEFER until Ken's version complete and validated
+
+---
+
+### Build Vegan Spots App
+
+**Current Assessment:**
+- **Urgency:** 2/10 (idea stage, but solving personal pain point)
+- **Importance:** 10/10 (personal need + massive market opportunity)
+- **Zone Viability:** 🟢 Green minimum (requires 4-6 weeks focused development)
+- **Time Investment:** 4-6 weeks from start to launch
+- **Revenue Impact:** Short-to-long term ($215K Y2 → $975K Y3 potential)
+- **Status:** DEFERRED (extensive concept documentation complete, not started)
+- **Dependencies:** Green Zone + 4-6 weeks runway
+
+**Documentation:** [Vegan Spots - Full Concept](./detailed-context/projects/vegan-spots-app.md)
+
+**What Makes This Special:**
+- **You ARE the customer** - solving your own daily pain point
+- **AI voice agent moat** - systematically calls restaurants to gather vegan menu data
+- **Launch with complete data** - populate entire city in days vs. months/years
+- **Nobody else doing this** - competitors rely on slow user submissions
+- ~20M vegans in US + 5% vegetarian market
+- B2B revenue from day one (restaurants pay for claimed listings)
+- HappyCow is beatable (old, charges users, thin data)
+
+**The Killer Differentiator:**
+AI agent calls every restaurant in a city to document vegan options:
+- Structured interview with managers
+- Logs all vegan menu items by category
+- Quarterly re-verification calls to keep data fresh
+- Makes you 10x faster at new market entry than any competitor
+- Plays directly to your AI/automation expertise
+
+**Development Needed:**
+- Mobile app (React Native or Flutter)
+- Map interface with restaurant pins
+- AI calling agent (Bland.ai, Vapi.ai, or custom)
+- n8n workflows for call orchestration
+- Restaurant detail pages with verified vegan items
+- User reviews and photo uploads
+- Backend (Supabase or Firebase)
+
+**Launch Strategy:**
+- Week 1-2: Build MVP core app
+- Week 2-3: Build AI voice agent + test on 20 restaurants
+- Week 3: AI agent calls 200+ Greenville restaurants
+- Week 4: User features + beta launch to local vegan community
+- Target: 200+ users, 50+ reviews in first month
+
+**Revenue Potential:**
+- Conservative (24 months): $215K/year
+  - Premium users: $35K
+  - Restaurant subscriptions: $150K
+  - Affiliates + data: $30K
+- Optimistic (36 months): $975K/year
+  - 100K users, 1,000 restaurant subscriptions
+  - Strong acquisition candidate for DoorDash, Uber Eats, Yelp
+
+**Your Unfair Advantages:**
+- Personal experience as daily user
+- AI/automation expertise for calling agent
+- Speed with Claude Code (ship in weeks)
+- Understanding of vegan community
+- Technical moat (AI agent hard to replicate)
+
+**Conditions That Change Priority:**
+- ✅ **You're constantly frustrated finding vegan options** → Urgency becomes 7/10 (solve own pain)
+- ✅ **Strategic investor offers funding** → Urgency becomes 9/10 (pursue immediately)
+- ✅ **Partnership with food delivery platform** → Urgency becomes 8/10
+- ✅ **Green Zone + passion project time** → Urgency becomes 6/10
+- ✅ **HappyCow releases major update** → Urgency becomes 8/10 (window closing)
+- ✅ **Growth partner interested in co-building** → Urgency becomes 8/10
+
+**Current Decision:** DEFER until Green Zone OR major opportunity emerges - **RECOMMENDED TO BUILD FIRST**
+
+---
+
+### Build Good Bananas App
+
+**Current Assessment:**
+- **Urgency:** 2/10 (idea stage, longer validation needed)
+- **Importance:** 8/10 (unique concept, genuine market gap)
+- **Zone Viability:** 🟢 Green minimum (requires 1-2 weeks for MVP)
+- **Time Investment:** 1-2 weeks MVP, 2-3 months to validate
+- **Revenue Impact:** Long-term ($45K Y1 → $1.23M Y3 potential)
+- **Status:** DEFERRED (extensive concept documentation complete, not started)
+- **Dependencies:** Green Zone OR after Vegan Spots validates app-building model
+
+**Documentation:** [Good Bananas - Full Concept](./detailed-context/projects/good-bananas-app.md)
+
+**Core Concept:**
+Crowdsource real-time geo-located information about where to find ripe bananas at grocery stores. Users check in when they spot ripe bananas, creating live map for the community.
+
+**The Problem:**
+- Americans consume 20 billion bananas annually (75% buy regularly)
+- 30% of shoppers cite fresh produce as frequently poor quality
+- 54% visit 3+ stores to find what they need
+- User personal experience: often visits multiple stores for ripe bananas
+- Banana ripeness worse in winter months
+
+**CRITICAL Design Philosophy - Keep It Pure:**
+- NO financial rewards or incentives for reporting
+- NO ability to report "bad" bananas (only good ones)
+- NO paywalled data that hides community contributions
+- Tribal/community motivation ONLY (like Wikipedia, Waze)
+- Humor and absurdity IS the engagement mechanism
+- Identity: "I help fellow banana seekers"
+
+**Revenue Model (Preserves Purity):**
+1. **B2B Data Licensing** (primary) - sell anonymized trend data to grocery chains, produce distributors
+2. **Optional Store Tools** ($50-99/month) - analytics, promotions (user experience identical whether store pays)
+3. **Premium User Subscription** ($2.99-4.99/month) - ad-free, push notifications (optional, later)
+4. **Minimal Advertising** - produce-related brands only
+5. **Exit Strategy** - sell to Instacart, Kroger, Whole Foods ($500K-2M potential)
+
+**Technical Build:**
+- Fast MVP options: PWA (3-5 days) or no-code (1-2 days with Airtable + Softr + n8n)
+- Full build: React Native + Supabase + Google Maps + n8n (1-2 weeks)
+- Geofencing verification (must be at store)
+- Photo with timestamp requirement
+- Rate limiting (1 check-in per store per day per user)
+- Map view showing recent reports
+
+**Launch Strategy:**
+- Month 1: Greenville/Simpsonville only, 100 active users
+- Month 2-3: Expand to nearby cities (Spartanburg, Anderson), 500-1000 users
+- Month 3-6: Approach grocery chains with data insights (1,000+ users = leverage)
+- Month 6+: Scale to other cities OR explore acquisition
+
+**Unique Advantages:**
+- No direct competition (truly unique positioning)
+- Strong emotional hook (shared frustration)
+- Inherently shareable (absurdist humor, viral-friendly)
+- Fast to build (1-2 weeks)
+- Multiple revenue paths
+- Could expand to all produce types
+- Exit potential to grocery tech companies
+
+**Why Second Priority (After Vegan Spots):**
+- Hypothetical users vs. solving your own pain
+- Easier to copy vs. AI agent moat
+- Lower engagement frequency (occasional vs. regular dining)
+- Critical mass dependency (needs many users per area)
+- Seasonal fluctuation (banana quality varies)
+
+**Comparable Apps:**
+- **Waze** (best comparison): Crowdsourced traffic, tribal motivation, sold to Google for $1.1B
+- **GasBuddy**: 70M downloads, B2B revenue from gas stations, data licensing
+- Keep user contribution pure, monetize through B2B
+
+**Conditions That Change Priority:**
+- ✅ **Vegan Spots successful** → Urgency becomes 6/10 (validated app-building model)
+- ✅ **Growth partner wants portfolio of apps** → Urgency becomes 7/10
+- ✅ **Quick MVP test shows strong engagement** → Urgency becomes 8/10
+- ✅ **Grocery chain expresses interest** → Urgency becomes 9/10
+- ✅ **Green Zone + time between projects** → Urgency becomes 5/10
+
+**Current Decision:** DEFER until Green Zone AND after Vegan Spots - **BUILD SECOND as portfolio piece**
 
 ---
 
