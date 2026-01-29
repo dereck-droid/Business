@@ -12,6 +12,60 @@ After researching InvestorBase's capabilities and GoHighLevel's custom objects f
 
 **Key Finding:** InvestorBase integrates with 8,000+ apps through Zapier, including GoHighLevel (via LeadConnector).
 
+**BONUS DISCOVERY:** InvestorBase allows iframe embedding, which means it can be embedded DIRECTLY into the GoHighLevel navigation menu as a Custom Menu Link. Team members can access InvestorBase without ever leaving the GHL interface - this creates a truly unified experience.
+
+---
+
+## 🎯 Bonus Feature: Native InvestorBase Embedding in GoHighLevel
+
+**CONFIRMED:** InvestorBase successfully embeds via iframe in GoHighLevel's Custom Menu Links feature.
+
+### What This Means for Ben's Team
+
+Instead of switching between browser tabs or bookmarking InvestorBase separately, the team will:
+- **Click "Buyer Search" (or any custom name)** directly in the GHL sidebar
+- **Access InvestorBase within the GHL interface** - no context switching
+- **Upload properties and find buyers** without leaving their CRM
+- **Experience appears native** - looks like InvestorBase is part of GoHighLevel
+
+### Technical Implementation
+
+**Setup Time:** 5 minutes per user (can be configured at agency level for all sub-accounts)
+
+**Steps:**
+1. Navigate to **Settings > Custom Menu Links** in GoHighLevel
+2. Click **Create New**
+3. Configure:
+   - **Icon:** Choose relevant icon (search, users, or building icon)
+   - **Title:** "Buyer Search", "InvestorBase", or "Find Buyers"
+   - **Link URL:** `https://app.investorbase.com` (or their specific dashboard URL)
+   - **Opening Method:** "Embedded Page (iFrame)"
+4. Set user permissions (which team members can access)
+5. Save and deploy
+
+**User Experience:**
+- New menu item appears in left sidebar
+- Click opens InvestorBase in embedded panel
+- Can login, search, upload properties, view matches
+- Switch between GHL features and InvestorBase seamlessly
+- No browser tab juggling
+
+### Benefits
+
+1. **Unified Interface** - Everything in one platform
+2. **Faster Workflow** - No context switching between apps
+3. **Professional Appearance** - Looks like custom-built integration
+4. **Team Adoption** - Easier onboarding, everything in one place
+5. **No Additional Cost** - Native GHL feature, included in platform
+
+### Combined with Zapier Integration
+
+This creates a **two-way integration:**
+- **Manual workflow:** Team uses embedded InvestorBase to find buyers → copies/notes contact info → creates in GHL
+- **Automated workflow:** InvestorBase matches buyers → Zapier automatically syncs to GHL → team sees them in contact list
+
+**Best of both worlds:** Visual access to InvestorBase + automated data sync to GHL.
+
 ---
 
 ## What is InvestorBase?
@@ -201,12 +255,13 @@ GoHighLevel offers robust custom objects and filtering features specifically des
 **What This Means for the Project:**
 
 Add to scope:
+- **Custom Menu Link setup** for embedded InvestorBase access (5 min setup - BONUS)
 - Zapier integration setup between InvestorBase and GoHighLevel
 - Custom buyer object in GHL to receive InvestorBase matches
 - Workflow automation for buyer follow-up after InvestorBase match
-- Training on how InvestorBase + GHL work together
+- Training on how InvestorBase + GHL work together (including embedded access)
 
-**No pricing change needed** - this integration work fits within the $19,500 scope as part of "platform integrations."
+**No pricing change needed** - this integration work (including iframe embedding) fits within the $19,500 scope as part of "platform integrations."
 
 ---
 
@@ -214,6 +269,8 @@ Add to scope:
 
 ### Week 1: Discovery & Setup
 - Confirm Ben's InvestorBase account details and current usage
+- **Set up Custom Menu Link** for embedded InvestorBase access (5 minutes)
+- Configure user permissions for team access to embedded InvestorBase
 - Set up Zapier connection (InvestorBase → LeadConnector/GHL)
 - Create "Buyer" custom object in GHL with fields to receive InvestorBase data
 - Map InvestorBase buyer fields to GHL custom object fields
@@ -231,8 +288,10 @@ Add to scope:
 - Refine automation based on feedback
 
 ### Week 4: Training & Launch
-- Train team on InvestorBase → GHL workflow
+- Train team on embedded InvestorBase access via Custom Menu Link
+- Train team on InvestorBase → GHL workflow (manual and automated)
 - Document process (uploading properties, following up with matched buyers)
+- Provide quick reference guide for accessing InvestorBase within GHL
 - Go live with full property list
 - Monitor integration and resolve issues
 
@@ -273,10 +332,17 @@ Before finalizing the recommendation:
 
 ## Sources
 
+### InvestorBase Research
 - [InvestorBase Reviews 2026](https://realestatebees.com/software/investorbase/)
 - [InvestorBase Review for Real Estate Investors](https://www.realestateskills.com/blog/investorbase-review)
+- [InvestorBase Official Website](https://www.investorbase.com)
+- [7 Best Real Estate Disposition Software for Wholesalers](https://realestatebees.com/guides/software/disposition/)
+- [InvestorBase Integrations on Zapier](https://zapier.com/apps/investorbase/integrations)
+
+### GoHighLevel Features & Integration
 - [Real Estate Case Study for Custom Objects in HighLevel](https://help.gohighlevel.com/support/solutions/articles/155000004176-custom-objects-real-estate-case-study)
 - [How to Create Custom Fields in GoHighLevel](https://help.gohighlevel.com/support/solutions/articles/48001161579-how-to-use-custom-fields)
 - [GoHighLevel Zapier Integration](https://help.gohighlevel.com/support/solutions/articles/155000005109-how-to-connect-a-highlevel-sub-account-with-zapier)
-- [InvestorBase Official Website](https://www.investorbase.com)
-- [7 Best Real Estate Disposition Software for Wholesalers](https://realestatebees.com/guides/software/disposition/)
+- [Customizing HighLevel Menus: Custom Menu Links Guide](https://help.gohighlevel.com/support/solutions/articles/48001185767-customizing-highlevel-menus-a-guide-to-custom-menu-links)
+- [How to Use Custom Menu Links in SaaS Plans](https://help.gohighlevel.com/support/solutions/articles/155000004196-how-to-use-custom-menu-links-in-saas-plans)
+- [Embed External Content on a HighLevel Dashboard](https://help.gohighlevel.com/support/solutions/articles/155000001627-how-to-embed-external-content-on-a-dashboard)
