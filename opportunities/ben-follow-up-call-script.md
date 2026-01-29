@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 OPENING
+## OPENING
 
 "Hey Ben, thanks again for the time this morning. As I mentioned, I wanted to follow up after doing some deeper research on the technical approach for your 8,000-10,000 cold leads. Do you have 10-15 minutes?"
 
 ---
 
-## 🏗️ THE ARCHITECTURE (Why Two Platforms)
+## THE ARCHITECTURE (Why Two Platforms)
 
 ### The Problem with GHL-Only for Cold Email
 
@@ -51,53 +51,52 @@ Using GoHighLevel alone for that scale of cold email has serious risks:
 
 ---
 
-## 💰 PRICING: $19,500 (30-Day Setup)
+## PRICING: $19,500 (30-Day Setup)
 
 ### What's Included
 
 **SmartLead Setup:**
-- ✅ Account configuration and domain setup
-- ✅ Email warmup strategy (built into SmartLead)
-- ✅ GPT-4 response categorization (5+ categories)
-- ✅ Cold email sequence STRUCTURE (you write copy with my guidance)
-- ✅ Deliverability monitoring
+- Account configuration and domain setup
+- Email warmup strategy (built into SmartLead)
+- GPT-4 response categorization (5+ categories)
+- Cold email sequence STRUCTURE (you write copy with my guidance)
+- Deliverability monitoring
 
 **GHL Setup:**
-- ✅ Complete platform configuration
-- ✅ **Current workflow analysis** (learn your existing CRM processes)
-- ✅ **Mirror your proven workflows** (ease of adoption for your team)
-- ✅ **Streamline and optimize** (improve efficiency where possible)
-- ✅ Lead import (8K-10K contacts)
-- ✅ Warm lead nurture workflow structures
-- ✅ Appointment booking automation
-- ✅ Deal pipeline and team management
-- ✅ Custom dashboards
+- Complete platform configuration
+- **Current workflow analysis** (learn your existing CRM processes)
+- **Mirror your proven workflows** (ease of adoption for your team)
+- **Streamline and optimize** (improve efficiency where possible)
+- Lead import (8K-10K contacts)
+- Warm lead nurture workflow structures
+- Appointment booking automation
+- Deal pipeline and team management
+- Custom dashboards
 
 **Integration:**
-- ✅ SmartLead → GHL API/webhook automation
-- ✅ Automatic lead handoff on positive responses
-- ✅ Cross-platform testing and QA
+- SmartLead → GHL API/webhook automation
+- Automatic lead handoff on positive responses
+- Cross-platform testing and QA
 
 **Training & Support:**
-- ✅ Team training (primarily on GHL - 4-5 hours)
-- ✅ Best practices documentation
-- ✅ 30-day technical support
+- Team training (primarily on GHL - 4-5 hours)
+- Best practices documentation
+- 30-day technical support
 
 **Timeline:** 30 days to operational system
 
 ### What You Provide
-- 📝 Email copy (I provide structure/templates, you write in your voice)
-- 📝 Brand/positioning guidance
-- 🎥 Videos (if using for campaigns)
+- Email copy (I provide structure/templates, you write in your voice)
+- Brand/positioning guidance
 
 ### Monthly Ongoing Costs for You
 - SmartLead Pro: $94/month (30K leads, GPT-4, unlimited warmup)
-- GoHighLevel: $297-$497/month (depending on plan)
-- **Total: ~$400-$600/month**
+- GoHighLevel: $297/month
+- **Total: $391/month**
 
 ---
 
-## 💳 PAYMENT OPTIONS (Flexible for Cash Flow)
+## PAYMENT OPTIONS (Flexible for Cash Flow)
 
 "As I mentioned this morning, I can be flexible on payment structure to work with your cash flow:
 
@@ -121,7 +120,7 @@ Which structure works best for EquityPro?"
 
 ---
 
-## ❓ DISCOVERY QUESTIONS (If Needed)
+## DISCOVERY QUESTIONS (If Needed)
 
 **Quick clarifications:**
 
@@ -135,7 +134,7 @@ Which structure works best for EquityPro?"
 
 ---
 
-## 🚀 CLOSING
+## CLOSING
 
 ### Direct Ask
 
@@ -170,27 +169,27 @@ Which structure works best for EquityPro?"
 
 ---
 
-## 📋 NEXT STEPS (Based on Outcome)
+## NEXT STEPS (Based on Outcome)
 
 ### If He Commits
-1. ✅ Send agreement today (within 2 hours)
-2. ✅ Request first payment
-3. ✅ Schedule kickoff call (within 48 hours)
-4. ✅ Request access to current systems
+1. Send agreement today (within 2 hours)
+2. Request first payment
+3. Schedule kickoff call (within 48 hours)
+4. Request access to current systems
 
 ### If He Needs Proposal
-1. ✅ Send detailed proposal today
-2. ✅ Include everything discussed
-3. ✅ Schedule follow-up call (specific date)
+1. Send detailed proposal today
+2. Include everything discussed
+3. Schedule follow-up call (specific date)
 
 ### If He Needs Time
-1. ✅ Ask what information would help decision
-2. ✅ Provide immediately
-3. ✅ Schedule follow-up (don't let drift)
+1. Ask what information would help decision
+2. Provide immediately
+3. Schedule follow-up (don't let drift)
 
 ---
 
-## 💪 CONFIDENCE REMINDERS
+## CONFIDENCE REMINDERS
 
 **Why $19,500 is justified:**
 - Two-platform integration (market rate: $6K-$24K alone)
@@ -210,7 +209,7 @@ Which structure works best for EquityPro?"
 
 ---
 
-## 🔑 KEY TALKING POINTS
+## KEY TALKING POINTS
 
 1. **"I consulted with an expert who's built 300+ GHL systems"** - establishes credibility and due diligence
 2. **"GHL alone for cold email risks blacklisting your domain"** - technical reason for two-platform approach
@@ -220,13 +219,13 @@ Which structure works best for EquityPro?"
 
 ---
 
-## ⚠️ DON'T FORGET
+## DON'T FORGET
 
-- ✅ Listen more than you talk
-- ✅ Let silence breathe after asking
-- ✅ This is consultative, not salesy - he's already bought in
-- ✅ Offer payment flexibility (you already mentioned 4 monthly payments)
-- ✅ Get commitment to clear next step
+- Listen more than you talk
+- Let silence breathe after asking
+- This is consultative, not salesy - he's already bought in
+- Offer payment flexibility (you already mentioned 4 monthly payments)
+- Get commitment to clear next step
 
 ---
 
