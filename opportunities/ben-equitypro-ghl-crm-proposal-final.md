@@ -1,9 +1,9 @@
 ---
-**Status:** CURRENT (Presented to Ben on Jan 30, 2026 - Awaiting decision)
+**Status:** CURRENT (Updated 2026-01-31 with InvestorBase integration + ownership clarification)
 **Document Type:** Proposal
 **Supersedes:** ben-equitypro-proposal-2026.md, ben-equitypro-smartlead-ghl-proposal.md
 **Context:** Re-engagement from October 2024 discovery call. See ben-meeting-strategy-jan-30.md for full context.
-**Next Update Needed:** Add InvestorBase integration details, ownership clarification per Ben's email 1/31/26
+**Updates Applied:** Added InvestorBase integration, ownership/portability section, daily workflow examples per Ben's concerns
 ---
 
 # GoHighLevel CRM Implementation Proposal
@@ -152,6 +152,154 @@ Your current Drupal CRM cost hundreds of thousands but gets you "about a third o
 - Future-proofs with endless API capabilities
 
 Plus, this positions us for the secondary projects we discussed (live lead pull system, etc.).
+
+---
+
+## InvestorBase Integration - All Your Tools in ONE Place
+
+You mentioned needing InvestorBase for buyer prospecting, and I have great news: **InvestorBase will live INSIDE your GoHighLevel CRM.**
+
+### How It Works
+
+**1. Embedded in Your Sidebar**
+InvestorBase supports iframe embedding, which means I'll add it as a custom menu link directly in your GHL navigation. Your team clicks one button and InvestorBase opens right there - no leaving the CRM, no separate logins to remember.
+
+**2. Zapier Integration**
+When your team finds a buyer in InvestorBase (searching by area, buy box, investment type), they click "Send to GHL" and that contact instantly appears in your buyer pipeline. No CSV exports, no manual data entry.
+
+**The Experience:**
+- Jason searches InvestorBase for fix & flip investors in College Park
+- Finds 3 qualified buyers
+- Clicks "Send to GHL"
+- All 3 contacts appear in his buyer pipeline immediately
+- He texts them about a new property - all from the same interface
+
+**Your Concern About Tools Not Being Unified?** Solved. InvestorBase lives inside the CRM. Your team works in ONE place, period.
+
+---
+
+## You Own This Build - Complete Ownership & Portability
+
+Let me address the ownership question directly: **You own 100% of this custom build. Not me - you.**
+
+### What You Own
+
+- ✅ All workflows and automations (every sequence, every trigger)
+- ✅ All custom fields and pipelines (seller/buyer structures)
+- ✅ All contacts and data (export anytime, unlimited)
+- ✅ All integrations and configurations (SmartLead, website, forms)
+- ✅ All team permissions and settings
+
+Think of it like this: You're hiring a contractor to build custom cabinets. Once they're built, **you own the cabinets** - you're just choosing to keep them in my workshop for the discount.
+
+### Transfer Process (If You Ever Want To)
+
+Transferring your build to your own GoHighLevel subscription takes about 1 hour:
+
+1. You create your own GHL agency account ($497/month direct)
+2. I export a "snapshot" of your entire system (one click)
+3. You import that snapshot to your account (one click)
+4. Done - you have the exact same system, now on your own plan
+
+**No vendor lock-in. No data held hostage. Complete portability.**
+
+### Why Stay on My Plan?
+
+**Benefit #1: Cost Savings**
+- My plan: $297/month (what you pay)
+- Direct GHL: $497/month (what you'd pay)
+- Savings: $2,400/year for the same features
+
+**Benefit #2: Ongoing Support**
+- Priority troubleshooting (vs. GHL's generic support queue)
+- New workflow requests as your business evolves
+- Platform updates and new AI features (GHL ships constantly)
+- I know your system inside and out
+
+**Benefit #3: Future Projects**
+- Live lead pull system we discussed
+- Additional automation as you identify needs
+- Expansion to other markets
+
+**But the choice is always yours.** Stay because it makes financial sense and I provide value, not because you're stuck.
+
+---
+
+## What Your Team Will See Daily
+
+I'm creating a video walkthrough showing exactly what your team members will see when they log in. Here's what to expect:
+
+### Jason's Morning (Acquisition Rep)
+
+**8:30 AM - Logs in to clean dashboard**
+- 3 tasks for today: Follow up with Maria (hot lead), call David back, send offer to Linda
+- New SMS from motivated seller: "Got your letter, interested in selling"
+
+**8:45 AM - Checks conversations**
+- All his SMS, email, and Facebook messages in one inbox
+- Responds to seller directly from platform
+- AI can auto-log notes to contact (no manual typing)
+
+**9:15 AM - Moves deals through pipeline**
+- Drag Maria's card from "Contacted" to "Appointment Set"
+- Calendar automatically sends her confirmation SMS
+- Ben sees updated pipeline value in his admin dashboard
+
+**10:00 AM - Property goes under contract**
+- Moves deal to "Under Contract" stage
+- Triggers automatic workflow: notify buyer list, send to InvestorBase for backup buyers
+
+### Sarah's Workflow (Disposition Rep)
+
+**Clicks InvestorBase in sidebar**
+- New property at 1847 Lake Shore Dr (Maria's house)
+- Searches InvestorBase: "Fix & flip investors, College Park area"
+- Finds 5 qualified buyers
+- Clicks "Send to GHL" - all 5 appear in her buyer pipeline
+
+**Sends property blast**
+- Filters buyers by criteria (price range, property type, area)
+- Sends SMS blast to 12 qualified buyers
+- Responses come back to unified inbox
+- First reply in 8 minutes: "I'll take it. When can I see it?"
+
+### Ben's View (Owner/Admin)
+
+**Performance Dashboard**
+- Pipeline value: $1.2M in active deals
+- This week: 7 appointments set, 2 under contract, 1 closed
+- Team performance: Jason (4 deals), Sarah (3 deals), Marcus (2 deals)
+- Response rates: 38% from AI outreach campaigns
+
+**Lead Routing**
+- New lead comes in from website at 7:42 PM
+- System automatically assigns to next rep in rotation (Marcus)
+- Marcus gets SMS: "New hot lead assigned - Maria Rodriguez, pre-foreclosure"
+- Lead doesn't slip through cracks
+
+**Permission Controls**
+- Jason can only see his contacts (not Sarah's or Marcus's)
+- Sarah can see all buyers (disposition role)
+- Ben can see everything (admin role)
+- Granular control over what each person accesses
+
+### The Difference
+
+**Your Current Drupal CRM:**
+- Check Drupal for contact info
+- Switch to Constant Contact for email
+- Switch to Twilio/phone for SMS
+- Switch to InvestorBase for buyer search
+- Switch back to Drupal to log notes
+- Switch to Excel for reporting
+
+**Your New System:**
+- Log in once
+- Everything in one interface
+- InvestorBase embedded in sidebar
+- All communications unified
+- Automatic logging
+- Real-time reporting
 
 ---
 
