@@ -1,3 +1,11 @@
+# ⚠️ ARCHIVED - 2026-01-31
+**This document has been superseded by:** [ben-equitypro-ghl-crm-proposal-final.md](./ben-equitypro-ghl-crm-proposal-final.md)
+**Reason:** Nearly identical scope and pricing ($19,500), but "final" version has clearer framing as complete CRM replacement vs lead reactivation focus
+**Original Date:** 2026-01-30
+**Historical Value:** Shows SmartLead technical justification and two-platform architecture reasoning
+
+---
+
 # SmartLead + GoHighLevel Integration Proposal
 ## EquityPro Lead Reactivation System
 

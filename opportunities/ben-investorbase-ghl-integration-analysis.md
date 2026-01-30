@@ -1,3 +1,11 @@
+---
+**Status:** REFERENCE (Integration research)
+**Document Type:** Technical Analysis
+**Purpose:** Documents InvestorBase integration options with GHL (Zapier + iframe embedding)
+**Date:** January 30, 2026
+**Key Discovery:** InvestorBase CAN be embedded in GHL via iframe + integrated via Zapier
+---
+
 # InvestorBase + GoHighLevel Integration Analysis
 ## Strategic Options for Ben/EquityPro Buyer Management
 

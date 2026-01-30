@@ -1,3 +1,11 @@
+---
+**Status:** REFERENCE (Internal analysis)
+**Document Type:** Complexity Analysis
+**Purpose:** Internal documentation of technical complexity and pricing justification
+**Date:** January 30, 2026
+**Audience:** Internal only (not for client)
+---
+
 # Ben/EquityPro - GHL Complexity Analysis & Revised Pricing
 
 **Date:** January 30, 2026 (UPDATED)

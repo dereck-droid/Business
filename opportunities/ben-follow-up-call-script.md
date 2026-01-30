@@ -1,3 +1,10 @@
+---
+**Status:** ARCHIVED (Superseded by v2)
+**Superseded by:** ben-follow-up-call-script-v2.md
+**Reason:** v2 has more refined approach and pricing clarity
+**Original Date:** 2026-01-30
+---
+
 # Ben/EquityPro Follow-Up Call Script
 
 **Date:** January 30, 2026 (Thursday afternoon)

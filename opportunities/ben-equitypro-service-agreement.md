@@ -1,3 +1,10 @@
+---
+**Status:** DRAFT (Not signed - awaiting Ben's decision)
+**Document Type:** Service Agreement
+**Related Proposal:** ben-equitypro-ghl-crm-proposal-final.md
+**Next Action:** Ben reviewing proposal, will update to SIGNED or ARCHIVED based on outcome
+---
+
 # SERVICE AGREEMENT
 ## GoHighLevel CRM Implementation for EquityPro
 

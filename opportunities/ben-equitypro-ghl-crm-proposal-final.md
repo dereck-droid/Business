@@ -1,3 +1,11 @@
+---
+**Status:** CURRENT (Presented to Ben on Jan 30, 2026 - Awaiting decision)
+**Document Type:** Proposal
+**Supersedes:** ben-equitypro-proposal-2026.md, ben-equitypro-smartlead-ghl-proposal.md
+**Context:** Re-engagement from October 2024 discovery call. See ben-meeting-strategy-jan-30.md for full context.
+**Next Update Needed:** Add InvestorBase integration details, ownership clarification per Ben's email 1/31/26
+---
+
 # GoHighLevel CRM Implementation Proposal
 ## Complete CRM Replacement for EquityPro
 
