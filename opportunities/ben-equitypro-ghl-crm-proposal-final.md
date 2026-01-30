@@ -1,10 +1,11 @@
 ---
-**Status:** CURRENT (Final version sent to Ben on 2026-01-31)
+**Status:** CURRENT (Sent to Ben on 2026-01-31 - Awaiting response)
 **Document Type:** Proposal
 **Supersedes:** ben-equitypro-proposal-2026.md, ben-equitypro-smartlead-ghl-proposal.md
 **Context:** Re-engagement from October 2024 discovery call. See ben-meeting-strategy-jan-30.md for full context.
 **Updates Applied:** Added InvestorBase integration, ownership/portability section, daily workflow examples per Ben's concerns
 **Client-Facing Version:** Yes - status header removed when sent to client
+**Next Action:** Follow up Wednesday if no response; create demo video if requested
 ---
 
 # GoHighLevel CRM Implementation Proposal
