@@ -1,3 +1,12 @@
+# ❌ DEPRECATED - 2026-01-31
+**DO NOT USE THIS DOCUMENT**
+**Reason:** Based on incorrect context. This treats Ben as "previous work relationship" but omits critical October 2024 discovery call details (62-min call, $4K pricing discussion, cash flow challenges).
+**Correct Context:** See [ben-meeting-strategy-jan-30.md](./ben-meeting-strategy-jan-30.md) which accurately reflects the re-engagement from October 2024.
+**Deprecated Date:** 2026-01-31
+**Verified By:** Meeting transcripts confirm October 2024 discovery call occurred
+
+---
+
 # Ben/EquityPro Meeting Prep - HIGHEST PRIORITY
 
 **Date:** January 30, 2026 (Thursday 9:30 AM)

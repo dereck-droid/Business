@@ -1,3 +1,11 @@
+# ⚠️ ARCHIVED - 2026-01-31
+**This document has been superseded by:** [ben-equitypro-ghl-crm-proposal-final.md](./ben-equitypro-ghl-crm-proposal-final.md)
+**Reason:** Scope expanded from lead reactivation only to complete CRM replacement based on Ben's needs expressed in Jan 29-30 calls
+**Original Date:** 2026-01-30
+**Historical Value:** Shows initial pricing approach ($8K-15K for lead reactivation alone)
+
+---
+
 # AI Lead Reactivation Proposal
 **Prepared for:** Ben Yonge, President | EquityPro Real Estate Investment
 **Date:** January 30, 2026

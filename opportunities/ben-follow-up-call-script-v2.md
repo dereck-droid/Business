@@ -1,3 +1,11 @@
+---
+**Status:** REFERENCE (Call script - historical)
+**Document Type:** Call Script
+**Purpose:** Preparation for Jan 30 follow-up call presenting CRM solution
+**Date:** January 30, 2026
+**Note:** Call completed, now in proposal review phase
+---
+
 # Ben/EquityPro Follow-Up Call Script (CRM Replacement)
 
 **Date:** January 30, 2026 (Thursday afternoon)

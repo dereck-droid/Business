@@ -1,3 +1,12 @@
+# ❌ DEPRECATED - 2026-01-31
+**DO NOT USE THIS DOCUMENT**
+**Reason:** Based on incorrect technical approach (GHL-only for cold email). Expert consultation revealed GHL not suitable for cold email at scale, risks domain blacklisting. Two-platform architecture (SmartLead + GHL) required.
+**Current Approach:** See [ben-equitypro-ghl-crm-proposal-final.md](./ben-equitypro-ghl-crm-proposal-final.md) for correct SmartLead + GHL approach
+**Also:** This proposal was incomplete (no pricing finalized)
+**Deprecated Date:** 2026-01-31
+
+---
+
 # GoHighLevel CRM Implementation Proposal
 ## Full CRM Replacement for EquityPro
 
