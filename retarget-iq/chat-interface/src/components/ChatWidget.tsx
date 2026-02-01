@@ -82,7 +82,7 @@ export function ChatWidget() {
       <Header />
 
       {/* Messages */}
-      <div className="message-list flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50">
+      <div className="message-list flex-1 overflow-y-auto p-4 space-y-3 bg-brand-bg-secondary">
         {messages.length === 0 ? (
           <WelcomeMessage onSelectQuestion={handleSend} />
         ) : (
@@ -97,7 +97,7 @@ export function ChatWidget() {
       </div>
 
       {/* Input */}
-      <div className="chat-input flex items-center gap-3 p-4 border-t border-gray-200 bg-white">
+      <div className="chat-input flex items-center gap-3 p-4 border-t border-chat-border bg-white">
         <input
           type="text"
           value={input}
@@ -105,12 +105,12 @@ export function ChatWidget() {
           onKeyDown={handleKeyDown}
           placeholder="Ask a question..."
           disabled={isLoading}
-          className="chat-input__field flex-1 px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow"
+          className="chat-input__field flex-1 px-4 py-2.5 bg-chat-input-bg border border-chat-border rounded-full text-sm text-brand-text-dark focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent transition-shadow"
         />
         <button
           onClick={() => handleSend()}
           disabled={!input.trim() || isLoading}
-          className="chat-input__send w-10 h-10 rounded-full bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
+          className="chat-input__send w-10 h-10 rounded-full bg-brand-primary text-white hover:bg-brand-primary-dark disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
           aria-label="Send message"
         >
           <SendIcon />
@@ -126,13 +126,13 @@ export function ChatWidget() {
 
 function Header() {
   return (
-    <header className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white">
+    <header className="flex items-center gap-3 px-4 py-3 bg-brand-text-dark text-white">
       {/* TODO: Replace with RetargetIQ logo */}
-      <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-        <span className="text-sm font-bold">R</span>
+      <div className="w-8 h-8 rounded-full bg-brand-primary flex items-center justify-center">
+        <span className="text-sm font-bold text-white">R</span>
       </div>
       <div>
-        <h1 className="text-base font-semibold">AI Support Assistant</h1>
+        <h1 className="text-base font-semibold font-sans">AI Support Assistant</h1>
         <p className="text-xs opacity-80">Powered by RetargetIQ</p>
       </div>
     </header>
@@ -142,13 +142,13 @@ function Header() {
 function WelcomeMessage({ onSelectQuestion }: { onSelectQuestion: (q: string) => void }) {
   return (
     <div className="welcome-message text-center py-8 px-4">
-      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-blue-100 flex items-center justify-center">
+      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-brand-primary/20 flex items-center justify-center">
         <span className="text-2xl">💬</span>
       </div>
-      <h2 className="text-lg font-semibold text-gray-800 mb-2">
+      <h2 className="text-lg font-semibold text-brand-text-dark mb-2 font-sans">
         Hi! I'm your AI support assistant.
       </h2>
-      <p className="text-sm text-gray-500 mb-6">
+      <p className="text-sm text-brand-text-body mb-6">
         How can I help you today?
       </p>
       <div className="space-y-2">
@@ -156,7 +156,7 @@ function WelcomeMessage({ onSelectQuestion }: { onSelectQuestion: (q: string) =>
           <button
             key={idx}
             onClick={() => onSelectQuestion(question)}
-            className="suggested-question w-full px-4 py-2.5 text-sm text-left bg-white border border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-colors"
+            className="suggested-question w-full px-4 py-2.5 text-sm text-left text-brand-text-dark bg-white border border-chat-border rounded-lg hover:border-brand-primary hover:bg-brand-bg-secondary transition-colors"
           >
             {question}
           </button>
@@ -175,16 +175,16 @@ function MessageBubble({ message }: { message: Message }) {
         className={clsx(
           'max-w-[80%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed',
           isUser
-            ? 'bg-blue-600 text-white rounded-br-sm'
-            : 'bg-white text-gray-800 border border-gray-200 rounded-bl-sm shadow-sm'
+            ? 'bg-brand-primary text-white rounded-br-sm'
+            : 'bg-white text-chat-ai-text border border-chat-border rounded-bl-sm shadow-sm'
         )}
       >
         <p className="whitespace-pre-wrap">{message.content}</p>
 
         {/* Sources (AI messages only) */}
         {!isUser && message.sources && message.sources.length > 0 && (
-          <div className="mt-2 pt-2 border-t border-gray-100">
-            <span className="text-xs text-gray-400">
+          <div className="mt-2 pt-2 border-t border-chat-border">
+            <span className="text-xs text-brand-text-body">
               📚 Sources: {message.sources.join(', ')}
             </span>
           </div>
@@ -197,11 +197,11 @@ function MessageBubble({ message }: { message: Message }) {
 function TypingIndicator() {
   return (
     <div className="message flex justify-start">
-      <div className="bg-white border border-gray-200 rounded-2xl rounded-bl-sm px-4 py-3 shadow-sm">
+      <div className="bg-white border border-chat-border rounded-2xl rounded-bl-sm px-4 py-3 shadow-sm">
         <div className="typing-indicator flex items-center gap-1">
-          <span className="w-2 h-2 rounded-full bg-gray-400 animate-bounce" style={{ animationDelay: '0ms' }} />
-          <span className="w-2 h-2 rounded-full bg-gray-400 animate-bounce" style={{ animationDelay: '150ms' }} />
-          <span className="w-2 h-2 rounded-full bg-gray-400 animate-bounce" style={{ animationDelay: '300ms' }} />
+          <span className="w-2 h-2 rounded-full bg-brand-primary animate-bounce" style={{ animationDelay: '0ms' }} />
+          <span className="w-2 h-2 rounded-full bg-brand-primary animate-bounce" style={{ animationDelay: '150ms' }} />
+          <span className="w-2 h-2 rounded-full bg-brand-primary animate-bounce" style={{ animationDelay: '300ms' }} />
         </div>
       </div>
     </div>

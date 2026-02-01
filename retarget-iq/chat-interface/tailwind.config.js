@@ -10,33 +10,39 @@ export default {
       colors: {
         // ========================================
         // RETARGETIQ BRAND COLORS
-        // TODO: Update these with actual colors from retargetiq.com
+        // Extracted from retargetiq.com CSS variables
         // ========================================
 
         brand: {
-          // Primary - Main brand color
-          primary: '#0066FF',       // << UPDATE with RetargetIQ blue
-          'primary-dark': '#0052CC',
-          'primary-light': '#4D94FF',
+          // Primary - Cyan/Teal accent (--brz-global-color3)
+          primary: '#47C2EB',
+          'primary-dark': '#3A9AB9',    // --brz-global-color4
+          'primary-light': '#6DD0F0',
 
-          // Secondary - Accent color
-          secondary: '#00C2B2',     // << UPDATE if they have a secondary
+          // Text colors
+          'text-dark': '#111828',        // --brz-global-color1 (headings)
+          'text-body': '#333333',        // --brz-global-color7 (body)
 
           // Neutral backgrounds
-          'bg-primary': '#FFFFFF',
-          'bg-secondary': '#F7F9FC',
-          'bg-chat': '#F1F4F9',
+          'bg-primary': '#FFFFFF',       // --brz-global-color8
+          'bg-secondary': '#F6FCFE',     // --brz-global-color5
+          'bg-chat': '#F6FCFE',
         },
 
         // Chat-specific colors
         chat: {
-          'user-bubble': '#0066FF', // Same as brand primary
+          'user-bubble': '#47C2EB',      // Primary cyan
           'ai-bubble': '#FFFFFF',
           'user-text': '#FFFFFF',
-          'ai-text': '#1A1A2E',
-          'border': '#E5E7EB',
-          'input-bg': '#F9FAFB',
+          'ai-text': '#111828',          // Dark navy text
+          'border': '#EBEBEB',           // --brz-global-color6
+          'input-bg': '#F6FCFE',
         }
+      },
+
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+        'display': ['Overpass', 'sans-serif'],
       },
 
       borderRadius: {
