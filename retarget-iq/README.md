@@ -117,6 +117,13 @@ Build an AI-powered support knowledge base system:
 - Train support team
 - Monitor and optimize
 
+### 🔗 External Repository: Chat Interface
+The chat interface is maintained in a separate repository for Vercel deployment:
+- **Local path:** `/home/user/retargetiq-chat/`
+- **GitHub:** `dereck-droid/retargetiq-chat` (create this repo)
+- **Stack:** React + Vite + Tailwind + reachat
+- **Deployment:** Vercel
+
 ---
 
 ## 💡 Key Technical Decisions
