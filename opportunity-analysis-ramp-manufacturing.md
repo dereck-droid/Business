@@ -518,43 +518,70 @@ You noted "It's going to be an energetic meeting!" - **lean into this.**
 
 **Timeline:** 2-3 weeks
 
-### Joe Brennan Partnership Structure
+### Joe Brennan Partnership Structure (MANUFACTURING PROJECTS ONLY)
 
-**Discovery Phase (30% Commission Works):**
+**IMPORTANT: This structure applies ONLY to manufacturing custom build projects. Database reactivation services follow standard 30% profit share model.**
+
+**Discovery Phase: 20%**
 - Price: $7,000
-- Joe: 30% = $2,100 for 12-15 hours
-- Dereck: 70% = $4,900 for 40-50 hours
-- Dereck rate: $98-122/hour (sustainable)
-- Joe rate: $140-175/hour (fair for seniority and expertise)
+- Joe: 20% = $1,400 for 10-12 hours
+- Dereck: 80% = $5,600 for 40-50 hours
+- Dereck rate: $112-140/hour (sustainable)
+- Joe rate: $117-140/hour (fair for seniority and expertise)
 
 **Joe's Active Contributions:**
-- Week 1: Kick-off meeting, proposal formatting, interview prep (4-5 hours)
-- Week 2: Engineer interviews, terminology translation, document review (4-5 hours)
-- Week 3: Report formatting, presentation prep, final client meeting (4-5 hours)
-- **Total: 12-15 hours of real value delivered**
+- Week 1: Kick-off meeting, proposal formatting, interview prep (3-4 hours)
+- Week 2: Engineer interviews, terminology translation, document review (3-4 hours)
+- Week 3: Report formatting, presentation prep, final client meeting (3-4 hours)
+- **Total: 10-12 hours of real value delivered**
 
 **Why This Works:**
 - Joe's involvement justifies charging MORE (team vs. solo)
 - Faster discovery (reduces client time waste)
 - Better deliverables (manufacturing language and format)
 - Reduced risk for client (both technical AND industry expertise)
-- Joe EARNS the 30% through active work
+- Joe EARNS the 20% through active work
 
 ### Implementation Phase (Phase 1)
 
 **Estimated Range:** $25-35K (quote after discovery validates fit)
 
-**Joe's Role Adjusts:**
-- Implementation = much lower Joe involvement (5-10 hours total)
-- Recommended: **10-15% for implementation** (not 30%)
-- Example: $30K × 15% = $4,500 for 8-10 hours support
-- This is $450-562/hour (high but reflects network value and reduced touch)
-- Dereck gets $25,500 for 120-150 hours = $170-212/hour (excellent)
+**Joe's Role: 10%**
+- Implementation = lower Joe involvement (8-10 hours total)
+- Example: $30K × 10% = $3,000 for 8-10 hours support
+- This is $300-375/hour (reflects relationship value and network stewardship)
+- Dereck gets $27,000 for 120-150 hours = $180-225/hour (excellent)
 
-**Tiered Structure:**
-- Discovery (high Joe involvement): 30%
-- Implementation (medium Joe involvement): 15%
-- Ongoing support (low Joe involvement): 10%
+**What 10% Covers:**
+- Client check-ins and relationship management
+- Terminology support as needed
+- Keeps relationships warm for future projects
+- Joe's incentive to nurture for ongoing work
+
+**Future RAMP Projects: 10% each**
+- Every new product RAMP builds = $3,000 for Joe (at $30K avg)
+- If RAMP does 4 products/year = $12,000 annual for Joe
+- This is Joe's incentive to keep RAMP happy
+
+### Partnership Structure Summary
+
+**For All Manufacturing Projects:**
+- Discovery: 20%
+- Implementation: 10%
+- Ongoing projects: 10%
+
+**For Database Reactivation Services:**
+- Standard: 30% of profits (unchanged from original agreement)
+
+**For Secondary Referrals (RAMP Network):**
+- **If Joe actively brings the referral:** Full 20%/10% structure
+- **If referral comes without Joe's involvement:** 0%
+- This incentivizes Joe to nurture RAMP network and bring opportunities
+
+**Why This Distinction:**
+- Rewards Joe for active networking (not passive benefit)
+- Joe must bring the opportunity to earn commission
+- Fair to both parties - work gets compensated
 
 ### Alternative: Equity/Partnership Model
 

@@ -31,22 +31,42 @@
 
 **Time Required:** 12-15 hours total
 
-### [ ] Monday-Tuesday: Joe Partnership Conversation (30-60 minutes)
+### [✅] COMPLETED: Joe Partnership Conversation
 
-**CRITICAL: Have this conversation BEFORE finalizing proposal pricing**
+**Status:** Joe graciously left ball in your court, trusts you completely
 
-**The Conversation:**
-> "Joe, I want to make sure we're both compensated fairly on this. For discovery I'm thinking $7K with your 30% because you're actively involved 12-15 hours doing terminology translation, client meetings, and deliverable formatting. That gives you $2,100 for 12-15 hours, and me $4,900 for 40-50 hours.
->
-> For implementation, your involvement drops to 5-10 hours of check-ins and support, so I'm thinking 15% makes more sense there (not 30%). If Phase 1 is $30K, you'd get $4,500 for that support work.
->
-> Are you willing to put in that discovery time? If so, 30% for discovery feels fair. What do you think?"
+**FINALIZED STRUCTURE (Manufacturing Projects Only):**
 
-**Why This Matters:**
-- Sets clear expectations before pricing
-- Joe earns 30% through active work (not just referral)
-- Protects your economics on implementation
-- Maintains good relationship with transparency
+**For RAMP:**
+- Discovery: **20% ($1,400 at $7K)** for 10-12 hours work
+- Implementation: **10% ($3,000 at $30K)** for 8-10 hours support
+- Future RAMP projects: **10% each**
+
+**For Future Joe Manufacturing Referrals:**
+- Discovery: 20%
+- Implementation: 10%
+- Ongoing: 10%
+
+**For Database Reactivation Services:**
+- Standard: **30% of profits** (unchanged from original agreement)
+
+**For Secondary Referrals (RAMP Network):**
+- **If Joe brings it:** Full 20%/10% structure
+- **If comes without Joe:** 0%
+- Incentivizes active networking, not passive benefit
+
+**Joe's Earnings Potential:**
+- RAMP Total (Discovery + Phase 1): $4,400 for ~18-20 hours = $220-244/hr
+- If RAMP does 3 more products Year 1: +$9,000
+- If Joe brings 2 new manufacturers: +$8,800
+- **Year 1 Potential: $22,200 for ~40-50 hours = $444-555/hr**
+
+**Why This Works:**
+- Joe makes excellent money per hour
+- Tied to results (paid when revenue exists)
+- Incentivizes relationship nurturing (10% ongoing)
+- Sustainable for you ($112-140/hr discovery, $180-225/hr implementation)
+- Fair recognition of 8 months of loyalty
 
 ### [ ] Tuesday-Wednesday: Create Phase 0 Proposal (8-10 hours)
 
