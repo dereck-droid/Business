@@ -1,81 +1,84 @@
-# Retarget IQ - Email Knowledge Base Project
+# Retarget IQ - Sales & Support Automation
 
 **Client:** Retarget IQ (Nate Calhoun & Alex Ciereszko)
 **Budget:** $7,000 (upgraded from $4,500)
-**Status:** In Development - Data Pipeline Phase
-**Priority:** HIGH (Support team needs this urgently)
+**Status:** Proposal Automation - Implementation Phase
+**Priority:** HIGH - Proposal automation system (automated pricing emails)
 
 ---
 
-## 🎯 Project Goal
+## 🎯 Project Goals
 
-Build an AI-powered support knowledge base system:
-1. Extract all support and pricing emails from Gmail
-2. Categorize and structure using AI
-3. Store in Supabase database
-4. Build chat interface for support team (GHL embedded)
+### Primary: Automated Proposal System (Current Focus)
+Detect when sales rep promises pricing → Analyze call history → Generate personalized proposal email → Auto-send or route for review based on confidence
+
+**Impact:** 95% time reduction (15 min → 0 min per proposal), 100% accuracy in honoring promised pricing
+
+### Secondary: Support Knowledge Base (Future Phase)
+Build AI-powered support chat interface using 127 FAQs extracted from 299 emails + 30 call transcripts
+
+**Impact:** 50% faster support response times, consistent answer quality
 
 ---
 
-## 📁 Project Files
+## 📁 Key Files
 
-| File | Purpose | Status |
-|------|---------|--------|
-| `IMPLEMENTATION-GUIDE.md` | **START HERE** - Complete step-by-step guide | ✅ Ready |
-| `gmail-thread-export-script.js` | Google Apps Script to export Gmail threads to CSV | ✅ Ready |
-| `supabase-schema.sql` | SQL commands to create database tables | ✅ Ready |
-| `n8n-workflow-design.md` | Detailed n8n workflow with AI prompts | ✅ Ready |
+### 🟢 Current (Proposal Automation - Feb 5, 2025)
+
+| File | Purpose |
+|------|---------|
+| **`START-HERE.md`** | 👈 **START HERE** - Master roadmap & file navigation |
+| `proposal-automation-design.md` | Complete workflow design (900 lines) |
+| `intelligent-call-filtering.md` | Call validation logic (filters no-shows) |
+| `supabase-schema-complete.sql` | Database schema (deploy this) |
+| `ai-prompts/proposal-prompts.md` | AI prompts for n8n LLM nodes |
+| `SESSION-SUMMARY-2025-02-05.md` | Implementation roadmap |
+
+### 🟡 Reference (Knowledge Base - Feb 2, 2025)
+
+| File | Purpose |
+|------|---------|
+| `IMPLEMENTATION-GUIDE.md` | Original 4-phase plan (support chat) |
+| `knowledge-base.json` | 127 FAQs ready for chat interface |
+| `email-templates/` | 6 pricing templates + automation logic |
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Export Gmail Threads
-```bash
-# Use Google Apps Script
-→ Open Google Sheets
-→ Extensions > Apps Script
-→ Paste gmail-thread-export-script.js
-→ Configure SEARCH_QUERY for support@retargetiq.com
-→ Run exportGmailThreadsToSheet()
-→ Download as CSV
-```
+**New implementer?** Read **`START-HERE.md`** first - it explains:
+- What we're building
+- Implementation order (Step 1-7)
+- Which files to use
+- How documents relate to each other
 
-### 2. Set Up Supabase Database
-```bash
-# Create database tables
-→ Go to supabase.com
-→ Create new project
-→ SQL Editor > New Query
-→ Paste supabase-schema.sql
-→ Run script
-```
+### Implementation Steps (Summary)
 
-### 3. Build n8n Workflow
-```bash
-# Process emails with AI
-→ Follow n8n-workflow-design.md
-→ Add OpenAI/Anthropic credentials
-→ Build workflow (10 nodes)
-→ Test with sample CSV
-→ Run full import
-```
+1. **Database Setup** (30 min)
+   - Deploy `supabase-schema-complete.sql`
+   - Fixes existing workflow database error
 
-### 4. Client Review
-```bash
-# Get approval
-→ Give Nate/Alex access to Supabase
-→ Review AI categorization
-→ Approve threads for KB
-```
+2. **Call Filtering** (1 hour)
+   - Add intelligent filtering to Fireflies workflow
+   - Filters no-shows, internal meetings, test calls
 
-### 5. Build Chat Interface (Next Phase)
-```bash
-# Coming soon
-→ RAG system with embeddings
-→ Branded UI
-→ GHL integration
-```
+3. **Proposal Detection** (2 hours)
+   - Add AI check: Was proposal promised?
+   - Route to proposal generation if YES
+
+4. **Proposal Generation** (4-6 hours)
+   - Query call history
+   - AI generates personalized email
+   - Validate and route by confidence
+
+5. **Slack Integration** (2 hours)
+   - Interactive buttons for review/approval
+
+6. **Testing** (1-2 days)
+   - Test all scenarios
+   - Tune confidence thresholds
+
+**Full details:** See `START-HERE.md` and `proposal-automation-design.md`
 
 ---
 
@@ -95,27 +98,27 @@ Build an AI-powered support knowledge base system:
 
 ## 📊 Current Status
 
-### ✅ Completed
-- Solution architecture designed
-- Google Apps Script written and documented
-- Supabase schema created with full features
-- n8n workflow designed with AI prompts
-- Implementation guide written
+### ✅ Completed (February 2025)
+- [x] Knowledge base built (127 FAQs from 299 emails + 30 call transcripts)
+- [x] Email templates created (6 pricing templates)
+- [x] Proposal automation designed (complete workflow architecture)
+- [x] Intelligent call filtering designed (filters no-shows)
+- [x] AI prompts written (proposal detection + generation)
+- [x] Database schema designed (call_recordings + proposal_emails)
+- [x] Fireflies call recording workflow (working, needs DB fix)
 
-### ⏳ To Do (This Weekend/Week)
-1. Run Gmail export script
-2. Create Supabase project and tables
-3. Build n8n workflow
-4. Test with sample data
-5. Run full import
-6. Send to Nate/Alex for review
+### 🚧 In Progress
+- [ ] Deploy database schema (`supabase-schema-complete.sql`)
+- [ ] Implement intelligent call filtering (1 hour)
+- [ ] Build proposal detection (2 hours)
+- [ ] Build proposal generation workflow (4-6 hours)
+- [ ] Set up Slack integration (2 hours)
+- [ ] Testing & refinement (1-2 days)
 
-### 📅 Next Phase (After Data Review)
-- Build chat interface with RAG system
-- Brand for Retarget IQ
-- Embed in GoHighLevel
-- Train support team
-- Monitor and optimize
+### 📅 Future Phases
+- [ ] Support chat interface (Phase 1 from original plan)
+- [ ] VA email templates system (Phase 2)
+- [ ] Onboarding automation (Phase 4)
 
 ---
 
@@ -218,15 +221,32 @@ Build an AI-powered support knowledge base system:
 
 ---
 
-## 🎉 Let's Build This!
+## 🎉 Ready to Implement!
 
-**Start with:** `IMPLEMENTATION-GUIDE.md` - it has everything you need.
+### For New Agents/Implementers:
+**👉 Start with: `START-HERE.md`**
 
-**Estimated completion:** This weekend + early next week
+It provides:
+- Clear project context
+- Master roadmap with implementation order
+- File navigation guide (which docs to use)
+- Decision tree for what to build
+- Step-by-step instructions
 
-**Next milestone:** Client review by [DATE TBD]
+### For Quick Reference:
+- **Workflow design:** `proposal-automation-design.md`
+- **AI prompts:** `ai-prompts/proposal-prompts.md`
+- **Database setup:** `supabase-schema-complete.sql`
+- **Implementation roadmap:** `SESSION-SUMMARY-2025-02-05.md`
 
 ---
 
-*Last updated: 2026-01-30*
-*Project files located: `/home/user/Business/retarget-iq/`*
+**Estimated completion:** 1-2 weeks (20-30 hours total)
+**Current priority:** Proposal automation (automated pricing emails)
+**Next milestone:** First automated proposal sent
+
+---
+
+*Last updated: February 5, 2025*
+*Project files: `/home/user/Business/retarget-iq/`*
+*Branch: `claude/study-proposal-automation-seDXF`*
