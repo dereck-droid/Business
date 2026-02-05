@@ -1,55 +1,54 @@
 # 💎 Pipeline Value Analysis
 
-**Last Updated:** January 27, 2026
+**Last Updated:** February 3, 2026
 
 ---
 
-## 🎉 THIS WEEK'S WIN: Retarget IQ Closed $4,500!
+## 🎉 RECENT DEVELOPMENTS
 
 **Impact:**
-- Revenue: $4,500 PAID IN FULL
-- Zone Change: 🔴 RED → 🟢 **GREEN**
-- Runway: 2-3 weeks → 8 weeks
-- Cash: $3,000 → $7,500
+- RAMP Manufacturing: Meeting completed Feb 2 - Proposal due Friday Feb 6
+- 365 Digital: Now channel partnership opportunity ($250-630K Year 1 potential)
+- Financial: $4K cash, rent paid for house + office
+- Zone: 🟢 **GREEN** (~8 weeks runway)
 
 ---
 
-## 🔥 THIS WEEK: 4 CRITICAL MEETINGS (Most in Months!)
+## 🔥 THIS WEEK: RAMP PROPOSAL DUE FRIDAY!
 
-**Week of January 27-31, 2026**
+**Week of February 3-7, 2026**
 
-| Day | Meeting | Opportunity | Priority | Status |
-|-----|---------|-------------|----------|--------|
-| **Wed Jan 29** | Fraser Roofing | $5-8K immediate cash | 🥈 HIGH | Meeting scheduled |
-| **Thu Jan 30** | Ben/EquityPro | $5-20K | 🥇 HIGHEST | Meeting 9:30 AM |
-| **Fri Jan 31** | 365 Digital | $20-40K discovery | 🥉 STRATEGIC | Meeting scheduled |
-| **Fri Jan 31** | Joe → Sajid (RAMP) | Intelligence gathering | 📊 EXPLORATORY | Joe's in-person meeting |
+| Day | Task | Opportunity | Priority | Status |
+|-----|------|-------------|----------|--------|
+| **Mon-Tue** | Joe partnership conversation | RAMP - clarify structure | 🔥 CRITICAL | Pending |
+| **Tue-Wed** | Create Phase 0 proposal | RAMP - $6.5-7.5K | 🔥 CRITICAL | In progress |
+| **Wed PM** | Send to Joe B for review | RAMP collaboration | 🔥 CRITICAL | Pending |
+| **Thu** | Joe refines with mfg language | RAMP formatting | 🔥 CRITICAL | Pending |
+| **Fri AM** | Finalize and send to RAMP | Close discovery | 🔥 CRITICAL | Pending |
 
-**Week's Potential:** $30-68K if all convert
-**Next Week:** Three-way call with Joe + Sajid Patel (RAMP Manufacturing)
+**Week's Deliverable:** Phase 0 Discovery Proposal ($6.5-7.5K)
 
 ---
 
 ## Total Pipeline Value
 
 ### Next 30 Days (Weighted)
-**Total Expected Value:** $35,694
+**Total Expected Value:** $24,644
 
 | Opportunity | Amount | Probability | Weighted Value | Status |
 |-------------|--------|-------------|----------------|--------|
-| **Fraser Roofing** | $5,000-$8,000 | 70% | $4,550 | 🚀 **Meeting Wed Jan 29** |
-| **Ben/EquityPro** | $5,000-$20,000 | 80% | $10,000 | 🚀 **Meeting Thu Jan 30** |
-| **365 Digital** | $20,000-$40,000 | 60% | $18,000 | 🚀 **Meeting Fri Jan 31** |
-| **RAMP Manufacturing** | $3,000-$5,000 | 50% | $2,000 | 📊 **Joe meeting Fri, 3-way next week** |
-| **DC (Australia)** | $3,500-$8,000 | 60% | $3,450 | Quote sent Jan 20 |
-| L2T Media | $5,000-$15,000 | 30% | $3,000 | Followed up, not responsive |
-| Pool Builders | $2,500-$5,000 | 10% | $375 | Cold campaign (0% response) |
+| **RAMP Manufacturing** | $6,500-$7,500 | 70% | $4,900 | 🚀 **Proposal due Fri Feb 6** |
+| **Ben/EquityPro** | $5,000-$20,000 | 60% | $7,500 | Awaiting decision (meeting held Jan 30) |
+| **365 Digital Partnership** | $250K-$630K Year 1 | 80% | See strategic | 🚀 **Channel partnership** |
+| **DC (Australia)** | $3,500-$8,000 | 60% | $3,450 | Quote sent Jan 20, follow up mid-Feb |
+| **Lead Supercharger** | $4K-$8K/mo recurring | 90% | See strategic | Partnership discussion ongoing |
+| Fraser Roofing | $5,000-$8,000 | 50% | $3,250 | Deferred - focus RAMP |
+| L2T Media | $5,000-$15,000 | 30% | $3,000 | Not responsive |
 | Ken MRR | $1,500 | 100% | $1,500 | Active |
 | Chatbots MRR | $594 | 100% | $594 | Active |
-| ~~Retarget IQ~~ | ~~$4,500~~ | ~~CLOSED~~ | - | ✅ **CLOSED $4,500 Jan 25** |
-| ~~Kin 12-Month~~ | ~~$3,564~~ | ~~LOST~~ | - | ❌ **LOST Jan 21** |
+| ~~Retarget IQ~~ | ~~$4,500~~ | ~~DELIVERED~~ | - | ✅ **Delivered Jan 31** |
 
-**TOTAL WEIGHTED VALUE (30 Days):** $43,469 (active pipeline)
+**TOTAL WEIGHTED VALUE (30 Days):** $24,644 (excluding strategic partnerships)
 
 **Already Closed This Week:** $4,500 ✅
 
@@ -57,11 +56,13 @@
 
 ---
 
-### Next 60-90 Days
+### Strategic Opportunities (60-90+ Days)
 
 | Opportunity | Type | Value | Probability | Weighted | Strategic Impact |
 |-------------|------|-------|-------------|----------|------------------|
-| **Lead Supercharger** | Recurring (20% equity) | $4,000-$8,000/mo | 80% | $4,800/mo | 🚀 GAME-CHANGER |
+| **365 Digital Partnership** | Channel Partner | $250K-$630K Year 1 | 80% | $352K | 🚀 GAME-CHANGER |
+| **Lead Supercharger** | Recurring (20% equity) | $4,000-$8,000/mo | 90% | $5,400/mo | 🚀 RECURRING MRR |
+| **RAMP Phase 1** | Implementation | $25,000-$35,000 | 50% | $15,000 | After discovery validates |
 | Guitar Teacher Command Center | One-off completion | $23,000 (in progress) | 90% | $20,700 | Proof of concept for SaaS |
 | Prayer Board Launch | SaaS recurring | $99/mo per church | 30% | TBD | Asset building |
 | Ad Checker Launch | SaaS/Usage-based | TBD | 40% | TBD | Asset building |
@@ -84,12 +85,17 @@
 - **Retarget IQ Project:** $4,500 PAID IN FULL (Jan 25)
 - **Total Revenue:** $4,500 🎉
 
-### Meeting Scheduled 🚀
-- **Fraser Roofing:** $5-8K (70% prob) - **Meeting Wed Jan 29** - Clear scope, engaged buyer
-- **Ben/EquityPro:** $5-20K (80% prob) - **Meeting Thu Jan 30, 9:30 AM** - HIGHEST PRIORITY
-- **365 Digital:** $20-40K (60% prob) - **Meeting Fri Jan 31** - ERP plugin, manufacturing AI, BMW factory
-- **RAMP Manufacturing:** $3-5K discovery (50% prob) - **Joe meeting Fri Jan 31** → Three-way next week
-- **Total Value:** $33,000-$73,000
+### Proposal In Progress 🚀
+- **RAMP Manufacturing:** $6.5-7.5K Phase 0 discovery (70% prob) - **Proposal due Fri Feb 6**
+  - Meeting completed Feb 2 (37 mins with founders)
+  - Problem clearly defined: work instruction automation
+  - Team approach: Dereck (technical) + Joe B (manufacturing expertise)
+  - Joe partnership structure: 30% discovery, 15% implementation
+  - Phase 1 potential: $25-35K after discovery validates
+
+### Awaiting Decision 💰
+- **Ben/EquityPro:** $5-20K (60% prob) - Meeting held Jan 30, thinking over weekend, follow-up needed
+- **Total Value:** $11.5-27.5K (RAMP + Ben)
 
 ### Partnership Offered
 - **Lead Supercharger (Retarget IQ):** $4-8K/month recurring (90% prob)

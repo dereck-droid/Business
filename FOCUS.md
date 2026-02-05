@@ -1,6 +1,6 @@
 # 🎯 DAILY FOCUS DASHBOARD
 
-**Last Updated:** January 28, 2026 (Tuesday 4:50 PM) - Joe meeting marked complete, organizational audit conducted
+**Last Updated:** February 3, 2026 (Monday Evening) - RAMP meeting completed, proposal in progress
 
 ---
 
@@ -8,44 +8,45 @@
 
 **Purpose:** 60-second update to keep context current. Fill this out each morning or end of day.
 
-### 🚀 THIS WEEK: 4 CRITICAL MEETINGS! (Most in months!)
+### 🚀 THIS WEEK: RAMP PROPOSAL DUE FRIDAY!
 
-**Tuesday, January 28, 2026**
-**Cash Today:** $4,298.20 ($900 + $3,398.20 Stripe tomorrow)
-**Runway:** 8-9 weeks ✅ (GREEN ZONE!)
+**Monday, February 3, 2026**
+**Cash Today:** $4,000 (rent paid for house + office ✅)
+**Runway:** ~8 weeks ✅ (GREEN ZONE!)
 
-**THIS WEEK'S MEETINGS:**
-- 🎯 **Monday 10am:** Joe - RAMP Manufacturing discovery (potential $3-5K+ paid discovery)
-- 💰 **Wednesday:** Fraser Roofing - Scott (Director of Sales) - CLOSE THIS ($5-8K immediate cash!)
-- 🔥 **Thursday 9:30am:** Ben/EquityPro - HIGHEST PRIORITY ($5-20K+ opportunity)
-- 📈 **Friday:** Bill & Elaine/365 Digital - Strategic ERP opportunity ($20-40K discovery phase)
+**THIS WEEK'S STATUS:**
+- ✅ **RAMP Manufacturing Meeting:** Completed Sunday Feb 2 (37 mins with Saj, Dave, Joe K, Joe B)
+- 🎯 **RAMP Proposal Due:** Friday Feb 6 (Phase 0 Discovery: $6.5-7.5K)
+- 💡 **Partnership Structure:** Need to discuss with Joe B (30% discovery, 15% implementation)
+
+**Completed This Week:**
+- RAMP technical scoping meeting (Feb 2)
+- Problem definition crystal clear: work instruction automation
+- Joe B debrief and intel gathering complete
 
 **Prospect Status:**
-- Fraser Roofing: Meeting scheduled (warm lead, engaged buyer, clear scope)
-- Ben/EquityPro: Meeting confirmed Thu 9:30 AM - READY TO CLOSE
-- 365 Digital: Follow-up meeting after December intro
-- RAMP Manufacturing: Discovery call with Joe (referral partner)
-- Retarget IQ: Delivering project (already paid $4,500)
+- RAMP Manufacturing: **Proposal creation in progress** (due Fri Feb 6)
+- 365 Digital Partnership: Channel partnership opportunity ($250-630K Year 1 potential)
+- Ben/EquityPro: Follow-up needed (had meeting Jan 30, waiting on decision)
+- Lead Supercharger: Strategic partnership, proposal pending
 
-**Top Priority This Week:** CLOSE DEALS (Fraser + Ben) = $10-28K potential!
+**Top Priority This Week:** RAMP PROPOSAL (Tue-Fri, 12-15 hours work)
 
 ---
 
 ## 💰 Financial Snapshot
 
-**Current Cash Position:** $4,298.20
-- Today: $900
-- Tomorrow (Stripe): +$3,398.20
-- **Recent:** Paid self $4K (personal Feb expenses covered)
+**Current Cash Position:** $4,000
+- **Last Updated:** February 3, 2026
+- House Rent: ✅ **PAID**
+- Office Rent: ✅ **PAID**
 
-**Monthly Burn Rate:** $4,900/month (but Feb = $2,900 since rent paid)
-**Runway:** ~8-9 weeks ✅ (covers Feb + March)
+**Monthly Burn Rate:** $4,900/month (but Feb = ~$2,900 since major rents paid)
+**Runway:** ~8 weeks ✅ (covers Feb + March)
 
-**Bills Due in 7 Days (Feb 4):**
-- House Rent: ✅ **PAID** (covered through end of Feb)
-- Office Rent: $300
-- **Total Due:** $300 only
-- **✅ COVERED!** Cash after bills: $3,998.20
+**Bills Due Next 30 Days:**
+- All major bills paid through Feb
+- **Total Due:** $0 immediate
 
 **Current MRR:** $2,094
 - Ken (ads/AI/website): $1,500/month
@@ -57,12 +58,16 @@
 
 ## 🎯 THIS WEEK'S #1 PRIORITY
 
-**✅ CRISIS SOLVED! Now in GREEN ZONE - Focus on strategic opportunities**
+**✅ GREEN ZONE MAINTAINED - Focus on RAMP proposal delivery**
 
 **Top Priorities:**
-1. **Deliver Retarget IQ project** (already paid $4,500)
-2. **Prepare & crush Ben meeting** (Thu Jan 30, 9:30 AM - $5-20K+ opportunity)
-3. **Send Lead Supercharger proposal** (strategic partnership, $4-8K/mo recurring)
+1. **RAMP Proposal** (due Friday Feb 6 - $6.5-7.5K Phase 0 discovery)
+   - Tue-Wed: Create proposal (8-10 hours)
+   - Wed PM: Send to Joe B for review
+   - Thu: Joe refines with manufacturing language
+   - Fri AM: Finalize and send to RAMP team
+2. **Joe Partnership Conversation** (Mon-Tue: 30% discovery, 15% implementation structure)
+3. **365 Digital Partnership** (ongoing - channel partnership opportunity)
 
 ---
 
@@ -82,14 +87,13 @@
 
 | Rank | Opportunity | Close Prob | Revenue | Days to Cash | Strategic Value | **Priority Score** | Next Action |
 |------|-------------|------------|---------|--------------|-----------------|-------------------|-------------|
-| 🥇 | **Ben/EquityPro** 🔥 | 8/10 | $5-20K+ | 14-21 days | 8/10 (ongoing potential) | **8.60** | **Thu 9:30 AM** - PREPARE & CLOSE |
-| 🥈 | **Fraser Roofing** 💰 | 7/10 | $5-8K | 7-14 days | 6/10 (reference case) | **7.85** | **Wed Meeting** - CLOSE THE DEAL |
-| 🥉 | **Lead Supercharger Partnership** 🚀 | 9/10 | $4-8K/mo recurring | 60-90 days | 10/10 (recurring MRR) | **8.90** | Send proposal THIS WEEK |
-| 4 | **365 Digital** 📈 | 6/10 | $20-40K | 30-45 days | 8/10 (enterprise, strategic) | **7.90** | **Fri Meeting** - Assess fit & scope |
-| 5 | **RAMP Manufacturing** 🔍 | 5/10 | $3-5K+ discovery | 21-30 days | 7/10 (new vertical) | **6.75** | **Mon 10am Joe call** - Gather intel |
-| ✅ | **Retarget IQ Project** ✅ | 10/10 | $4,500 PAID | Immediate | 5/10 (relationship builder) | **6.75** | Deliver by Friday |
-| 7 | **DC (Australia)** 📈 | 6/10 | $3.5-8K | 45-60 days | 6/10 (ongoing potential) | **6.20** | Follow up Feb 3 |
-| 8 | **L2T Media** 📈 | 3/10 | $5-15K | 30-45 days | 7/10 (partnership potential) | **5.50** | Low priority - not responsive |
+| 🥇 | **365 Digital Partnership** 🚀 | 8/10 | $250-630K Year 1 | 30-60 days | 10/10 (channel partner) | **9.40** | Create AI use case document |
+| 🥈 | **RAMP Manufacturing** 🔥 | 7/10 | $6.5-7.5K Phase 0 | 14-21 days | 7/10 (mfg vertical) | **8.15** | **Proposal due Fri Feb 6** |
+| 🥉 | **Lead Supercharger Partnership** 🚀 | 9/10 | $4-8K/mo recurring | 60-90 days | 10/10 (recurring MRR) | **8.90** | Send proposal when bandwidth allows |
+| 4 | **Ben/EquityPro** 💰 | 6/10 | $5-20K | 30-45 days | 6/10 (client project) | **7.20** | Follow up on decision |
+| 5 | **DC (Australia)** 📈 | 6/10 | $3.5-8K | 45-60 days | 6/10 (ongoing potential) | **6.20** | Follow up mid-Feb |
+| 6 | **Fraser Roofing** 💰 | 5/10 | $5-8K | 45+ days | 5/10 (reference case) | **5.75** | Deferred - focus RAMP |
+| 7 | **L2T Media** 📈 | 3/10 | $5-15K | 30-45 days | 7/10 (partnership potential) | **5.50** | Low priority - not responsive |
 
 **THIS WEEK'S POTENTIAL:** $30-60K+ (Fraser $5-8K + Ben $5-20K + 365 $20-40K)
 **Recurring Opportunity:** Lead Supercharger ($4-8K/mo = MRR MULTIPLIER)
