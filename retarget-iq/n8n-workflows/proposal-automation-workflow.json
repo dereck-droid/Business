@@ -1,0 +1,731 @@
+{
+  "name": "Retarget IQ - Proposal Automation (Complete)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "cde306b0-97d3-4b81-bab4-be9333ead391",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [-3632, 32],
+      "id": "68dd191b-fe6f-4cbe-955a-fe8ba48cd646",
+      "name": "Webhook",
+      "webhookId": "cde306b0-97d3-4b81-bab4-be9333ead391"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-sonnet-4.5",
+        "options": {
+          "responseFormat": "json_object",
+          "temperature": 0.1
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [-1344, -64],
+      "id": "cb9cd947-942a-4a74-9b07-49a32515fc36",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "ndtkm0V1YpFbbbYA",
+          "name": "Retarget IQ"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are analyzing a sales call transcript for RetargetIQ, a data enrichment and website visitor identification platform.\n\nExtract the following and respond with ONLY a raw JSON object. No markdown, no code blocks, no explanation.\n\nTOOL INTERESTS (array):\nIdentify which of these 4 services the prospect discussed. Include ALL that were mentioned:\n- \"Website Identification\" (tracking anonymous website visitors)\n- \"Intent Data\" (identifying companies showing buying intent)\n- \"Regular Data\" (B2B/B2C contact lists and static data pulls)\n- \"Enrichment\" (enhancing existing contact data)\n\nIf none were clearly discussed, return an empty array.\n\nCALL OUTCOME (string):\nDetermine where the prospect left the conversation. Use ONE of these exactly:\n- \"Send invoice\"\n- \"Future signup - [specific date/timeframe]\"\n- \"Thinking about it\"\n- \"Not interested\"\n- \"Unclear\"\n\nSUMMARY (string):\nCreate a formatted summary with these sections. Use bullet points for quick scannability:\n\n{{ $json.data[0].Proposal }}\nSummary:\n[2-3 sentences about their business situation and what they discussed]\n\nPrimary Interest / Use Case:\n • [Specific use case or pain point]\n • [Another use case if mentioned]\n • [Additional details about how they plan to use it]\n\nCompany / Industry Type:\n • [Their business type]\n • [Industry or niche]\n\nBuying Intent / Deal Stage:\n • [Budget, timeline, or plan mentioned]\n • [Current status - did they purchase, planning to purchase, etc.]\n\nTRANSCRIPT:\n{{ $('Parse1').item.json.transcript }}\n\nRespond with only this JSON structure, nothing else:\n{\"tool_interests\": [], \"call_outcome\": \"\", \"summary\": \"\"}",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [-1248, -224],
+      "id": "17fa01dc-e352-422b-8c5b-ac80e57c73ab",
+      "name": "Parse/Sum"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://services.leadconnectorhq.com/contacts/{{ $json.contact.id }}/notes",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer pit-380d3951-0f82-49be-b3c2-89b105889a5c"
+            },
+            {
+              "name": "Version",
+              "value": "2021-07-28"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "body",
+              "value": "={{ $('Code in JavaScript').item.json.summary }}"
+            }
+          ]
+        },
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-144, -208],
+      "id": "33704a24-1fe1-4b51-aaa9-daa459a49e02",
+      "name": "+Note in GHL"
+    },
+    {
+      "parameters": {
+        "tableId": "call_recordings",
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "recording_id",
+              "fieldValue": "={{ $('Get a transcript').item.json.data.id }}"
+            },
+            {
+              "fieldId": "recording_url",
+              "fieldValue": "={{ $('Get a transcript').item.json.data.transcript_url }}"
+            },
+            {
+              "fieldId": "contact_email",
+              "fieldValue": "={{ $('Code in JavaScript').item.json.email }}"
+            },
+            {
+              "fieldId": "contact_name",
+              "fieldValue": "={{ $('Lookup Contact').item.json.contact.fullNameLowerCase }}"
+            },
+            {
+              "fieldId": "ghl_contact_id",
+              "fieldValue": "={{ $('Lookup Contact').item.json.contact.id }}"
+            },
+            {
+              "fieldId": "summary",
+              "fieldValue": "={{ $('Code in JavaScript').item.json.summary }}"
+            },
+            {
+              "fieldId": "transcript",
+              "fieldValue": "={{ $('Code in JavaScript').item.json.transcript }}"
+            },
+            {
+              "fieldId": "tool_interests",
+              "fieldValue": "={{ $('Code in JavaScript').item.json.tool_interests }}"
+            },
+            {
+              "fieldId": "call_outcome",
+              "fieldValue": "={{ $('Code in JavaScript').item.json.call_outcome }}"
+            },
+            {
+              "fieldId": "raw_payload",
+              "fieldValue": "={{ $('Webhook').item.json.body }}\n\n{{ $('Get a transcript').item.json.data }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [16, -208],
+      "id": "72430c53-1315-49e9-9262-308a853aa198",
+      "name": "Add to Database",
+      "credentials": {
+        "supabaseApi": {
+          "id": "XtYXJQddSPy7udqE",
+          "name": "Retarget IQ"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "transcriptId": "={{ $('Webhook').item.json.body.meetingId }}"
+      },
+      "type": "@firefliesai/n8n-nodes-fireflies.fireflies",
+      "typeVersion": 1,
+      "position": [-2784, 32],
+      "id": "eb7ef2a1-da00-4790-ad0c-1b870d279784",
+      "name": "Get a transcript",
+      "credentials": {
+        "firefliesApi": {
+          "id": "qpYOiYAZL9TJbkuh",
+          "name": "Fireflies Retarget IQ"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract emails AND condense transcript from Fireflies webhook\nconst webhookData = $input.item.json;\n\n// Extract attendee emails (excluding Retarget IQ)\nconst attendees = webhookData.data.meeting_attendees || [];\nconst emails = attendees\n  .map(attendee => attendee.email)\n  .filter(email => email && email.trim() !== '')\n  .filter(email => !email.toLowerCase().endsWith('@retargetiq.com'));\n\n// Condense transcript to speaker + dialogue only\nconst sentences = webhookData.data.sentences || [];\nconst condensedTranscript = sentences\n  .map(sentence => `${sentence.speaker_name}: ${sentence.text}`)\n  .join('\\n');\n\n// Return everything needed for downstream nodes\nreturn {\n  json: {\n    emails: emails,\n    emailCount: emails.length,\n    meetingId: webhookData.data.id,\n    meetingTitle: webhookData.data.title,\n    transcript: condensedTranscript\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-2528, 112],
+      "id": "01460289-4430-4c19-95ec-59de2fcbd430",
+      "name": "Parse1"
+    },
+    {
+      "parameters": {
+        "url": "https://services.leadconnectorhq.com/contacts/search/duplicate",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "email",
+              "value": "={{ $json.email }}"
+            },
+            {
+              "name": "locationId",
+              "value": "NsVY7d3y1lM4chVbXzwk"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer pit-380d3951-0f82-49be-b3c2-89b105889a5c"
+            },
+            {
+              "name": "Version",
+              "value": "2021-07-28"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-704, -224],
+      "id": "81ffb530-813e-4e8b-9f6c-e45541e2b340",
+      "name": "Lookup Contact"
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "=https://services.leadconnectorhq.com/contacts/{{ $json.contact.id }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer pit-380d3951-0f82-49be-b3c2-89b105889a5c"
+            },
+            {
+              "name": "Version",
+              "value": "2021-07-28"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"customFields\": [\n    {\n      \"id\": \"a0sq2EA7uLFc50qzx2c3\",\n      \"field_value\": \"{{ $('Code in JavaScript').item.json.call_outcome }}\"\n    },\n    {\n      \"id\": \"jv3jE32PId701odJIrL3\",\n      \"field_value\": \"{{ $('Code in JavaScript').item.json.tool_interests }}\"\n    }\n  ]\n}",
+        "options": {
+          "allowUnauthorizedCerts": true
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-304, -208],
+      "id": "30954cc8-0e4c-485d-9565-3325e42e4e8e",
+      "name": "Update Custom Fields"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Split attendees but preserve AI results\nconst emails = $('Parse1').item.json.emails;\nconst aiResults = $input.item.json;\nconst meetingData = $('Parse1').item.json;\n\n// Create one item per email, each with the same AI results\nreturn emails.map(email => ({\n  json: {\n    email: email,\n    meetingId: meetingData.meetingId,\n    meetingTitle: meetingData.meetingTitle,\n    transcript: meetingData.transcript,\n    tool_interests: aiResults.tool_interests,\n    call_outcome: aiResults.call_outcome,\n    summary: aiResults.summary\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-928, -224],
+      "id": "0ee2ccce-ed14-4dd8-8db6-e4acf838d756",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "f283a368-31e9-4b69-818e-4890c017089b",
+              "leftValue": "={{ $json.contact }}",
+              "rightValue": "",
+              "operator": {
+                "type": "object",
+                "operation": "exists",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [-544, -208],
+      "id": "dfbeb8f6-63d1-466a-b4ed-a32ff0c01620",
+      "name": "Filter"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C0A8FF70QJC",
+          "mode": "list",
+          "cachedResultName": "announcements"
+        },
+        "text": "=🎯 New Call Recorded - {{ $('Lookup Contact').item.json.contact.firstName }} {{ $('Lookup Contact').item.json.contact.lastName }}\n\n📧 Email: {{ $('Lookup Contact').item.json.contact.email }}\n\n📊 Call Outcome: {{ $('Code in JavaScript').item.json.call_outcome }}\n\n📝 Summary:\n{{ $('Code in JavaScript').item.json.summary }}\n\n🎥 Recording: {{ $('Get a transcript').item.json.data.transcript_url }}\n👤 View Contact: https://app.gohighlevel.com/location/NsVY7d3y1lM4chVbXzwk/contacts/detail/{{ $('Lookup Contact').item.json.contact.id }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [48, -416],
+      "id": "e563b485-0da2-4790-92a3-1508248bc748",
+      "name": "Slack Message",
+      "webhookId": "5cbeecd4-e78a-4531-b68a-46479346edc6",
+      "credentials": {
+        "slackApi": {
+          "id": "9lXv8cORQ1yWiemB",
+          "name": "Slack account 4"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getTranscriptAnalytics",
+        "transcriptId": "={{ $json.body.meetingId }}"
+      },
+      "type": "@firefliesai/n8n-nodes-fireflies.fireflies",
+      "typeVersion": 1,
+      "position": [-3424, 32],
+      "id": "090cb9b8-6c84-4cb1-b6d8-17e3efb582bd",
+      "name": "Get analytics of a transcript",
+      "credentials": {
+        "firefliesApi": {
+          "id": "qpYOiYAZL9TJbkuh",
+          "name": "Fireflies Retarget IQ"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// ================================================================\n// INTELLIGENT CALL VALIDATION - Filters out no-shows & non-sales calls\n// ================================================================\n\n// Access the correct nested path from Fireflies analytics\nconst responseData = $input.item.json;\nconst analytics = responseData.data?.analytics || responseData.analytics || {};\nconst speakers = analytics.speakers || [];\n\n// Retarget IQ team members\nconst RETARGETIQ_NAMES = ['nate', 'cindy', 'alex', 'calhoun', 'retarget'];\n\nconst retargetiqSpeakers = speakers.filter(s => {\n  const name = (s.name || '').toLowerCase();\n  return RETARGETIQ_NAMES.some(keyword => name.includes(keyword));\n});\n\nconst externalSpeakers = speakers.filter(s => {\n  const name = (s.name || '').toLowerCase();\n  return !RETARGETIQ_NAMES.some(keyword => name.includes(keyword));\n});\n\n// Calculate metrics\nconst externalSpeakingTime = externalSpeakers.reduce((sum, s) => sum + (s.duration || 0), 0);\nconst externalWordCount = externalSpeakers.reduce((sum, s) => sum + (s.word_count || 0), 0);\nconst externalQuestions = externalSpeakers.reduce((sum, s) => sum + (s.questions || 0), 0);\nconst externalMonologues = externalSpeakers.reduce((sum, s) => sum + (s.monologues_count || 0), 0);\n\nconst totalSpeakers = speakers.length;\nconst totalDuration = speakers.reduce((sum, s) => sum + (s.duration || 0), 0);\nconst totalWords = speakers.reduce((sum, s) => sum + (s.word_count || 0), 0);\n\nconst externalParticipationPct = totalDuration > 0 ? (externalSpeakingTime / totalDuration) * 100 : 0;\n\n// Note: Fireflies duration appears to be in MINUTES, not seconds\n// Convert to seconds for validation\nconst externalSpeakingSeconds = externalSpeakingTime * 60;\nconst totalDurationSeconds = totalDuration * 60;\n\n// Validation criteria (adjusted for duration being in minutes)\nconst hasRetargetiqSpeaker = retargetiqSpeakers.length >= 1;\nconst hasExternalSpeaker = externalSpeakers.length >= 1;\nconst hasMinSpeakers = totalSpeakers >= 2;\nconst externalSpokeEnough = externalSpeakingTime >= 0.5; // 30 seconds = 0.5 minutes\nconst externalSaidEnough = externalWordCount >= 50;\nconst meaningfulDuration = totalDuration >= 2; // 2 minutes\nconst meaningfulWords = totalWords >= 200;\nconst balancedConversation = externalParticipationPct >= 10;\nconst notANoShow = \n  externalSpeakingTime >= 0.5 && // 30 seconds\n  externalWordCount >= 50 && \n  (externalQuestions >= 2 || externalMonologues >= 1);\n\nconst isRealCall = \n  hasRetargetiqSpeaker &&\n  hasExternalSpeaker &&\n  hasMinSpeakers &&\n  externalSpokeEnough &&\n  externalSaidEnough &&\n  meaningfulDuration &&\n  meaningfulWords &&\n  balancedConversation &&\n  notANoShow;\n\n// Build detailed reason for filtering\nlet failedChecks = [];\nif (!isRealCall) {\n  if (!hasRetargetiqSpeaker) failedChecks.push('No Retarget IQ team member spoke');\n  if (!hasExternalSpeaker) failedChecks.push('No external speakers detected');\n  if (!hasMinSpeakers) failedChecks.push('Only 1 speaker detected');\n  if (!externalSpokeEnough) failedChecks.push(`External spoke only ${Math.round(externalSpeakingSeconds)}s (need 30s+)`);\n  if (!externalSaidEnough) failedChecks.push(`External said only ${externalWordCount} words (need 50+)`);\n  if (!meaningfulDuration) failedChecks.push(`Call only ${Math.round(totalDurationSeconds)}s (need 120s+)`);\n  if (!meaningfulWords) failedChecks.push(`Only ${totalWords} words total (need 200+)`);\n  if (!balancedConversation) failedChecks.push(`External only spoke ${Math.round(externalParticipationPct)}% of time`);\n}\n\nreturn {\n  json: {\n    is_real_call: isRealCall,\n    filter_reason: failedChecks.join(' | '),\n    confidence_score: isRealCall ? 100 : 0,\n    \n    // Detailed metrics for monitoring\n    metrics: {\n      external_speakers: externalSpeakers.length,\n      retargetiq_speakers: retargetiqSpeakers.length,\n      external_speaking_minutes: Math.round(externalSpeakingTime * 100) / 100,\n      external_speaking_seconds: Math.round(externalSpeakingSeconds),\n      external_word_count: externalWordCount,\n      external_questions_asked: externalQuestions,\n      external_monologues: externalMonologues,\n      external_participation_pct: Math.round(externalParticipationPct),\n      total_duration_minutes: Math.round(totalDuration * 100) / 100,\n      total_duration_seconds: Math.round(totalDurationSeconds),\n      total_words: totalWords,\n      total_speakers: totalSpeakers\n    },\n    \n    // Speaker names for debugging\n    speaker_breakdown: {\n      retargetiq: retargetiqSpeakers.map(s => ({\n        name: s.name,\n        duration_minutes: Math.round(s.duration * 100) / 100,\n        words: s.word_count,\n        questions: s.questions\n      })),\n      external: externalSpeakers.map(s => ({\n        name: s.name,\n        duration_minutes: Math.round(s.duration * 100) / 100,\n        words: s.word_count,\n        questions: s.questions\n      }))\n    }\n  }\n};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-3232, 32],
+      "id": "d95ce867-b589-48b4-a854-a780e865da84",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "555bb618-6a3e-4266-b3ab-20c8f9fa7b17",
+              "leftValue": "={{ $json.is_real_call }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [-3008, 32],
+      "id": "2e0a38e5-e64c-4fe8-9d55-05fd8de8f618",
+      "name": "Filter1"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are analyzing a sales call transcript to determine if the Retarget IQ team member promised to send a pricing proposal/email after the call.\n\nTRANSCRIPT:\n{{ $json.transcript }}\n\n\nAnalyze the conversation and determine:\n1. Did the Retarget IQ host (Nate, Cindy, or Alex) promise to send pricing information via email?\n2. Look for phrases like:\n   - \"I'll send you the pricing\"\n   - \"Let me email you the details\"\n   - \"I'll shoot over the proposal\"\n   - \"I'll get that pricing to you\"\n   - \"I'll send the payment link\"\n   - Any commitment to follow up with pricing via email\n\nRespond with ONLY this JSON structure:\n{\n  \"proposal_promised\": true/false,\n  \"confidence\": 0.95,\n  \"evidence\": \"Quote from transcript showing the promise, or 'None' if not found\"\n}",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [-2352, 32],
+      "id": "b7235e0a-faca-4f37-afe8-40bd3ec94d8d",
+      "name": "Detect proposal"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.proposal_promised }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "false",
+                      "singleValue": true
+                    },
+                    "id": "6eaecff5-5d00-4d73-83e7-582cc1b522b7"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "no proposal"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "886f8446-5227-48ab-88f5-c86589d850d6",
+                    "leftValue": "={{ $json.proposal_promised }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "true",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Send Proposal"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [-2000, 32],
+      "id": "f1050ddd-dc64-4c3b-b0f1-08da9f11d9de",
+      "name": "Proposal?"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "cd5820c9-c442-45ed-8476-699e95ff734a",
+              "name": "Proposal",
+              "value": "There was no proposal sent after this call. Make sure your call summary states in the opening: No pricing email sent.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [-1760, -48],
+      "id": "9021687e-b6b7-41c2-b444-f64ef850ecd0",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "cd5820c9-c442-45ed-8476-699e95ff734a",
+              "name": "Proposal",
+              "value": "There WAS a proposal sent after this call. Make sure your call summary states in the opening: Pricing email sent.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [-1760, 96],
+      "id": "20f8ecaa-8e0e-4dbb-b694-1977493a7ff7",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "include": "specifiedFields",
+        "fieldsToInclude": "=",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [-1536, -48],
+      "id": "46fce85b-f138-4132-acaa-1525b79042dd",
+      "name": "Aggregate"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Get analytics of a transcript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Parse/Sum",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Detect proposal",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse/Sum": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "+Note in GHL": {
+      "main": [
+        [
+          {
+            "node": "Add to Database",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Add to Database": {
+      "main": [
+        [
+          {
+            "node": "Slack Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get a transcript": {
+      "main": [
+        [
+          {
+            "node": "Parse1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse1": {
+      "main": [
+        [
+          {
+            "node": "Detect proposal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Lookup Contact": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Custom Fields": {
+      "main": [
+        [
+          {
+            "node": "+Note in GHL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Lookup Contact",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Update Custom Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get analytics of a transcript": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "Filter1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter1": {
+      "main": [
+        [
+          {
+            "node": "Get a transcript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Detect proposal": {
+      "main": [
+        [
+          {
+            "node": "Proposal?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Proposal?": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Parse/Sum",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 1,
+  "updatedAt": "2026-02-06T00:00:00.000Z",
+  "versionId": "1"
+}
