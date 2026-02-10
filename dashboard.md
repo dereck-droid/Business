@@ -41,8 +41,8 @@
 
 | Tier | Opportunity | Revenue | Status | Next Action |
 |------|-------------|---------|--------|-------------|
-| HOT | **RAMP Manufacturing** | $6.5-7.5K Phase 0 | Proposal was due Feb 6 | Needs status update |
-| HOT | **365 Digital Partnership** | $250-630K Year 1 potential | Channel partnership | Needs status update |
+| HOT | **RAMP Manufacturing** | $7K Phase 0 discovery | Meeting tomorrow (Feb 11) at 2:30. Proposal nearly final. | Finalize and present proposal |
+| HOT | **365 Digital Partnership** | $250-630K Year 1 potential | Channel partnership. Guillermo gathering "painted pictures" from clients. | Send AI use case examples; wait for client feedback |
 | HOT | **Ben/EquityPro** | $2,500 build + $200/mo managed | Lis Pendens scraper delivered, $1,250 paid, $1,250 end of Feb | CRM decision this week = more work |
 | WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
 | COOL | **DC (Australia)** | $3.5-8K | Quote sent Jan 20 | Follow up |
@@ -56,12 +56,9 @@
 
 ## This Week's Priorities
 
-*Needs update from Dereck -- these were the priorities as of Feb 3:*
-
-1. **RAMP Manufacturing proposal** -- due Fri Feb 6 ($6.5-7.5K Phase 0 discovery)
-2. **365 Digital use case document** -- send to Guillermo for client pitching
-3. **Ben follow-up** -- get a decision
-4. **Joe B partnership conversation** -- 30% discovery, 15% implementation structure
+1. **RAMP Manufacturing proposal** -- meeting TOMORROW (Feb 11) at 2:30. Finalize and present $7K discovery proposal.
+2. **365 Digital use case document** -- send Guillermo AI use case examples so he can pitch clients
+3. **Ben CRM decision** -- follow up on his CRM platform choice this week (= more work incoming)
 
 ---
 
