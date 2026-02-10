@@ -6,36 +6,59 @@
 
 ---
 
-## The Opportunity
+## Current Engagement: Lis Pendens Scraper
 
-Real estate brokerage exploring AI integration for their team. Multiple team members, had a mastermind meeting in late January discussing AI tools and workflow improvements. Looking at "new ideas and initiatives for 2026."
+**Deal:** $2,500 build ($1,250 paid, $1,250 due end of Feb)
+**Managed Service:** $200/mo (Ben likely choosing this -- "doesn't really have an option")
+**Status:** V1 delivered and demoed Feb 9. System is live for Orange County.
 
-**Value:** $5-20K+ (could be higher for comprehensive AI integration)
-**Type:** Client project with potential for ongoing relationship
+**What it does:** Monitors Orange County Comptroller for new Lis Pendens (pre-foreclosure) filings every 10 minutes during business hours. Automatically filters out banks/HOAs/corps, matches people to property addresses via FL state parcel records, skip traces for phone/email, delivers enriched leads to Google Sheet.
+
+**Tech stack:** n8n workflows, custom headless browser scraper, FL statewide parcel API, skip trace API, CAPTCHA solver, AI name analysis, Google Sheets, email alerts.
+
+**Known limitations (V1):**
+- ~50% address match rate (could improve with Orange County Property Appraiser as secondary source)
+- Skip trace doesn't find contacts for all matched addresses
+- Ben's team has Forewarn (realtor skip trace tool) to fill gaps manually
+- Timeshares auto-filtered out (confirmed no value)
+
+**Expansion opportunities discussed on call:**
+- More document types on same comptroller site: code enforcement liens, divorce filings, other recordable events
+- More FL counties ($750 setup + $150-250/mo each)
+- Better address matching via Orange County Property Appraiser (Ben showed it finds what state DB misses)
+- Forewarn API integration if available
 
 ---
 
-## Key Context
+## Upcoming: CRM Decision
 
-**Meeting held:** January 30, 2026 at 9:30 AM
-**Outcome:** Comprehensive proposal sent. Ben taking time to think.
-**Follow-up:** February 3, 2026 at 2:00 PM was scheduled
+Ben is evaluating pre-built wholesale GHL platforms vs. custom build. Making decision this week. His words: "Either way, there's a lot of work for you that's about to come down the pipeline."
 
-Multiple proposals and analyses were created for this deal -- there is extensive documentation in `archive/opportunities/` covering CRM replacement options, GHL integration, InvestorBase analysis, SmartLead proposals, and demo setups.
+Previous proposals for this in `archive/opportunities/ben-equitypro-*.md`.
+
+---
+
+## Productization Potential
+
+This system could be packaged as a SaaS for real estate wholesalers:
+- Premium counties: $497/mo
+- Mid-tier: $297/mo
+- Smaller markets: $197/mo
+- Target: 20+ county subscriptions
+- Each county needs custom scraper build ($750 one-time) since each comptroller site is different
 
 ---
 
 ## Timeline
 
-- **Jan 23:** Dereck followed up about scheduling
-- **Jan 25:** Ben responded, confirmed meeting for Jan 30
-- **Jan 30:** Meeting held. Proposal sent. Ben thinking over weekend.
-- **Feb 3:** Follow-up meeting was scheduled
-- **Current:** Awaiting decision
+- **Jan 23:** Reconnected, scheduled meeting
+- **Jan 30:** First meeting. Multiple proposals discussed (CRM, automations).
+- **Feb 9:** Lis Pendens scraper demo call. V1 delivered. Ben impressed. Service options doc sent.
+- **This week:** Ben choosing service option + making CRM decision
 
 ---
 
 ## Related Files
 
-- Ben proposal documents: `archive/opportunities/ben-equitypro-*.md` (multiple versions)
-- Follow-up messages: `communications/follow-ups/2026-01-23-ben-equitypro.md`, `communications/follow-ups/2026-01-25-ben-meeting-confirmed.md`
+- Ben proposal documents: `archive/opportunities/ben-equitypro-*.md`
+- Follow-up messages: `communications/follow-ups/2026-01-23-ben-equitypro.md`

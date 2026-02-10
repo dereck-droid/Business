@@ -10,7 +10,7 @@
 | Field | Value |
 |-------|-------|
 | **Cash on Hand** | $4,100 |
-| **Receivable** | $1,250 (Ben invoice, paying end of Feb) |
+| **Receivable** | $1,250 (Ben, paying end of Feb) |
 | **Monthly MRR** | $2,094 |
 | **Monthly Burn** | ~$2,900 (Feb -- rent pre-paid for house + office) |
 | **Net Monthly Deficit** | ~$806 (Feb only) / $2,806 (March+) |
@@ -43,7 +43,7 @@
 |------|-------------|---------|--------|-------------|
 | HOT | **RAMP Manufacturing** | $6.5-7.5K Phase 0 | Proposal was due Feb 6 | Needs status update |
 | HOT | **365 Digital Partnership** | $250-630K Year 1 potential | Channel partnership | Needs status update |
-| WARM | **Ben/EquityPro** | $1,250 invoiced + potential more | Invoice out, paying end of Feb | -- |
+| HOT | **Ben/EquityPro** | $2,500 build + $200/mo managed | Lis Pendens scraper delivered, $1,250 paid, $1,250 end of Feb | CRM decision this week = more work |
 | WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
 | COOL | **DC (Australia)** | $3.5-8K | Quote sent Jan 20 | Follow up |
 | COOL | **Fraser Roofing** | $5-8K | Scott not responsive | Follow up when responsive |
@@ -67,6 +67,7 @@
 
 ## Recent History
 
+- **Feb 10:** Ben Lis Pendens scraper delivered. Demo call went great. $1,250 paid, $1,250 due end of month. Likely going with $200/mo managed service. CRM decision coming this week = more work.
 - **Feb 2:** RAMP Manufacturing meeting completed (37 min w/ Saj, Dave, Joe K, Joe B). Problem defined: work instruction automation. Proposal due Feb 6.
 - **Jan 30:** 365 Digital became channel partnership (Guillermo called, wants AI partner for enterprise clients). Ben meeting held, proposal sent, thinking over weekend.
 - **Jan 28:** Paid self $4K, Stripe payout $3,398. Rent paid through Feb.
