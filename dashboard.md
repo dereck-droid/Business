@@ -1,7 +1,7 @@
 # Dashboard
 
 **Last Updated:** February 10, 2026
-**Current Zone:** Needs update from Dereck
+**Current Zone:** GREEN (8+ weeks runway)
 
 ---
 
@@ -9,12 +9,13 @@
 
 | Field | Value |
 |-------|-------|
-| **Cash on Hand** | ~$4,000 (as of Feb 3 -- needs update) |
+| **Cash on Hand** | $4,100 |
+| **Receivable** | $1,250 (Ben invoice, paying end of Feb) |
 | **Monthly MRR** | $2,094 |
-| **Monthly Burn** | $4,900 (Feb was ~$2,900 with rent pre-paid) |
-| **Net Monthly Deficit** | $2,806 (normal) / $806 (Feb) |
-| **Runway** | ~8 weeks as of Feb 3 (needs update) |
-| **Zone** | Likely YELLOW or GREEN (needs verification) |
+| **Monthly Burn** | ~$2,900 (Feb -- rent pre-paid for house + office) |
+| **Net Monthly Deficit** | ~$806 (Feb only) / $2,806 (March+) |
+| **Runway** | ~9 weeks ($4,100 cash + $1,250 incoming + MRR vs burn) |
+| **Zone** | GREEN |
 
 **MRR Breakdown:**
 - Ken (ads/AI/website): $1,500/mo
@@ -42,7 +43,7 @@
 |------|-------------|---------|--------|-------------|
 | HOT | **RAMP Manufacturing** | $6.5-7.5K Phase 0 | Proposal was due Feb 6 | Needs status update |
 | HOT | **365 Digital Partnership** | $250-630K Year 1 potential | Channel partnership | Needs status update |
-| WARM | **Ben/EquityPro** | $5-20K | Awaiting decision (since Jan 30) | Follow up |
+| WARM | **Ben/EquityPro** | $1,250 invoiced + potential more | Invoice out, paying end of Feb | -- |
 | WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
 | COOL | **DC (Australia)** | $3.5-8K | Quote sent Jan 20 | Follow up |
 | COOL | **Fraser Roofing** | $5-8K | Scott not responsive | Follow up when responsive |
