@@ -41,9 +41,9 @@
 
 | Tier | Opportunity | Revenue | Status | Next Action |
 |------|-------------|---------|--------|-------------|
-| HOT | **RAMP Manufacturing** | $7K Phase 0 discovery | Meeting tomorrow (Feb 11) at 2:30. Proposal nearly final. | Finalize and present proposal |
-| HOT | **365 Digital Partnership** | $250-630K Year 1 potential | Channel partnership. Guillermo gathering "painted pictures" from clients. | Send AI use case examples; wait for client feedback |
-| HOT | **Ben/EquityPro** | $2,500 build + $200/mo managed | Lis Pendens scraper delivered, $1,250 paid, $1,250 end of Feb | CRM decision this week = more work |
+| HOT | **RAMP Manufacturing** | $7K Phase 0 discovery | Proposal complete. Meeting tomorrow (Feb 11) at 2:30. | Study docs and present proposal |
+| HOT | **365 Digital Partnership** | $250-630K Year 1 potential | AI use case PDF sent to Guillermo. | Follow up Friday if no response |
+| HOT | **Ben/EquityPro** | $2,500 build + $200/mo managed | Lis Pendens deployed today. Automation tweaked. $1,250 paid, $1,250 end of Feb. | Ask Ben: Option A or B ($200/mo managed vs ownership)? |
 | WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
 | COOL | **DC (Australia)** | $3.5-8K | Quote sent Jan 20 | Follow up |
 | COOL | **Fraser Roofing** | $5-8K | Scott not responsive | Follow up when responsive |
@@ -56,15 +56,15 @@
 
 ## This Week's Priorities
 
-1. **RAMP Manufacturing proposal** -- meeting TOMORROW (Feb 11) at 2:30. Finalize and present $7K discovery proposal.
-2. **365 Digital use case document** -- send Guillermo AI use case examples so he can pitch clients
-3. **Ben CRM decision** -- follow up on his CRM platform choice this week (= more work incoming)
+1. **RAMP Manufacturing meeting** -- TOMORROW (Feb 11) at 2:30. Proposal done. Study prep docs tonight.
+2. **Ben service option** -- ask Ben whether he's choosing Option A ($200/mo managed) or Option B ($800 one-time ownership). System is live.
+3. **365 Digital follow-up** -- AI use case PDF sent. If no reply by Friday, reach out and ask if he's had any client conversations.
 
 ---
 
 ## Recent History
 
-- **Feb 10:** Ben Lis Pendens scraper delivered. Demo call went great. $1,250 paid, $1,250 due end of month. Likely going with $200/mo managed service. CRM decision coming this week = more work.
+- **Feb 10:** RAMP proposal finalized. AI use case PDF sent to 365 Digital (Guillermo). Ben's Lis Pendens automation tweaked and officially deployed. Need to ask Ben about managed vs ownership option. Repo restructured (167 → ~31 active files).
 - **Feb 2:** RAMP Manufacturing meeting completed (37 min w/ Saj, Dave, Joe K, Joe B). Problem defined: work instruction automation. Proposal due Feb 6.
 - **Jan 30:** 365 Digital became channel partnership (Guillermo called, wants AI partner for enterprise clients). Ben meeting held, proposal sent, thinking over weekend.
 - **Jan 28:** Paid self $4K, Stripe payout $3,398. Rent paid through Feb.

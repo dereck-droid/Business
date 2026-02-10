@@ -57,7 +57,8 @@
 
 - **Dec 2025:** Intro call with Bill & Elaine. Strong chemistry. NDA signed.
 - **Jan 30:** Guillermo called impromptu to discuss 2026 partnership strategy. Elevated from single project to CHANNEL PARTNERSHIP.
-- **Next:** Send AI use case document (5-7 use cases) for Guillermo to pitch to clients.
+- **Feb 10:** AI automation examples PDF created and sent to Guillermo.
+- **Next:** Follow up Friday (Feb 14) if no response. Ask if he's had any interesting client conversations yet.
 
 ---
 

@@ -10,7 +10,7 @@
 
 **Deal:** $2,500 build ($1,250 paid, $1,250 due end of Feb)
 **Managed Service:** $200/mo (Ben likely choosing this -- "doesn't really have an option")
-**Status:** V1 delivered and demoed Feb 9. System is live for Orange County.
+**Status:** Officially deployed Feb 10. Automation tweaked and finalized. System live for Orange County.
 
 **What it does:** Monitors Orange County Comptroller for new Lis Pendens (pre-foreclosure) filings every 10 minutes during business hours. Automatically filters out banks/HOAs/corps, matches people to property addresses via FL state parcel records, skip traces for phone/email, delivers enriched leads to Google Sheet.
 
@@ -54,7 +54,8 @@ This system could be packaged as a SaaS for real estate wholesalers:
 - **Jan 23:** Reconnected, scheduled meeting
 - **Jan 30:** First meeting. Multiple proposals discussed (CRM, automations).
 - **Feb 9:** Lis Pendens scraper demo call. V1 delivered. Ben impressed. Service options doc sent.
-- **This week:** Ben choosing service option + making CRM decision
+- **Feb 10:** Automation tweaked, system officially deployed. Need to ask Ben about Option A vs B.
+- **This week:** Ben choosing service option (managed $200/mo vs ownership $800 one-time) + making CRM decision
 
 ---
 

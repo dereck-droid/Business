@@ -11,7 +11,7 @@
 
 RAMP needs AI to automate work instruction creation for manufacturing launches. Engineers currently spend 2-6 weeks per product creating 50-200 page work instructions. Goal: reduce that by 50-70% (down to 3-7 days) using an AI-powered knowledge base that learns over time.
 
-**Phase 0 Discovery:** $6,500-7,500 (2-3 weeks)
+**Phase 0 Discovery:** $7,000 (2-3 weeks)
 **Phase 1 Implementation:** $25-35K (quoted after discovery)
 **Long-term potential:** Manufacturing vertical entry, introductions to other manufacturers
 
@@ -46,7 +46,9 @@ RAMP needs AI to automate work instruction creation for manufacturing launches. 
 - **Jan 27:** Joe call -- intelligence gathered on Saj Patel and RAMP
 - **Jan 30:** Direct call with Saj & Dave -- problem defined, meeting scheduled
 - **Feb 2:** 37-minute scoping meeting (Saj, Dave, Joe K, Joe B). Problem crystal clear. "Standing ovation" per Joe B.
-- **Feb 6:** Proposal due date
+- **Feb 6:** Original proposal due date
+- **Feb 10:** Proposal finalized ($7K Phase 0 discovery). Studying prep docs for meeting.
+- **Feb 11:** Meeting at 2:30 PM to present proposal.
 
 ---
 
