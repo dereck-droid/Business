@@ -32,8 +32,8 @@ Crowdsourced ripe banana finder. Waze-for-bananas. Fun, viral potential. 1-2 wee
 - **Revenue:** $45K Y1, $1.23M Y3 potential
 - **Details:** [projects/good-bananas-app.md](./projects/good-bananas-app.md)
 
-### Music School Software -- waiting on validation
-Productize Ken's Guitar Teacher Command Center ($23K custom build) into SaaS for other music schools. 3-6 months post-validation.
+### Music School SaaS -- waiting on validation (AFTER Ken's build ships)
+Productize Ken's Guitar Teacher Command Center into SaaS for other music schools. 3-6 months post-validation. **Note:** Ken's custom build ($23K) is an active overdue delivery tracked in `pipeline/ken-guitar-teacher-command-center.md`. SaaS productization happens AFTER that ships and stabilizes.
 - **Advantage:** 8 years owning a music school, 18-month retention vs 3-6 month industry standard
 
 ---

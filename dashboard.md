@@ -41,6 +41,7 @@
 
 | Tier | Opportunity | Revenue | Status | Next Action |
 |------|-------------|---------|--------|-------------|
+| OVERDUE | **Ken / Guitar Teacher Command Center** | $23K build ($8K core + $15K practice app). $1,500/mo MRR client. | Paused repeatedly to generate income. Long-time client, high trust, heavy investment. This is late. | Resume and finish. Top priority alongside LS meeting. |
 | HOT | **RAMP Manufacturing** | $10K Phase 0 discovery | Proposal presented Feb 11. Reviewing internally. RAMP busy with gov event next week. | Follow up week of Feb 23 |
 | HOT | **365 Digital Partnership** | $250-630K Year 1 potential | AI use case PDF sent to Guillermo. | Follow up Friday if no response |
 | HOT | **Ben/EquityPro** | $2,500 build + $250/mo managed (pending) | Ben chose managed. Pushed back on price. Dereck countered: add Liens for $300 + $250/mo, 10x lead volume. Awaiting response. CRM decision also pending. | Wait for Ben's reply on liens counter + CRM decision |
@@ -56,9 +57,13 @@
 
 ## This Week's Priorities
 
-1. **Email RAMP proposal** -- Send final proposal deck to Saj and Joe. No follow-up until week of Feb 23 (gov event next week).
-2. **Ben/EquityPro** -- Waiting on Ben's reply to liens counter-proposal ($300 + $250/mo for 10x leads) and CRM decision. Ball is in his court.
-3. **365 Digital follow-up** -- AI use case PDF sent. If no reply by Friday, reach out and ask if he's had any client conversations.
+1. **Lead Supercharger meeting (Fri Feb 13, 2pm)** -- Prep equity terms (30%), V1 scope, dev stipend angle. Biggest income lever this week.
+2. **Ken / Guitar Teacher Command Center** -- OVERDUE. Resume build immediately. Ken is $1,500/mo MRR, $23K invested, high-trust client. This comes before personal projects (Prayer Board, Vegan Spots, etc.). Determine remaining scope and set completion target.
+3. **365 Digital follow-up (Fri Feb 14)** -- If no reply from Guillermo, reach out and ask if he's had any client conversations where AI came up.
+
+**Waiting (don't chase):**
+- Ben/EquityPro -- Ball in his court on liens counter + CRM decision. $1,250 due end of Feb.
+- RAMP -- Gov event next week. Follow up week of Feb 23.
 
 ---
 
