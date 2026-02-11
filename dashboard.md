@@ -76,8 +76,8 @@
 ## Key Partnerships
 
 **Joe Brennan (RAMP referral partner):**
-- 30% of discovery revenue ($3,000 for Phase 0 at $10K)
-- 15% of implementation revenue
+- 20% of discovery revenue ($2,000 for Phase 0 at $10K)
+- 10% of implementation revenue
 - Positioned as team: Joe = manufacturing expertise, Dereck = AI/tech
 
 **365 Digital (Guillermo/Bill Avila):**

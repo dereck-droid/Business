@@ -35,8 +35,8 @@ RAMP needs AI to automate work instruction creation for manufacturing launches. 
 - Team composition and roles
 
 **Partnership with Joe Brennan:**
-- Joe gets 30% of discovery ($2,100 for 12-15 hrs active work)
-- Joe gets 15% of implementation (lower involvement)
+- Joe gets 20% of discovery ($2,000 for Phase 0 at $10K)
+- Joe gets 10% of implementation
 - Positioned as team: Joe = manufacturing/industry, Dereck = AI/tech
 
 ---
