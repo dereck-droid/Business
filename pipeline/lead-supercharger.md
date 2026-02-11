@@ -49,6 +49,21 @@ Low-ticket SaaS ($99-149/month) that enriches form leads with 40+ data points. H
 
 ---
 
+## Strategic Note: Development Compensation
+
+**Context:** When Nate texted Feb 7, he asked "How long do you think LS would take **money and time wise** to get built out." The "money" part is significant -- if this were purely equity-for-sweat, the question would've just been "how long."
+
+**Possible reads:**
+1. They want to pay a development stipend to fast-track the build (most interesting)
+2. They're asking about infrastructure costs (boring read)
+3. Due diligence on total investment cost
+
+**Recommendation for Friday meeting:** Raise this naturally. Frame as: "To fast-track this and give it my full attention for 3-5 weeks, I'd need some support during the build. What does that look like for you guys?" Let them make the first offer. A dev stipend ($5-8K flat or $2-3K/mo during build) doesn't have to replace the 30% equity -- it can be in addition to it.
+
+**Opportunity cost context:** 3-5 weeks of full-time build = $10-15K in lost billable work.
+
+---
+
 ## Related Files
 
 - [Complexity analysis](../archive/opportunities/lead-supercharger-complexity-analysis.md)
