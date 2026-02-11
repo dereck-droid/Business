@@ -1,6 +1,6 @@
 # Dashboard
 
-**Last Updated:** February 10, 2026
+**Last Updated:** February 11, 2026
 **Current Zone:** GREEN (8+ weeks runway)
 
 ---
@@ -41,7 +41,7 @@
 
 | Tier | Opportunity | Revenue | Status | Next Action |
 |------|-------------|---------|--------|-------------|
-| HOT | **RAMP Manufacturing** | $7K Phase 0 discovery | Proposal complete. Meeting tomorrow (Feb 11) at 2:30. | Study docs and present proposal |
+| HOT | **RAMP Manufacturing** | $10K Phase 0 discovery | Proposal presented Feb 11. Reviewing internally. RAMP busy with gov event next week. | Follow up week of Feb 23 |
 | HOT | **365 Digital Partnership** | $250-630K Year 1 potential | AI use case PDF sent to Guillermo. | Follow up Friday if no response |
 | HOT | **Ben/EquityPro** | $2,500 build + $200/mo managed | Lis Pendens deployed today. Automation tweaked. $1,250 paid, $1,250 end of Feb. | Ask Ben: Option A or B ($200/mo managed vs ownership)? |
 | WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
@@ -56,7 +56,7 @@
 
 ## This Week's Priorities
 
-1. **RAMP Manufacturing meeting** -- TOMORROW (Feb 11) at 2:30. Proposal done. Study prep docs tonight.
+1. **Email RAMP proposal** -- Send final proposal deck to Saj and Joe. No follow-up until week of Feb 23 (gov event next week).
 2. **Ben service option** -- ask Ben whether he's choosing Option A ($200/mo managed) or Option B ($800 one-time ownership). System is live.
 3. **365 Digital follow-up** -- AI use case PDF sent. If no reply by Friday, reach out and ask if he's had any client conversations.
 
@@ -64,6 +64,7 @@
 
 ## Recent History
 
+- **Feb 11:** RAMP proposal presented ($10K Phase 0). Positive reception, no pushback on price. Saj asked good questions (POC scope, AI model selection, monthly costs). No signature yet -- RAMP busy with major government event next week. Follow up week of Feb 23. Need to email proposal deck to Saj + Joe.
 - **Feb 10:** RAMP proposal finalized. AI use case PDF sent to 365 Digital (Guillermo). Ben's Lis Pendens automation tweaked and officially deployed. Need to ask Ben about managed vs ownership option. Repo restructured (167 → ~31 active files).
 - **Feb 2:** RAMP Manufacturing meeting completed (37 min w/ Saj, Dave, Joe K, Joe B). Problem defined: work instruction automation. Proposal due Feb 6.
 - **Jan 30:** 365 Digital became channel partnership (Guillermo called, wants AI partner for enterprise clients). Ben meeting held, proposal sent, thinking over weekend.
@@ -75,7 +76,7 @@
 ## Key Partnerships
 
 **Joe Brennan (RAMP referral partner):**
-- 30% of discovery revenue ($2,100 for 12-15 hrs active work)
+- 30% of discovery revenue ($3,000 for Phase 0 at $10K)
 - 15% of implementation revenue
 - Positioned as team: Joe = manufacturing expertise, Dereck = AI/tech
 
