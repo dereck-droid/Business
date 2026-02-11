@@ -44,7 +44,7 @@
 | HOT | **RAMP Manufacturing** | $10K Phase 0 discovery | Proposal presented Feb 11. Reviewing internally. RAMP busy with gov event next week. | Follow up week of Feb 23 |
 | HOT | **365 Digital Partnership** | $250-630K Year 1 potential | AI use case PDF sent to Guillermo. | Follow up Friday if no response |
 | HOT | **Ben/EquityPro** | $2,500 build + $250/mo managed (pending) | Ben chose managed. Pushed back on price. Dereck countered: add Liens for $300 + $250/mo, 10x lead volume. Awaiting response. CRM decision also pending. | Wait for Ben's reply on liens counter + CRM decision |
-| WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
+| HOT | **Lead Supercharger** | $4-8K/mo recurring | Meeting scheduled Fri Feb 13 2pm EST w/ Nate & Alex (Google Meet). | Prep for Friday meeting. Review equity terms + V1 scope. |
 | COOL | **DC (Australia)** | $3.5-8K | Quote sent Jan 20 | Follow up |
 | COOL | **Fraser Roofing** | $5-8K | Scott not responsive | Follow up when responsive |
 | DEAD | **Kin Prepay** | -- | Declined Jan 21 | -- |
@@ -64,7 +64,7 @@
 
 ## Recent History
 
-- **Feb 11:** RAMP proposal presented ($10K Phase 0). Positive reception, no pushback on price. Follow up week of Feb 23. Ben chose managed service but pushed back on pricing (wanted $200/mo for 5 counties). Dereck countered with Liens add-on ($300 one-time + $250/mo, ~1,500-2,200 leads/mo vs 200-300). Awaiting Ben's response + CRM decision.
+- **Feb 11:** RAMP proposal presented ($10K Phase 0). Positive reception, no pushback on price. Follow up week of Feb 23. Ben chose managed service but pushed back on pricing (wanted $200/mo for 5 counties). Dereck countered with Liens add-on ($300 one-time + $250/mo, ~1,500-2,200 leads/mo vs 200-300). Awaiting Ben's response + CRM decision. Nate/Alex scheduled Lead Supercharger meeting for Fri Feb 13 2pm EST.
 - **Feb 10:** RAMP proposal finalized. AI use case PDF sent to 365 Digital (Guillermo). Ben's Lis Pendens automation tweaked and officially deployed. Need to ask Ben about managed vs ownership option. Repo restructured (167 → ~31 active files).
 - **Feb 2:** RAMP Manufacturing meeting completed (37 min w/ Saj, Dave, Joe K, Joe B). Problem defined: work instruction automation. Proposal due Feb 6.
 - **Jan 30:** 365 Digital became channel partnership (Guillermo called, wants AI partner for enterprise clients). Ben meeting held, proposal sent, thinking over weekend.
