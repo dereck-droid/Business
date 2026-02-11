@@ -32,7 +32,7 @@ Low-ticket SaaS ($99-149/month) that enriches form leads with 40+ data points. H
 - Partnership model plays to your strengths (build), delegates your weaknesses (sell)
 
 **Key terms being negotiated:**
-- Equity percentage (20-30% depending on technical complexity)
+- Equity percentage -- targeting 30% (complexity analysis doc supports this)
 - Ongoing maintenance expectations
 - IP ownership
 - Exit terms
