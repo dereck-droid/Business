@@ -43,7 +43,7 @@
 |------|-------------|---------|--------|-------------|
 | HOT | **RAMP Manufacturing** | $10K Phase 0 discovery | Proposal presented Feb 11. Reviewing internally. RAMP busy with gov event next week. | Follow up week of Feb 23 |
 | HOT | **365 Digital Partnership** | $250-630K Year 1 potential | AI use case PDF sent to Guillermo. | Follow up Friday if no response |
-| HOT | **Ben/EquityPro** | $2,500 build + $200/mo managed | Lis Pendens deployed today. Automation tweaked. $1,250 paid, $1,250 end of Feb. | Ask Ben: Option A or B ($200/mo managed vs ownership)? |
+| HOT | **Ben/EquityPro** | $2,500 build + $250/mo managed (pending) | Ben chose managed. Pushed back on price. Dereck countered: add Liens for $300 + $250/mo, 10x lead volume. Awaiting response. CRM decision also pending. | Wait for Ben's reply on liens counter + CRM decision |
 | WARM | **Lead Supercharger** | $4-8K/mo recurring | Partnership discussion | Send proposal when ready |
 | COOL | **DC (Australia)** | $3.5-8K | Quote sent Jan 20 | Follow up |
 | COOL | **Fraser Roofing** | $5-8K | Scott not responsive | Follow up when responsive |
@@ -57,14 +57,14 @@
 ## This Week's Priorities
 
 1. **Email RAMP proposal** -- Send final proposal deck to Saj and Joe. No follow-up until week of Feb 23 (gov event next week).
-2. **Ben service option** -- ask Ben whether he's choosing Option A ($200/mo managed) or Option B ($800 one-time ownership). System is live.
+2. **Ben/EquityPro** -- Waiting on Ben's reply to liens counter-proposal ($300 + $250/mo for 10x leads) and CRM decision. Ball is in his court.
 3. **365 Digital follow-up** -- AI use case PDF sent. If no reply by Friday, reach out and ask if he's had any client conversations.
 
 ---
 
 ## Recent History
 
-- **Feb 11:** RAMP proposal presented ($10K Phase 0). Positive reception, no pushback on price. Saj asked good questions (POC scope, AI model selection, monthly costs). No signature yet -- RAMP busy with major government event next week. Follow up week of Feb 23. Need to email proposal deck to Saj + Joe.
+- **Feb 11:** RAMP proposal presented ($10K Phase 0). Positive reception, no pushback on price. Follow up week of Feb 23. Ben chose managed service but pushed back on pricing (wanted $200/mo for 5 counties). Dereck countered with Liens add-on ($300 one-time + $250/mo, ~1,500-2,200 leads/mo vs 200-300). Awaiting Ben's response + CRM decision.
 - **Feb 10:** RAMP proposal finalized. AI use case PDF sent to 365 Digital (Guillermo). Ben's Lis Pendens automation tweaked and officially deployed. Need to ask Ben about managed vs ownership option. Repo restructured (167 → ~31 active files).
 - **Feb 2:** RAMP Manufacturing meeting completed (37 min w/ Saj, Dave, Joe K, Joe B). Problem defined: work instruction automation. Proposal due Feb 6.
 - **Jan 30:** 365 Digital became channel partnership (Guillermo called, wants AI partner for enterprise clients). Ben meeting held, proposal sent, thinking over weekend.

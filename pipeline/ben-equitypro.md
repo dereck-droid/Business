@@ -9,8 +9,8 @@
 ## Current Engagement: Lis Pendens Scraper
 
 **Deal:** $2,500 build ($1,250 paid, $1,250 due end of Feb)
-**Managed Service:** $200/mo (Ben likely choosing this -- "doesn't really have an option")
-**Status:** Officially deployed Feb 10. Automation tweaked and finalized. System live for Orange County.
+**Managed Service:** Negotiating. Ben chose managed but pushed back on price. Dereck countered with Liens add-on ($300 one-time + $250/mo). Awaiting response.
+**Status:** Lis Pendens live for Orange County. Liens feature proposed but not yet built.
 
 **What it does:** Monitors Orange County Comptroller for new Lis Pendens (pre-foreclosure) filings every 10 minutes during business hours. Automatically filters out banks/HOAs/corps, matches people to property addresses via FL state parcel records, skip traces for phone/email, delivers enriched leads to Google Sheet.
 
@@ -28,11 +28,17 @@
 - Better address matching via Orange County Property Appraiser (Ben showed it finds what state DB misses)
 - Forewarn API integration if available
 
+**Liens add-on (proposed Feb 11):**
+- 50-150 liens filed per day in Orange County (~1,500-2,200/mo vs 200-300 Lis Pendens)
+- $300 one-time to add to existing scraper
+- Monthly would be $250/mo for Orange County (up from $200 ask)
+- Strategy: prove conversion on one county with massive volume, then expand
+
 ---
 
 ## Upcoming: CRM Decision
 
-Ben is evaluating pre-built wholesale GHL platforms vs. custom build. Making decision this week. His words: "Either way, there's a lot of work for you that's about to come down the pipeline."
+Ben is evaluating pre-built wholesale GHL platforms vs. custom build. Said he'd have a decision by Feb 11. His words: "Either way, there's a lot of work for you that's about to come down the pipeline."
 
 Previous proposals for this in `archive/opportunities/ben-equitypro-*.md`.
 
@@ -54,8 +60,9 @@ This system could be packaged as a SaaS for real estate wholesalers:
 - **Jan 23:** Reconnected, scheduled meeting
 - **Jan 30:** First meeting. Multiple proposals discussed (CRM, automations).
 - **Feb 9:** Lis Pendens scraper demo call. V1 delivered. Ben impressed. Service options doc sent.
-- **Feb 10:** Automation tweaked, system officially deployed. Need to ask Ben about Option A vs B.
-- **This week:** Ben choosing service option (managed $200/mo vs ownership $800 one-time) + making CRM decision
+- **Feb 10:** Automation tweaked, system officially deployed. Ben emailed at 4:46 PM: chose managed service but countered with $200/mo for up to 5 counties + $500 setup/county. Said he can't afford original pricing until leads start converting. CRM decision coming "tomorrow."
+- **Feb 11:** Dereck replied with counter-proposal: add Liens scraping for $300 one-time, $250/mo for Orange County, ~10x lead volume increase. Waiting on Ben's response. Also waiting on CRM decision.
+- **Pending:** Ben's reply on liens counter + CRM build decision
 
 ---
 
