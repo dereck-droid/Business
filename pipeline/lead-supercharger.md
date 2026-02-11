@@ -43,6 +43,7 @@ Low-ticket SaaS ($99-149/month) that enriches form leads with 40+ data points. H
 
 - **Jan 20:** Partnership offered during Retarget IQ engagement
 - **Jan 21-24:** Technical complexity research completed
+- **Feb 7:** Nate texted confirming they still want to do LS. Asked about time/money to build. Discussed setting up a call. Dereck mentioned Thomas (wholesaler) as potential LS customer.
 - **Feb 11:** Nate scheduled meeting for Fri Feb 13 2pm-3pm EST (Google Meet: meet.google.com/gce-cxjp-shp). Attendees: Dereck, Nate, Alex.
 - **Feb 13:** Meeting -- discuss equity terms, V1 scope, next steps
 
